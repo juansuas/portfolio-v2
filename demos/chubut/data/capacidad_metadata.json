@@ -1,0 +1,66 @@
+{
+  "version": "2.5-demanda-ocupacion-transparente",
+  "fecha_preparacion": "2026-09-10",
+  "year_base_matricula": 2024,
+  "rango_proyeccion": [
+    2022,
+    2050
+  ],
+  "unidad_operativa": "seccion-grado-oferta modelada",
+  "universo_educativo": {
+    "modalidad": "Común",
+    "estado_oferta": "Activo",
+    "niveles": [
+      "Inicial",
+      "Primario",
+      "Secundario"
+    ]
+  },
+  "grupos_visibles": [
+    "0_3",
+    "4_5",
+    "6_11",
+    "12_14",
+    "15_17"
+  ],
+  "grupo_auxiliar": "18_SEC",
+  "umbrales_capacidad": {
+    "INI": 18,
+    "PRI": 22,
+    "SEC": 26
+  },
+  "categorias_ocupacion": [
+    {
+      "id": "CAPACIDAD_DISPONIBLE",
+      "min": 0,
+      "max_exclusive": 0.6
+    },
+    {
+      "id": "EQUILIBRIO",
+      "min": 0.6,
+      "max_exclusive": 0.85
+    },
+    {
+      "id": "ALTA_PRESION",
+      "min": 0.85,
+      "max_inclusive": 1.0
+    },
+    {
+      "id": "SATURADA",
+      "min_exclusive": 1.0
+    }
+  ],
+  "formula_demanda_potencial": "demanda_potencial_y_sexo = poblacion_y_sexo * tasa_asistencia_y_sexo",
+  "formula_factor_demanda": "factor_demanda_y_sexo = demanda_potencial_y_sexo / demanda_potencial_2024_sexo",
+  "formula_ocupacion": "ocupacion_seccion_y = (matricula_seccion_2024_varones * factor_varones + matricula_seccion_2024_mujeres * factor_mujeres) / capacidad_modelada_seccion",
+  "fallback_tasas": "departamento; si falta el valor, provincia del mismo grupo y sexo",
+  "control_18": "La tasa específica de asistencia a secundario a los 18 años usa el mismo avance relativo hacia 100% que el slider 15-17.",
+  "advertencias": [
+    "Matrícula, asistencia, capacidad de referencia, establecimientos y ubicaciones escolares son simulados. Los escenarios combinan esos insumos con proyecciones demográficas públicas."
+  ],
+  "controles": {
+    "secciones_ficticias": 810,
+    "establecimientos_ficticios": 45,
+    "tasas_ficticias": 288
+  }
+}

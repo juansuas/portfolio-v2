@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Atlas prospectivo Chubut 2050. Demografía, demanda potencial y ocupación modelada.">
+  <title>Chubut 2050</title>
+  <link rel="icon" href="assets/favicon.svg?v=1" type="image/svg+xml">
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+  <link rel="stylesheet" href="assets/css/styles.css?v=2.11.0">
+</head>
+<body>
+  <p style="margin:0;padding:.65rem 1rem;background:#fff3cf;color:#493100;text-align:center;font-weight:600">Demo de portfolio · Demografía y producción del proyecto original. Educación con datos ficticios.</p>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="masthead shell">
+      <div>
+        <p class="eyebrow">Prospectiva educativa territorial</p>
+        <h1>Chubut 2050</h1>
+        <p class="deck">Población, demanda, capacidad y transiciones productivas</p>
+      </div>
+      <div class="edition"><span id="data-date">Actualización —</span></div>
+    </div>
+    <nav class="module-nav" aria-label="Módulos principales">
+      <div class="shell nav-scroll">
+        <a href="#resumen" data-route="resumen"><span>01</span> Resumen provincial</a>
+        <a href="#demografia" data-route="demografia"><span>02</span> Demografía</a>
+        <a href="#oferta" data-route="oferta"><span>03</span> Educación</a>
+        <a href="#productivos" data-route="productivos"><span>04</span> Producción y energía</a>
+        <a href="#comparador" data-route="comparador"><span>05</span> Escenarios integrados</a>
+      </div>
+    </nav>
+  </header>
+
+  <div class="app-shell shell">
+    <aside class="atlas-sidebar" aria-label="Indicadores y acciones del módulo">
+      <div class="sidebar-inner">
+        <section class="active-context" aria-labelledby="active-context-title">
+          <p class="sidebar-kicker" id="active-context-title">Serie</p>
+          <strong id="active-scenario">—</strong>
+          <span id="active-selection">—</span>
+        </section>
+        <section class="sidebar-kpis" aria-label="Indicadores principales"><div id="sidebar-kpi-list"></div></section>
+        <section class="sidebar-actions v2-actions" aria-label="Acciones">
+          <button id="reset-filters" class="action-button primary" type="button">Restablecer filtros</button>
+          <button id="download-csv" class="action-button" type="button">Exportar selección</button>
+        </section>
+      </div>
+    </aside>
+
+    <main id="contenido" class="main-content">
+      <div id="loading-state" class="status-panel" role="status">
+        <strong>Cargando las bases V2…</strong>
+        <span>Preparando demografía y educación observada.</span>
+      </div>
+      <div id="error-state" class="status-panel error" hidden role="alert"></div>
+
+      <section id="resumen" class="module" data-module="resumen" aria-labelledby="title-resumen" hidden>
+        <div class="section-heading"><div><p class="section-number">Módulo 01</p><h2 id="title-resumen">Resumen provincial</h2></div><p>Este módulo se completará después de validar las siguientes capas de datos.</p></div>
+        <div class="empty-module"><span>01</span><h3>Página pendiente</h3><p>La V2 todavía no incorpora indicadores de síntesis.</p></div>
+      </section>
+
+      <section id="demografia" class="module" data-module="demografia" aria-labelledby="title-demografia" hidden>
+        <div class="section-heading">
+          <div><p class="section-number">Módulo 02</p><h2 id="title-demografia">¿Cómo cambia la población de Chubut?</h2></div>
+          <p>Proyección departamental 2022–2050 por edad.</p>
+        </div>
+        <section id="demography-control-panel" class="scenario-panel" data-floating-panel data-panel-module="demografia" aria-labelledby="demography-control-title">
+          <header class="scenario-panel-header" data-panel-drag-handle>
+            <div><p class="label">Exploración</p><h3 id="demography-control-title">Filtros demográficos</h3><p class="scenario-panel-summary" data-panel-summary>2050 · Toda la provincia</p></div>
+            <div class="scenario-panel-actions">
+              <button class="panel-minimize" data-panel-minimize type="button" aria-controls="demography-control-body" hidden>— Minimizar</button>
+              <button class="panel-float-toggle" data-panel-float-toggle type="button" aria-pressed="false" aria-controls="demography-control-panel">↗ Mantener visible</button>
+            </div>
+          </header>
+          <div id="demography-control-body" class="scenario-panel-body">
+            <div class="inline-controls demography-controls">
+              <label>Departamento<select id="demography-territory"></select></label>
+              <label>Nivel / Grupo de edad<select id="age-group"></select></label>
+              <label>Sexo<select id="demography-sex"><option value="all" selected>Ambos sexos</option><option value="M">Varones</option><option value="F">Mujeres</option></select></label>
+              <label>Variable del mapa<select id="demography-map-metric"><option value="population">Población</option><option value="variation" selected>Cambio desde 2022 (+/−)</option></select></label>
+              <div id="demography-year-slot" class="demography-year-slot">
+                <div id="shared-year-control" class="demography-year-control">
+                  <div><label for="shared-year">Año</label><output id="shared-year-output" for="shared-year">2050</output></div>
+                  <input id="shared-year" type="range" min="2022" max="2050" step="1" value="2050">
+                  <div class="range-limits"><span id="shared-year-min">2022</span><span>2050</span></div>
+                  <div class="timeline-actions"><button id="shared-year-play" class="timeline-play" type="button" aria-pressed="false">▶ Reproducir años</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="demography-quadrants">
+          <article class="panel map-panel">
+            <div class="panel-heading"><div><p class="label">Distribución territorial</p><h3 id="demography-map-title">Población por departamento</h3></div><span id="demography-map-caption" class="panel-caption"></span></div>
+            <div id="demography-map" class="map" aria-label="Mapa demográfico por departamentos de Chubut"></div>
+            <p class="source-line">Límites departamentales: Censo 2022 · WGS84.</p>
+          </article>
+          <article class="panel chart-panel"><div class="panel-heading"><div><p class="label">Trayectoria</p><h3>Evolución 2022–2050</h3></div></div><div id="demography-chart" class="chart" aria-label="Evolución de la población"></div></article>
+          <article class="panel chart-panel"><div class="panel-heading"><div><p class="label">Estructura demográfica</p><h3>Pirámide por grupos quinquenales</h3></div><span id="pyramid-caption" class="panel-caption"></span></div><div id="population-pyramid" class="chart" aria-label="Pirámide poblacional por sexo"></div></article>
+          <article class="panel chart-panel"><div class="panel-heading"><div><p class="label">Composición territorial</p><h3>Participación en la población provincial</h3></div><span id="department-share-caption" class="panel-caption"></span></div><div id="department-share-chart" class="chart" aria-label="Participación de los departamentos"></div></article>
+          <article class="panel chart-panel"><div class="panel-heading"><div><p class="label">Polos demográficos</p><h3>Crecimiento y decrecimiento desde 2022</h3></div><span id="growth-poles-caption" class="panel-caption"></span></div><div id="growth-poles-chart" class="chart" aria-label="Variación poblacional por departamento"></div></article>
+          <article class="panel table-panel">
+            <div class="panel-heading"><div><p class="label">Serie filtrada</p><h3>Valores de referencia</h3></div></div>
+            <div class="table-wrap"><table><thead><tr><th>Año</th><th>Tramo</th><th>Departamento</th><th class="number">Población</th><th class="number">Variación 2022</th></tr></thead><tbody id="demography-table"></tbody></table></div>
+            <p class="source-line">Los cortes por nivel son rangos de edad de referencia. No representan matrícula, secciones ni establecimientos.</p>
+            <p id="demography-source" class="source-line"></p>
+          </article>
+        </div>
+      </section>
+
+      <section id="oferta" class="module" data-module="oferta" aria-labelledby="title-oferta" hidden>
+        <div class="section-heading"><div><p class="section-number">Módulo 03</p><h2 id="title-oferta">Oferta y capacidad</h2></div><p>Demanda potencial y ocupación proyectada a partir de las secciones observadas en 2024.</p></div>
+        <section id="capacity-control-panel" class="scenario-panel scenario-panel-capacity" data-floating-panel data-panel-module="oferta" aria-labelledby="capacity-control-title">
+          <header class="scenario-panel-header" data-panel-drag-handle>
+            <div><p class="label">Simulación</p><h3 id="capacity-control-title">Filtros y parámetros del escenario</h3><p class="scenario-panel-summary" data-panel-summary>2024 · Escenario · Toda la provincia</p></div>
+            <div class="scenario-panel-actions">
+              <button class="panel-minimize" data-panel-minimize type="button" aria-controls="capacity-control-body" hidden>— Minimizar</button>
+              <button class="panel-float-toggle" data-panel-float-toggle type="button" aria-pressed="false" aria-controls="capacity-control-panel">↗ Mantener visible</button>
+            </div>
+          </header>
+          <div id="capacity-control-body" class="scenario-panel-body">
+            <div class="inline-controls capacity-controls">
+              <label>Departamento<select id="capacity-territory"></select></label>
+              <label>Nivel / Grupo de edad<select id="capacity-education"></select></label>
+              <label>Sexo<select id="capacity-sex"><option value="all">Ambos sexos</option><option value="M">Varones</option><option value="F">Mujeres</option></select></label>
+              <label>Escenario activo<select id="capacity-comparison-mode"><option value="scenario">Potencial / escenario</option><option value="trend">Tendencial</option></select></label>
+              <div id="capacity-year-slot" class="demography-year-slot"></div>
+            </div>
+            <section id="rate-policy" class="rate-policy" aria-labelledby="rate-policy-title">
+              <div class="rate-policy-heading"><div><p class="label">Parámetros</p><h3 id="rate-policy-title">Tasas de asistencia del escenario</h3></div><p>Cada control parte de la tasa actual del territorio y llega hasta 100%.</p></div>
+              <div id="capacity-rate-sliders" class="rate-slider-grid"></div>
+            </section>
+            <details class="threshold-policy-wrap">
+              <summary>Capacidad modelada · umbrales por nivel</summary>
+              <section class="threshold-policy" aria-labelledby="threshold-policy-title">
+                <div><p class="label">Capacidad modelada</p><h3 id="threshold-policy-title">Estudiantes de referencia por sección</h3><p>Cada umbral fija la capacidad de referencia de una sección para ese nivel. Al modificarlo se recalculan su ocupación, las plazas disponibles y la categoría de saturación.</p></div>
+                <div id="capacity-threshold-controls" class="threshold-grid"></div>
+              </section>
+            </details>
+          </div>
+        </section>
+        <div class="capacity-grid">
+          <article class="panel map-panel capacity-school-panel"><div class="panel-heading"><div><p class="label">Escuelas</p><h3>Ocupación proyectada por escuela</h3></div><span id="capacity-map-caption" class="panel-caption"></span></div><div id="capacity-school-map" class="map" aria-label="Mapa de escuelas y ocupación proyectada"></div><p class="source-line">El color resume la ocupación modelada. Un clic abre el detalle de la escuela.</p></article>
+          <article class="panel chart-panel capacity-demand-panel"><div class="panel-heading"><div><p class="label">Trayectoria</p><h3>Evolución de la demanda potencial 2022–2050</h3></div><label class="panel-control">Vista<select id="capacity-trend-view"><option value="group">Por grupo de edad</option><option value="level">Por nivel</option></select></label><span id="capacity-trend-caption" class="panel-caption"></span></div><div id="capacity-enrollment-trend" class="chart capacity-chart" aria-label="Demanda potencial tendencial y de escenario"></div></article>
+          <article class="panel chart-panel capacity-wide"><div class="panel-heading attendance-heading"><div><p class="label">Brecha de asistencia</p><h3>Tasa actual y tasa escenario por departamento y nivel</h3><p class="chart-explainer">Círculo vacío: tasa actual · rombo: escenario · segmento: cambio en puntos porcentuales.</p><div id="capacity-attendance-levels" class="attendance-level-checks" role="group" aria-label="Niveles visibles"><label style="--level-color:#FFC928"><input type="checkbox" data-attendance-level="INI" checked>Inicial</label><label style="--level-color:#63A6B1"><input type="checkbox" data-attendance-level="PRI" checked>Primario</label><label style="--level-color:#247C8C"><input type="checkbox" data-attendance-level="SEC" checked>Secundario</label><label style="--level-color:#8A5A44"><input type="checkbox" data-attendance-level="AGE18" checked>18 años</label></div></div><span id="capacity-attendance-caption" class="panel-caption"></span></div><div id="capacity-attendance-dumbbell" class="chart attendance-dumbbell-chart" aria-label="Comparación de tasa actual y tasa escenario por departamento y nivel"></div></article>
+          <article class="panel chart-panel capacity-wide"><div class="panel-heading"><div><p class="label">Comparación territorial</p><h3>Ocupación de las secciones: 2024 frente al año seleccionado</h3><p class="chart-explainer">Círculo vacío: ocupación 2024 · círculo lleno: año seleccionado · segmento: dirección y magnitud del cambio.</p></div><div class="panel-heading-tools"><label class="panel-control">Nivel educativo<select id="capacity-department-level"><option value="all">Todos los niveles</option><option value="INI">Inicial</option><option value="PRI">Primario</option><option value="SEC">Secundario</option><option value="AGE18">18 años</option></select></label><span id="capacity-department-caption" class="panel-caption"></span></div></div><div id="capacity-department-enrollment" class="chart capacity-tall-chart" aria-label="Comparación de ocupación 2024 y año seleccionado por departamento"></div></article>
+          <article class="panel chart-panel capacity-wide"><div class="panel-heading occupancy-distribution-heading"><div><p class="label">Ocupación futura</p><h3>Distribución de secciones por departamento</h3></div><div class="occupancy-category-legend" role="list" aria-label="Categorías de ocupación"><span role="listitem" style="--legend-color:#63A6B1"><i></i>Capacidad disponible</span><span role="listitem" style="--legend-color:#FFC928"><i></i>Equilibrio</span><span role="listitem" style="--legend-color:#FF6B35"><i></i>Alta presión</span><span role="listitem" style="--legend-color:#B9472F"><i></i>Saturada</span></div><div class="panel-heading-tools"><label class="panel-control">Mostrar<select id="capacity-distribution-mode"><option value="count">Cantidad</option><option value="percent">%</option></select></label><span id="capacity-distribution-caption" class="panel-caption"></span></div></div><div id="capacity-occupancy-distribution" class="capacity-small-multiples" aria-label="Secciones por categoría de ocupación, departamento y nivel"></div></article>
+          <article class="panel table-panel capacity-wide"><div class="panel-heading"><div><p class="label">Método</p><h3>Base, escenario y agregación</h3></div></div><p id="capacity-source" class="method-note"></p></article>
+        </div>
+      </section>
+
+      <section id="productivos" class="module" data-module="productivos" aria-labelledby="title-productivos" hidden>
+        <div class="section-heading"><div><p class="section-number">Módulo 04</p><h2 id="title-productivos">Producción y desarrollo energético</h2></div><p>Instalaciones, capacidad documentada y proyectos futuros por departamento.</p></div>
+        <section id="production-control-panel" class="scenario-panel" data-floating-panel data-panel-module="productivos" aria-labelledby="production-control-title">
+          <header class="scenario-panel-header" data-panel-drag-handle>
+            <div><p class="label">Exploración</p><h3 id="production-control-title">Filtros del inventario energético</h3><p class="scenario-panel-summary" data-panel-summary>Toda la provincia · Todas las actividades</p></div>
+            <div class="scenario-panel-actions">
+              <button class="panel-minimize" data-panel-minimize type="button" aria-controls="production-control-body" hidden>— Minimizar</button>
+              <button class="panel-float-toggle" data-panel-float-toggle type="button" aria-pressed="false" aria-controls="production-control-panel">↗ Mantener visible</button>
+            </div>
+          </header>
+          <div id="production-control-body" class="scenario-panel-body">
+            <div class="inline-controls production-controls">
+              <label>Departamento<select id="product-territory"></select></label>
+              <label>Actividad<select id="product-activity"><option value="all">Todas las actividades</option></select></label>
+              <label>Operador / agente<select id="product-operator"><option value="all">Todos los operadores</option></select></label>
+              <label>Estado<select id="product-status"><option value="all">Todos los estados</option></select></label>
+            </div>
+          </div>
+        </section>
+
+        <div id="production-kpis" class="production-kpis" aria-label="Indicadores productivos principales"></div>
+        <div class="production-grid">
+          <article class="panel map-panel production-map-panel">
+            <div class="panel-heading"><div><p class="label">Localización</p><h3>Instalaciones energéticas</h3></div><span id="production-map-caption" class="panel-caption"></span></div>
+            <div id="production-map" class="map" aria-label="Mapa de instalaciones energéticas de Chubut"></div>
+            <p class="source-line">El pictograma distingue la actividad y el borde indica el estado. El tamaño usa capacidad instalada cuando existe; en su defecto, potencia declarada de proyecto. No representa producción anual.</p>
+          </article>
+          <article class="panel production-detail-panel">
+            <div class="panel-heading"><div><p class="label">Ficha</p><h3>Detalle de la instalación</h3></div></div>
+            <div id="production-detail" aria-live="polite"></div>
+          </article>
+          <article class="panel chart-panel production-capacity-wide">
+            <div class="panel-heading"><div><p class="label">Capacidad departamental</p><h3>Capacidad instalada conocida por departamento y actividad</h3></div><span id="production-department-caption" class="panel-caption"></span></div>
+            <div id="production-department-chart" class="chart production-chart production-chart-tall" aria-label="Capacidad energética instalada por departamento y actividad"></div>
+          </article>
+          <article class="panel chart-panel">
+            <div class="panel-heading"><div><p class="label">Base y proyectos</p><h3>Capacidad actual frente a proyectos futuros</h3></div><span id="production-future-caption" class="panel-caption"></span></div>
+            <div id="production-future-chart" class="chart production-chart" aria-label="Capacidad instalada y potencia de proyectos futuros por departamento"></div>
+          </article>
+          <article class="panel chart-panel">
+            <div class="panel-heading"><div><p class="label">Matriz energética</p><h3>Capacidad instalada conocida por actividad</h3></div><span id="production-matrix-caption" class="panel-caption"></span></div>
+            <div id="production-matrix-chart" class="chart production-chart" aria-label="Composición de la capacidad energética instalada"></div>
+          </article>
+          <article class="panel productive-scenario-panel production-table-panel" aria-labelledby="scenario-product-title">
+            <div class="panel-heading"><div><p class="label">Simulación productiva</p><h3 id="scenario-product-title">Construir un cambio de capacidad</h3><p class="chart-explainer">La simulación se realiza por departamento y tecnología. La capacidad observada nunca se sobrescribe.</p></div></div>
+            <div class="productive-scenario-form">
+              <div class="productive-scenario-fields">
+                <label>Departamento<select id="scenario-product-department"><option value="">Seleccionar departamento</option></select></label>
+                <fieldset class="scenario-technology-fieldset"><legend>Tecnología</legend><div id="scenario-product-activities" class="scenario-technology-options" role="radiogroup" aria-label="Tecnología energética"></div></fieldset>
+                <fieldset class="scenario-change-fieldset"><legend>Tipo de cambio</legend><div class="segmented-control"><label><input type="radio" name="scenario-product-change-type" value="AMPLIACION" checked><span>+ Ampliación</span></label><label><input type="radio" name="scenario-product-change-type" value="REDUCCION"><span>− Reducción</span></label></div></fieldset>
+                <label>Capacidad modificada<div class="number-stepper"><button type="button" data-scenario-capacity-step="-1" aria-label="Restar un MW">−</button><input id="scenario-product-capacity" type="number" min="0" step="0.1" inputmode="decimal" placeholder="Ingresar valor"><button type="button" data-scenario-capacity-step="1" aria-label="Sumar un MW">+</button><span>MW</span></div></label>
+                <label class="scenario-year-field">Entrada en operación<div><output id="scenario-product-year-output" for="scenario-product-year">2030</output></div><input id="scenario-product-year" type="range" min="2026" max="2050" step="1" value="2030"><span class="range-limits"><span>2026</span><span>2050</span></span></label>
+                <details class="scenario-coefficient" open><summary>Coeficiente de empleo permanente</summary><div class="scenario-coefficient-body"><label><span>Empleos permanentes por MW</span><div class="coefficient-input"><input id="scenario-product-jobs" type="number" min="0" step="0.01" inputmode="decimal" placeholder="Ingresar supuesto"><span>puestos/MW</span></div></label><button id="scenario-clear-coefficient" type="button" class="text-button">Limpiar</button></div><p>Sin valor predeterminado: el dato ingresado se identifica como supuesto del usuario.</p></details>
+              </div>
+              <div class="productive-scenario-results">
+                <div id="scenario-product-preview"></div>
+                <p id="scenario-product-message" class="scenario-form-message" aria-live="polite"></p>
+                <button id="scenario-add-change" class="action-button primary" type="button" disabled>Agregar cambio al escenario</button>
+              </div>
+            </div>
+            <p class="scenario-method-note"><strong>Alcance:</strong> se considera exclusivamente empleo permanente de operación. Para una estimación de mayor precisión sobre impactos territoriales de corto plazo debería incorporarse, en una etapa posterior, el empleo temporal generado durante la construcción.</p>
+          </article>
+          <article class="panel production-table-panel productive-scenario-list-panel">
+            <div class="panel-heading"><div><p class="label">Escenario en construcción</p><h3>Cambios productivos incorporados</h3></div><button id="scenario-clear-changes" type="button" class="text-button" disabled>Quitar todos</button></div>
+            <div id="scenario-summary" class="scenario-summary" aria-label="Resumen del escenario productivo"></div>
+            <div class="table-wrap"><table><thead><tr><th>Departamento</th><th>Tecnología</th><th class="number">Cambio</th><th>Año</th><th class="number">Puestos/MW</th><th class="number">Empleo permanente</th><th>Acción</th></tr></thead><tbody id="scenario-product-table"></tbody></table></div>
+          </article>
+          <article class="panel table-panel production-table-panel">
+            <div class="panel-heading"><div><p class="label">Inventario filtrado</p><h3>Instalaciones y cobertura de datos</h3></div></div>
+            <div class="table-wrap"><table><thead><tr><th>Instalación</th><th>Departamento</th><th>Actividad</th><th>Estado</th><th class="number">Cap. instalada MW</th><th class="number">Potencia proyecto MW</th><th>Operador / agente</th></tr></thead><tbody id="production-table"></tbody></table></div>
+            <p id="production-source-note" class="source-line"></p>
+          </article>
+        </div>
+      </section>
+
+      <section id="comparador" class="module" data-module="comparador" aria-labelledby="title-comparador" hidden>
+        <div class="section-heading"><div><p class="section-number">Módulo 05</p><h2 id="title-comparador">Escenarios integrados</h2></div><p>Conexión futura entre cambios productivos, población y requerimientos educativos.</p></div>
+        <div class="empty-module"><span>05</span><h3>Integración en preparación</h3><p>La capa productiva ya permite construir cambios de capacidad y empleo permanente. La siguiente etapa conectará esos resultados con la población y el modelo educativo vigente.</p></div>
+      </section>
+    </main>
+  </div>
+
+  <footer class="site-footer"><div class="shell"><p id="footer-warning">Cargando metadatos…</p><p>Chubut 2050 · herramienta exploratoria</p></div></footer>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script src="assets/demo-data.js"></script>
+  <script src="assets/demo-app.js"></script>
+</body>
+</html>

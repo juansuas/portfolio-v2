@@ -1,0 +1,811 @@
+seccion_id,departamento_id,departamento_nombre,cue_anexo,establecimiento_nombre,localidad,nivel_id,nivel_nombre,grupo_edad_id,grupo_tasa_id,matricula_actual,matricula_varones_actual,matricula_mujeres_actual,capacidad,longitud,latitud,year_base
+DEMO-1-1-0_3-1,26007,Biedma,900000011,Establecimiento ficticio 01-1,Localización simulada,INI,Inicial,0_3,0_3,16,7,9,18,-64.99411,-42.1305,2024
+DEMO-1-1-0_3-2,26007,Biedma,900000011,Establecimiento ficticio 01-1,Localización simulada,INI,Inicial,0_3,0_3,17,5,12,18,-64.99411,-42.1305,2024
+DEMO-1-1-0_3-3,26007,Biedma,900000011,Establecimiento ficticio 01-1,Localización simulada,INI,Inicial,0_3,0_3,12,6,6,18,-64.99411,-42.1305,2024
+DEMO-1-1-4_5-1,26007,Biedma,900000011,Establecimiento ficticio 01-1,Localización simulada,INI,Inicial,4_5,4_5,7,4,3,18,-64.99411,-42.1305,2024
+DEMO-1-1-4_5-2,26007,Biedma,900000011,Establecimiento ficticio 01-1,Localización simulada,INI,Inicial,4_5,4_5,20,12,8,18,-64.99411,-42.1305,2024
+DEMO-1-1-4_5-3,26007,Biedma,900000011,Establecimiento ficticio 01-1,Localización simulada,INI,Inicial,4_5,4_5,16,5,11,18,-64.99411,-42.1305,2024
+DEMO-1-1-6_11-1,26007,Biedma,900000011,Establecimiento ficticio 01-1,Localización simulada,PRI,Primario,6_11,6_11,13,6,7,22,-64.99411,-42.1305,2024
+DEMO-1-1-6_11-2,26007,Biedma,900000011,Establecimiento ficticio 01-1,Localización simulada,PRI,Primario,6_11,6_11,21,12,9,22,-64.99411,-42.1305,2024
+DEMO-1-1-6_11-3,26007,Biedma,900000011,Establecimiento ficticio 01-1,Localización simulada,PRI,Primario,6_11,6_11,18,9,9,22,-64.99411,-42.1305,2024
+DEMO-1-1-12_14-1,26007,Biedma,900000011,Establecimiento ficticio 01-1,Localización simulada,SEC,Secundario,12_14,12_14,13,5,8,26,-64.99411,-42.1305,2024
+DEMO-1-1-12_14-2,26007,Biedma,900000011,Establecimiento ficticio 01-1,Localización simulada,SEC,Secundario,12_14,12_14,15,8,7,26,-64.99411,-42.1305,2024
+DEMO-1-1-12_14-3,26007,Biedma,900000011,Establecimiento ficticio 01-1,Localización simulada,SEC,Secundario,12_14,12_14,29,16,13,26,-64.99411,-42.1305,2024
+DEMO-1-1-15_17-1,26007,Biedma,900000011,Establecimiento ficticio 01-1,Localización simulada,SEC,Secundario,15_17,15_17,13,8,5,26,-64.99411,-42.1305,2024
+DEMO-1-1-15_17-2,26007,Biedma,900000011,Establecimiento ficticio 01-1,Localización simulada,SEC,Secundario,15_17,15_17,27,10,17,26,-64.99411,-42.1305,2024
+DEMO-1-1-15_17-3,26007,Biedma,900000011,Establecimiento ficticio 01-1,Localización simulada,SEC,Secundario,15_17,15_17,24,14,10,26,-64.99411,-42.1305,2024
+DEMO-1-1-18_SEC-1,26007,Biedma,900000011,Establecimiento ficticio 01-1,Localización simulada,SEC,Secundario,18,18_SEC,18,9,9,26,-64.99411,-42.1305,2024
+DEMO-1-1-18_SEC-2,26007,Biedma,900000011,Establecimiento ficticio 01-1,Localización simulada,SEC,Secundario,18,18_SEC,18,10,8,26,-64.99411,-42.1305,2024
+DEMO-1-1-18_SEC-3,26007,Biedma,900000011,Establecimiento ficticio 01-1,Localización simulada,SEC,Secundario,18,18_SEC,19,9,10,26,-64.99411,-42.1305,2024
+DEMO-1-2-0_3-1,26007,Biedma,900000012,Establecimiento ficticio 01-2,Localización simulada,INI,Inicial,0_3,0_3,21,12,9,18,-65.38076,-42.1929,2024
+DEMO-1-2-0_3-2,26007,Biedma,900000012,Establecimiento ficticio 01-2,Localización simulada,INI,Inicial,0_3,0_3,22,10,12,18,-65.38076,-42.1929,2024
+DEMO-1-2-0_3-3,26007,Biedma,900000012,Establecimiento ficticio 01-2,Localización simulada,INI,Inicial,0_3,0_3,15,9,6,18,-65.38076,-42.1929,2024
+DEMO-1-2-4_5-1,26007,Biedma,900000012,Establecimiento ficticio 01-2,Localización simulada,INI,Inicial,4_5,4_5,16,9,7,18,-65.38076,-42.1929,2024
+DEMO-1-2-4_5-2,26007,Biedma,900000012,Establecimiento ficticio 01-2,Localización simulada,INI,Inicial,4_5,4_5,22,11,11,18,-65.38076,-42.1929,2024
+DEMO-1-2-4_5-3,26007,Biedma,900000012,Establecimiento ficticio 01-2,Localización simulada,INI,Inicial,4_5,4_5,8,3,5,18,-65.38076,-42.1929,2024
+DEMO-1-2-6_11-1,26007,Biedma,900000012,Establecimiento ficticio 01-2,Localización simulada,PRI,Primario,6_11,6_11,5,3,2,22,-65.38076,-42.1929,2024
+DEMO-1-2-6_11-2,26007,Biedma,900000012,Establecimiento ficticio 01-2,Localización simulada,PRI,Primario,6_11,6_11,24,10,14,22,-65.38076,-42.1929,2024
+DEMO-1-2-6_11-3,26007,Biedma,900000012,Establecimiento ficticio 01-2,Localización simulada,PRI,Primario,6_11,6_11,6,2,4,22,-65.38076,-42.1929,2024
+DEMO-1-2-12_14-1,26007,Biedma,900000012,Establecimiento ficticio 01-2,Localización simulada,SEC,Secundario,12_14,12_14,6,3,3,26,-65.38076,-42.1929,2024
+DEMO-1-2-12_14-2,26007,Biedma,900000012,Establecimiento ficticio 01-2,Localización simulada,SEC,Secundario,12_14,12_14,29,15,14,26,-65.38076,-42.1929,2024
+DEMO-1-2-12_14-3,26007,Biedma,900000012,Establecimiento ficticio 01-2,Localización simulada,SEC,Secundario,12_14,12_14,29,17,12,26,-65.38076,-42.1929,2024
+DEMO-1-2-15_17-1,26007,Biedma,900000012,Establecimiento ficticio 01-2,Localización simulada,SEC,Secundario,15_17,15_17,10,4,6,26,-65.38076,-42.1929,2024
+DEMO-1-2-15_17-2,26007,Biedma,900000012,Establecimiento ficticio 01-2,Localización simulada,SEC,Secundario,15_17,15_17,8,2,6,26,-65.38076,-42.1929,2024
+DEMO-1-2-15_17-3,26007,Biedma,900000012,Establecimiento ficticio 01-2,Localización simulada,SEC,Secundario,15_17,15_17,6,3,3,26,-65.38076,-42.1929,2024
+DEMO-1-2-18_SEC-1,26007,Biedma,900000012,Establecimiento ficticio 01-2,Localización simulada,SEC,Secundario,18,18_SEC,18,8,10,26,-65.38076,-42.1929,2024
+DEMO-1-2-18_SEC-2,26007,Biedma,900000012,Establecimiento ficticio 01-2,Localización simulada,SEC,Secundario,18,18_SEC,28,12,16,26,-65.38076,-42.1929,2024
+DEMO-1-2-18_SEC-3,26007,Biedma,900000012,Establecimiento ficticio 01-2,Localización simulada,SEC,Secundario,18,18_SEC,18,7,11,26,-65.38076,-42.1929,2024
+DEMO-1-3-0_3-1,26007,Biedma,900000013,Establecimiento ficticio 01-3,Localización simulada,INI,Inicial,0_3,0_3,5,3,2,18,-64.64758,-42.41907,2024
+DEMO-1-3-0_3-2,26007,Biedma,900000013,Establecimiento ficticio 01-3,Localización simulada,INI,Inicial,0_3,0_3,11,6,5,18,-64.64758,-42.41907,2024
+DEMO-1-3-0_3-3,26007,Biedma,900000013,Establecimiento ficticio 01-3,Localización simulada,INI,Inicial,0_3,0_3,9,5,4,18,-64.64758,-42.41907,2024
+DEMO-1-3-4_5-1,26007,Biedma,900000013,Establecimiento ficticio 01-3,Localización simulada,INI,Inicial,4_5,4_5,5,1,4,18,-64.64758,-42.41907,2024
+DEMO-1-3-4_5-2,26007,Biedma,900000013,Establecimiento ficticio 01-3,Localización simulada,INI,Inicial,4_5,4_5,14,7,7,18,-64.64758,-42.41907,2024
+DEMO-1-3-4_5-3,26007,Biedma,900000013,Establecimiento ficticio 01-3,Localización simulada,INI,Inicial,4_5,4_5,17,7,10,18,-64.64758,-42.41907,2024
+DEMO-1-3-6_11-1,26007,Biedma,900000013,Establecimiento ficticio 01-3,Localización simulada,PRI,Primario,6_11,6_11,19,8,11,22,-64.64758,-42.41907,2024
+DEMO-1-3-6_11-2,26007,Biedma,900000013,Establecimiento ficticio 01-3,Localización simulada,PRI,Primario,6_11,6_11,25,15,10,22,-64.64758,-42.41907,2024
+DEMO-1-3-6_11-3,26007,Biedma,900000013,Establecimiento ficticio 01-3,Localización simulada,PRI,Primario,6_11,6_11,17,9,8,22,-64.64758,-42.41907,2024
+DEMO-1-3-12_14-1,26007,Biedma,900000013,Establecimiento ficticio 01-3,Localización simulada,SEC,Secundario,12_14,12_14,27,18,9,26,-64.64758,-42.41907,2024
+DEMO-1-3-12_14-2,26007,Biedma,900000013,Establecimiento ficticio 01-3,Localización simulada,SEC,Secundario,12_14,12_14,24,13,11,26,-64.64758,-42.41907,2024
+DEMO-1-3-12_14-3,26007,Biedma,900000013,Establecimiento ficticio 01-3,Localización simulada,SEC,Secundario,12_14,12_14,25,15,10,26,-64.64758,-42.41907,2024
+DEMO-1-3-15_17-1,26007,Biedma,900000013,Establecimiento ficticio 01-3,Localización simulada,SEC,Secundario,15_17,15_17,22,10,12,26,-64.64758,-42.41907,2024
+DEMO-1-3-15_17-2,26007,Biedma,900000013,Establecimiento ficticio 01-3,Localización simulada,SEC,Secundario,15_17,15_17,14,7,7,26,-64.64758,-42.41907,2024
+DEMO-1-3-15_17-3,26007,Biedma,900000013,Establecimiento ficticio 01-3,Localización simulada,SEC,Secundario,15_17,15_17,9,6,3,26,-64.64758,-42.41907,2024
+DEMO-1-3-18_SEC-1,26007,Biedma,900000013,Establecimiento ficticio 01-3,Localización simulada,SEC,Secundario,18,18_SEC,16,5,11,26,-64.64758,-42.41907,2024
+DEMO-1-3-18_SEC-2,26007,Biedma,900000013,Establecimiento ficticio 01-3,Localización simulada,SEC,Secundario,18,18_SEC,20,6,14,26,-64.64758,-42.41907,2024
+DEMO-1-3-18_SEC-3,26007,Biedma,900000013,Establecimiento ficticio 01-3,Localización simulada,SEC,Secundario,18,18_SEC,14,7,7,26,-64.64758,-42.41907,2024
+DEMO-2-1-0_3-1,26014,Cushamen,900000021,Establecimiento ficticio 02-1,Localización simulada,INI,Inicial,0_3,0_3,19,11,8,18,-71.18412,-42.50863,2024
+DEMO-2-1-0_3-2,26014,Cushamen,900000021,Establecimiento ficticio 02-1,Localización simulada,INI,Inicial,0_3,0_3,15,6,9,18,-71.18412,-42.50863,2024
+DEMO-2-1-0_3-3,26014,Cushamen,900000021,Establecimiento ficticio 02-1,Localización simulada,INI,Inicial,0_3,0_3,16,9,7,18,-71.18412,-42.50863,2024
+DEMO-2-1-4_5-1,26014,Cushamen,900000021,Establecimiento ficticio 02-1,Localización simulada,INI,Inicial,4_5,4_5,10,4,6,18,-71.18412,-42.50863,2024
+DEMO-2-1-4_5-2,26014,Cushamen,900000021,Establecimiento ficticio 02-1,Localización simulada,INI,Inicial,4_5,4_5,14,9,5,18,-71.18412,-42.50863,2024
+DEMO-2-1-4_5-3,26014,Cushamen,900000021,Establecimiento ficticio 02-1,Localización simulada,INI,Inicial,4_5,4_5,18,12,6,18,-71.18412,-42.50863,2024
+DEMO-2-1-6_11-1,26014,Cushamen,900000021,Establecimiento ficticio 02-1,Localización simulada,PRI,Primario,6_11,6_11,10,4,6,22,-71.18412,-42.50863,2024
+DEMO-2-1-6_11-2,26014,Cushamen,900000021,Establecimiento ficticio 02-1,Localización simulada,PRI,Primario,6_11,6_11,9,3,6,22,-71.18412,-42.50863,2024
+DEMO-2-1-6_11-3,26014,Cushamen,900000021,Establecimiento ficticio 02-1,Localización simulada,PRI,Primario,6_11,6_11,22,7,15,22,-71.18412,-42.50863,2024
+DEMO-2-1-12_14-1,26014,Cushamen,900000021,Establecimiento ficticio 02-1,Localización simulada,SEC,Secundario,12_14,12_14,8,2,6,26,-71.18412,-42.50863,2024
+DEMO-2-1-12_14-2,26014,Cushamen,900000021,Establecimiento ficticio 02-1,Localización simulada,SEC,Secundario,12_14,12_14,22,10,12,26,-71.18412,-42.50863,2024
+DEMO-2-1-12_14-3,26014,Cushamen,900000021,Establecimiento ficticio 02-1,Localización simulada,SEC,Secundario,12_14,12_14,14,8,6,26,-71.18412,-42.50863,2024
+DEMO-2-1-15_17-1,26014,Cushamen,900000021,Establecimiento ficticio 02-1,Localización simulada,SEC,Secundario,15_17,15_17,5,3,2,26,-71.18412,-42.50863,2024
+DEMO-2-1-15_17-2,26014,Cushamen,900000021,Establecimiento ficticio 02-1,Localización simulada,SEC,Secundario,15_17,15_17,12,8,4,26,-71.18412,-42.50863,2024
+DEMO-2-1-15_17-3,26014,Cushamen,900000021,Establecimiento ficticio 02-1,Localización simulada,SEC,Secundario,15_17,15_17,26,15,11,26,-71.18412,-42.50863,2024
+DEMO-2-1-18_SEC-1,26014,Cushamen,900000021,Establecimiento ficticio 02-1,Localización simulada,SEC,Secundario,18,18_SEC,10,6,4,26,-71.18412,-42.50863,2024
+DEMO-2-1-18_SEC-2,26014,Cushamen,900000021,Establecimiento ficticio 02-1,Localización simulada,SEC,Secundario,18,18_SEC,23,14,9,26,-71.18412,-42.50863,2024
+DEMO-2-1-18_SEC-3,26014,Cushamen,900000021,Establecimiento ficticio 02-1,Localización simulada,SEC,Secundario,18,18_SEC,30,10,20,26,-71.18412,-42.50863,2024
+DEMO-2-2-0_3-1,26014,Cushamen,900000022,Establecimiento ficticio 02-2,Localización simulada,INI,Inicial,0_3,0_3,18,9,9,18,-70.65691,-42.3156,2024
+DEMO-2-2-0_3-2,26014,Cushamen,900000022,Establecimiento ficticio 02-2,Localización simulada,INI,Inicial,0_3,0_3,6,2,4,18,-70.65691,-42.3156,2024
+DEMO-2-2-0_3-3,26014,Cushamen,900000022,Establecimiento ficticio 02-2,Localización simulada,INI,Inicial,0_3,0_3,21,9,12,18,-70.65691,-42.3156,2024
+DEMO-2-2-4_5-1,26014,Cushamen,900000022,Establecimiento ficticio 02-2,Localización simulada,INI,Inicial,4_5,4_5,18,7,11,18,-70.65691,-42.3156,2024
+DEMO-2-2-4_5-2,26014,Cushamen,900000022,Establecimiento ficticio 02-2,Localización simulada,INI,Inicial,4_5,4_5,22,13,9,18,-70.65691,-42.3156,2024
+DEMO-2-2-4_5-3,26014,Cushamen,900000022,Establecimiento ficticio 02-2,Localización simulada,INI,Inicial,4_5,4_5,5,3,2,18,-70.65691,-42.3156,2024
+DEMO-2-2-6_11-1,26014,Cushamen,900000022,Establecimiento ficticio 02-2,Localización simulada,PRI,Primario,6_11,6_11,21,8,13,22,-70.65691,-42.3156,2024
+DEMO-2-2-6_11-2,26014,Cushamen,900000022,Establecimiento ficticio 02-2,Localización simulada,PRI,Primario,6_11,6_11,26,10,16,22,-70.65691,-42.3156,2024
+DEMO-2-2-6_11-3,26014,Cushamen,900000022,Establecimiento ficticio 02-2,Localización simulada,PRI,Primario,6_11,6_11,6,2,4,22,-70.65691,-42.3156,2024
+DEMO-2-2-12_14-1,26014,Cushamen,900000022,Establecimiento ficticio 02-2,Localización simulada,SEC,Secundario,12_14,12_14,14,7,7,26,-70.65691,-42.3156,2024
+DEMO-2-2-12_14-2,26014,Cushamen,900000022,Establecimiento ficticio 02-2,Localización simulada,SEC,Secundario,12_14,12_14,12,4,8,26,-70.65691,-42.3156,2024
+DEMO-2-2-12_14-3,26014,Cushamen,900000022,Establecimiento ficticio 02-2,Localización simulada,SEC,Secundario,12_14,12_14,22,9,13,26,-70.65691,-42.3156,2024
+DEMO-2-2-15_17-1,26014,Cushamen,900000022,Establecimiento ficticio 02-2,Localización simulada,SEC,Secundario,15_17,15_17,9,3,6,26,-70.65691,-42.3156,2024
+DEMO-2-2-15_17-2,26014,Cushamen,900000022,Establecimiento ficticio 02-2,Localización simulada,SEC,Secundario,15_17,15_17,9,5,4,26,-70.65691,-42.3156,2024
+DEMO-2-2-15_17-3,26014,Cushamen,900000022,Establecimiento ficticio 02-2,Localización simulada,SEC,Secundario,15_17,15_17,16,5,11,26,-70.65691,-42.3156,2024
+DEMO-2-2-18_SEC-1,26014,Cushamen,900000022,Establecimiento ficticio 02-2,Localización simulada,SEC,Secundario,18,18_SEC,10,4,6,26,-70.65691,-42.3156,2024
+DEMO-2-2-18_SEC-2,26014,Cushamen,900000022,Establecimiento ficticio 02-2,Localización simulada,SEC,Secundario,18,18_SEC,10,3,7,26,-70.65691,-42.3156,2024
+DEMO-2-2-18_SEC-3,26014,Cushamen,900000022,Establecimiento ficticio 02-2,Localización simulada,SEC,Secundario,18,18_SEC,15,10,5,26,-70.65691,-42.3156,2024
+DEMO-2-3-0_3-1,26014,Cushamen,900000023,Establecimiento ficticio 02-3,Localización simulada,INI,Inicial,0_3,0_3,9,5,4,18,-69.77221,-42.29105,2024
+DEMO-2-3-0_3-2,26014,Cushamen,900000023,Establecimiento ficticio 02-3,Localización simulada,INI,Inicial,0_3,0_3,15,10,5,18,-69.77221,-42.29105,2024
+DEMO-2-3-0_3-3,26014,Cushamen,900000023,Establecimiento ficticio 02-3,Localización simulada,INI,Inicial,0_3,0_3,12,5,7,18,-69.77221,-42.29105,2024
+DEMO-2-3-4_5-1,26014,Cushamen,900000023,Establecimiento ficticio 02-3,Localización simulada,INI,Inicial,4_5,4_5,6,4,2,18,-69.77221,-42.29105,2024
+DEMO-2-3-4_5-2,26014,Cushamen,900000023,Establecimiento ficticio 02-3,Localización simulada,INI,Inicial,4_5,4_5,14,7,7,18,-69.77221,-42.29105,2024
+DEMO-2-3-4_5-3,26014,Cushamen,900000023,Establecimiento ficticio 02-3,Localización simulada,INI,Inicial,4_5,4_5,11,3,8,18,-69.77221,-42.29105,2024
+DEMO-2-3-6_11-1,26014,Cushamen,900000023,Establecimiento ficticio 02-3,Localización simulada,PRI,Primario,6_11,6_11,10,6,4,22,-69.77221,-42.29105,2024
+DEMO-2-3-6_11-2,26014,Cushamen,900000023,Establecimiento ficticio 02-3,Localización simulada,PRI,Primario,6_11,6_11,21,7,14,22,-69.77221,-42.29105,2024
+DEMO-2-3-6_11-3,26014,Cushamen,900000023,Establecimiento ficticio 02-3,Localización simulada,PRI,Primario,6_11,6_11,12,8,4,22,-69.77221,-42.29105,2024
+DEMO-2-3-12_14-1,26014,Cushamen,900000023,Establecimiento ficticio 02-3,Localización simulada,SEC,Secundario,12_14,12_14,6,3,3,26,-69.77221,-42.29105,2024
+DEMO-2-3-12_14-2,26014,Cushamen,900000023,Establecimiento ficticio 02-3,Localización simulada,SEC,Secundario,12_14,12_14,8,2,6,26,-69.77221,-42.29105,2024
+DEMO-2-3-12_14-3,26014,Cushamen,900000023,Establecimiento ficticio 02-3,Localización simulada,SEC,Secundario,12_14,12_14,11,3,8,26,-69.77221,-42.29105,2024
+DEMO-2-3-15_17-1,26014,Cushamen,900000023,Establecimiento ficticio 02-3,Localización simulada,SEC,Secundario,15_17,15_17,9,4,5,26,-69.77221,-42.29105,2024
+DEMO-2-3-15_17-2,26014,Cushamen,900000023,Establecimiento ficticio 02-3,Localización simulada,SEC,Secundario,15_17,15_17,6,3,3,26,-69.77221,-42.29105,2024
+DEMO-2-3-15_17-3,26014,Cushamen,900000023,Establecimiento ficticio 02-3,Localización simulada,SEC,Secundario,15_17,15_17,5,2,3,26,-69.77221,-42.29105,2024
+DEMO-2-3-18_SEC-1,26014,Cushamen,900000023,Establecimiento ficticio 02-3,Localización simulada,SEC,Secundario,18,18_SEC,15,9,6,26,-69.77221,-42.29105,2024
+DEMO-2-3-18_SEC-2,26014,Cushamen,900000023,Establecimiento ficticio 02-3,Localización simulada,SEC,Secundario,18,18_SEC,22,8,14,26,-69.77221,-42.29105,2024
+DEMO-2-3-18_SEC-3,26014,Cushamen,900000023,Establecimiento ficticio 02-3,Localización simulada,SEC,Secundario,18,18_SEC,12,4,8,26,-69.77221,-42.29105,2024
+DEMO-3-1-0_3-1,26021,Escalante,900000031,Establecimiento ficticio 03-1,Localización simulada,INI,Inicial,0_3,0_3,14,6,8,18,-68.30227,-45.02793,2024
+DEMO-3-1-0_3-2,26021,Escalante,900000031,Establecimiento ficticio 03-1,Localización simulada,INI,Inicial,0_3,0_3,12,4,8,18,-68.30227,-45.02793,2024
+DEMO-3-1-0_3-3,26021,Escalante,900000031,Establecimiento ficticio 03-1,Localización simulada,INI,Inicial,0_3,0_3,15,10,5,18,-68.30227,-45.02793,2024
+DEMO-3-1-4_5-1,26021,Escalante,900000031,Establecimiento ficticio 03-1,Localización simulada,INI,Inicial,4_5,4_5,7,3,4,18,-68.30227,-45.02793,2024
+DEMO-3-1-4_5-2,26021,Escalante,900000031,Establecimiento ficticio 03-1,Localización simulada,INI,Inicial,4_5,4_5,18,6,12,18,-68.30227,-45.02793,2024
+DEMO-3-1-4_5-3,26021,Escalante,900000031,Establecimiento ficticio 03-1,Localización simulada,INI,Inicial,4_5,4_5,6,4,2,18,-68.30227,-45.02793,2024
+DEMO-3-1-6_11-1,26021,Escalante,900000031,Establecimiento ficticio 03-1,Localización simulada,PRI,Primario,6_11,6_11,15,10,5,22,-68.30227,-45.02793,2024
+DEMO-3-1-6_11-2,26021,Escalante,900000031,Establecimiento ficticio 03-1,Localización simulada,PRI,Primario,6_11,6_11,6,4,2,22,-68.30227,-45.02793,2024
+DEMO-3-1-6_11-3,26021,Escalante,900000031,Establecimiento ficticio 03-1,Localización simulada,PRI,Primario,6_11,6_11,18,12,6,22,-68.30227,-45.02793,2024
+DEMO-3-1-12_14-1,26021,Escalante,900000031,Establecimiento ficticio 03-1,Localización simulada,SEC,Secundario,12_14,12_14,11,7,4,26,-68.30227,-45.02793,2024
+DEMO-3-1-12_14-2,26021,Escalante,900000031,Establecimiento ficticio 03-1,Localización simulada,SEC,Secundario,12_14,12_14,17,8,9,26,-68.30227,-45.02793,2024
+DEMO-3-1-12_14-3,26021,Escalante,900000031,Establecimiento ficticio 03-1,Localización simulada,SEC,Secundario,12_14,12_14,30,20,10,26,-68.30227,-45.02793,2024
+DEMO-3-1-15_17-1,26021,Escalante,900000031,Establecimiento ficticio 03-1,Localización simulada,SEC,Secundario,15_17,15_17,22,11,11,26,-68.30227,-45.02793,2024
+DEMO-3-1-15_17-2,26021,Escalante,900000031,Establecimiento ficticio 03-1,Localización simulada,SEC,Secundario,15_17,15_17,15,8,7,26,-68.30227,-45.02793,2024
+DEMO-3-1-15_17-3,26021,Escalante,900000031,Establecimiento ficticio 03-1,Localización simulada,SEC,Secundario,15_17,15_17,10,5,5,26,-68.30227,-45.02793,2024
+DEMO-3-1-18_SEC-1,26021,Escalante,900000031,Establecimiento ficticio 03-1,Localización simulada,SEC,Secundario,18,18_SEC,10,6,4,26,-68.30227,-45.02793,2024
+DEMO-3-1-18_SEC-2,26021,Escalante,900000031,Establecimiento ficticio 03-1,Localización simulada,SEC,Secundario,18,18_SEC,10,5,5,26,-68.30227,-45.02793,2024
+DEMO-3-1-18_SEC-3,26021,Escalante,900000031,Establecimiento ficticio 03-1,Localización simulada,SEC,Secundario,18,18_SEC,11,5,6,26,-68.30227,-45.02793,2024
+DEMO-3-2-0_3-1,26021,Escalante,900000032,Establecimiento ficticio 03-2,Localización simulada,INI,Inicial,0_3,0_3,10,4,6,18,-67.60514,-45.25155,2024
+DEMO-3-2-0_3-2,26021,Escalante,900000032,Establecimiento ficticio 03-2,Localización simulada,INI,Inicial,0_3,0_3,20,9,11,18,-67.60514,-45.25155,2024
+DEMO-3-2-0_3-3,26021,Escalante,900000032,Establecimiento ficticio 03-2,Localización simulada,INI,Inicial,0_3,0_3,9,6,3,18,-67.60514,-45.25155,2024
+DEMO-3-2-4_5-1,26021,Escalante,900000032,Establecimiento ficticio 03-2,Localización simulada,INI,Inicial,4_5,4_5,6,4,2,18,-67.60514,-45.25155,2024
+DEMO-3-2-4_5-2,26021,Escalante,900000032,Establecimiento ficticio 03-2,Localización simulada,INI,Inicial,4_5,4_5,10,6,4,18,-67.60514,-45.25155,2024
+DEMO-3-2-4_5-3,26021,Escalante,900000032,Establecimiento ficticio 03-2,Localización simulada,INI,Inicial,4_5,4_5,9,4,5,18,-67.60514,-45.25155,2024
+DEMO-3-2-6_11-1,26021,Escalante,900000032,Establecimiento ficticio 03-2,Localización simulada,PRI,Primario,6_11,6_11,16,6,10,22,-67.60514,-45.25155,2024
+DEMO-3-2-6_11-2,26021,Escalante,900000032,Establecimiento ficticio 03-2,Localización simulada,PRI,Primario,6_11,6_11,15,9,6,22,-67.60514,-45.25155,2024
+DEMO-3-2-6_11-3,26021,Escalante,900000032,Establecimiento ficticio 03-2,Localización simulada,PRI,Primario,6_11,6_11,5,1,4,22,-67.60514,-45.25155,2024
+DEMO-3-2-12_14-1,26021,Escalante,900000032,Establecimiento ficticio 03-2,Localización simulada,SEC,Secundario,12_14,12_14,10,6,4,26,-67.60514,-45.25155,2024
+DEMO-3-2-12_14-2,26021,Escalante,900000032,Establecimiento ficticio 03-2,Localización simulada,SEC,Secundario,12_14,12_14,21,14,7,26,-67.60514,-45.25155,2024
+DEMO-3-2-12_14-3,26021,Escalante,900000032,Establecimiento ficticio 03-2,Localización simulada,SEC,Secundario,12_14,12_14,27,13,14,26,-67.60514,-45.25155,2024
+DEMO-3-2-15_17-1,26021,Escalante,900000032,Establecimiento ficticio 03-2,Localización simulada,SEC,Secundario,15_17,15_17,19,10,9,26,-67.60514,-45.25155,2024
+DEMO-3-2-15_17-2,26021,Escalante,900000032,Establecimiento ficticio 03-2,Localización simulada,SEC,Secundario,15_17,15_17,13,7,6,26,-67.60514,-45.25155,2024
+DEMO-3-2-15_17-3,26021,Escalante,900000032,Establecimiento ficticio 03-2,Localización simulada,SEC,Secundario,15_17,15_17,30,20,10,26,-67.60514,-45.25155,2024
+DEMO-3-2-18_SEC-1,26021,Escalante,900000032,Establecimiento ficticio 03-2,Localización simulada,SEC,Secundario,18,18_SEC,18,10,8,26,-67.60514,-45.25155,2024
+DEMO-3-2-18_SEC-2,26021,Escalante,900000032,Establecimiento ficticio 03-2,Localización simulada,SEC,Secundario,18,18_SEC,6,3,3,26,-67.60514,-45.25155,2024
+DEMO-3-2-18_SEC-3,26021,Escalante,900000032,Establecimiento ficticio 03-2,Localización simulada,SEC,Secundario,18,18_SEC,7,4,3,26,-67.60514,-45.25155,2024
+DEMO-3-3-0_3-1,26021,Escalante,900000033,Establecimiento ficticio 03-3,Localización simulada,INI,Inicial,0_3,0_3,14,9,5,18,-67.21575,-44.88161,2024
+DEMO-3-3-0_3-2,26021,Escalante,900000033,Establecimiento ficticio 03-3,Localización simulada,INI,Inicial,0_3,0_3,20,12,8,18,-67.21575,-44.88161,2024
+DEMO-3-3-0_3-3,26021,Escalante,900000033,Establecimiento ficticio 03-3,Localización simulada,INI,Inicial,0_3,0_3,8,2,6,18,-67.21575,-44.88161,2024
+DEMO-3-3-4_5-1,26021,Escalante,900000033,Establecimiento ficticio 03-3,Localización simulada,INI,Inicial,4_5,4_5,10,4,6,18,-67.21575,-44.88161,2024
+DEMO-3-3-4_5-2,26021,Escalante,900000033,Establecimiento ficticio 03-3,Localización simulada,INI,Inicial,4_5,4_5,12,5,7,18,-67.21575,-44.88161,2024
+DEMO-3-3-4_5-3,26021,Escalante,900000033,Establecimiento ficticio 03-3,Localización simulada,INI,Inicial,4_5,4_5,18,8,10,18,-67.21575,-44.88161,2024
+DEMO-3-3-6_11-1,26021,Escalante,900000033,Establecimiento ficticio 03-3,Localización simulada,PRI,Primario,6_11,6_11,22,13,9,22,-67.21575,-44.88161,2024
+DEMO-3-3-6_11-2,26021,Escalante,900000033,Establecimiento ficticio 03-3,Localización simulada,PRI,Primario,6_11,6_11,24,16,8,22,-67.21575,-44.88161,2024
+DEMO-3-3-6_11-3,26021,Escalante,900000033,Establecimiento ficticio 03-3,Localización simulada,PRI,Primario,6_11,6_11,25,12,13,22,-67.21575,-44.88161,2024
+DEMO-3-3-12_14-1,26021,Escalante,900000033,Establecimiento ficticio 03-3,Localización simulada,SEC,Secundario,12_14,12_14,17,7,10,26,-67.21575,-44.88161,2024
+DEMO-3-3-12_14-2,26021,Escalante,900000033,Establecimiento ficticio 03-3,Localización simulada,SEC,Secundario,12_14,12_14,25,12,13,26,-67.21575,-44.88161,2024
+DEMO-3-3-12_14-3,26021,Escalante,900000033,Establecimiento ficticio 03-3,Localización simulada,SEC,Secundario,12_14,12_14,22,9,13,26,-67.21575,-44.88161,2024
+DEMO-3-3-15_17-1,26021,Escalante,900000033,Establecimiento ficticio 03-3,Localización simulada,SEC,Secundario,15_17,15_17,16,6,10,26,-67.21575,-44.88161,2024
+DEMO-3-3-15_17-2,26021,Escalante,900000033,Establecimiento ficticio 03-3,Localización simulada,SEC,Secundario,15_17,15_17,16,10,6,26,-67.21575,-44.88161,2024
+DEMO-3-3-15_17-3,26021,Escalante,900000033,Establecimiento ficticio 03-3,Localización simulada,SEC,Secundario,15_17,15_17,12,5,7,26,-67.21575,-44.88161,2024
+DEMO-3-3-18_SEC-1,26021,Escalante,900000033,Establecimiento ficticio 03-3,Localización simulada,SEC,Secundario,18,18_SEC,24,10,14,26,-67.21575,-44.88161,2024
+DEMO-3-3-18_SEC-2,26021,Escalante,900000033,Establecimiento ficticio 03-3,Localización simulada,SEC,Secundario,18,18_SEC,28,17,11,26,-67.21575,-44.88161,2024
+DEMO-3-3-18_SEC-3,26021,Escalante,900000033,Establecimiento ficticio 03-3,Localización simulada,SEC,Secundario,18,18_SEC,9,3,6,26,-67.21575,-44.88161,2024
+DEMO-4-1-0_3-1,26028,Florentino Ameghino,900000041,Establecimiento ficticio 04-1,Localización simulada,INI,Inicial,0_3,0_3,6,4,2,18,-66.37159,-44.19639,2024
+DEMO-4-1-0_3-2,26028,Florentino Ameghino,900000041,Establecimiento ficticio 04-1,Localización simulada,INI,Inicial,0_3,0_3,10,5,5,18,-66.37159,-44.19639,2024
+DEMO-4-1-0_3-3,26028,Florentino Ameghino,900000041,Establecimiento ficticio 04-1,Localización simulada,INI,Inicial,0_3,0_3,14,4,10,18,-66.37159,-44.19639,2024
+DEMO-4-1-4_5-1,26028,Florentino Ameghino,900000041,Establecimiento ficticio 04-1,Localización simulada,INI,Inicial,4_5,4_5,19,10,9,18,-66.37159,-44.19639,2024
+DEMO-4-1-4_5-2,26028,Florentino Ameghino,900000041,Establecimiento ficticio 04-1,Localización simulada,INI,Inicial,4_5,4_5,15,10,5,18,-66.37159,-44.19639,2024
+DEMO-4-1-4_5-3,26028,Florentino Ameghino,900000041,Establecimiento ficticio 04-1,Localización simulada,INI,Inicial,4_5,4_5,7,2,5,18,-66.37159,-44.19639,2024
+DEMO-4-1-6_11-1,26028,Florentino Ameghino,900000041,Establecimiento ficticio 04-1,Localización simulada,PRI,Primario,6_11,6_11,15,8,7,22,-66.37159,-44.19639,2024
+DEMO-4-1-6_11-2,26028,Florentino Ameghino,900000041,Establecimiento ficticio 04-1,Localización simulada,PRI,Primario,6_11,6_11,21,7,14,22,-66.37159,-44.19639,2024
+DEMO-4-1-6_11-3,26028,Florentino Ameghino,900000041,Establecimiento ficticio 04-1,Localización simulada,PRI,Primario,6_11,6_11,15,6,9,22,-66.37159,-44.19639,2024
+DEMO-4-1-12_14-1,26028,Florentino Ameghino,900000041,Establecimiento ficticio 04-1,Localización simulada,SEC,Secundario,12_14,12_14,24,8,16,26,-66.37159,-44.19639,2024
+DEMO-4-1-12_14-2,26028,Florentino Ameghino,900000041,Establecimiento ficticio 04-1,Localización simulada,SEC,Secundario,12_14,12_14,17,5,12,26,-66.37159,-44.19639,2024
+DEMO-4-1-12_14-3,26028,Florentino Ameghino,900000041,Establecimiento ficticio 04-1,Localización simulada,SEC,Secundario,12_14,12_14,5,2,3,26,-66.37159,-44.19639,2024
+DEMO-4-1-15_17-1,26028,Florentino Ameghino,900000041,Establecimiento ficticio 04-1,Localización simulada,SEC,Secundario,15_17,15_17,19,12,7,26,-66.37159,-44.19639,2024
+DEMO-4-1-15_17-2,26028,Florentino Ameghino,900000041,Establecimiento ficticio 04-1,Localización simulada,SEC,Secundario,15_17,15_17,30,18,12,26,-66.37159,-44.19639,2024
+DEMO-4-1-15_17-3,26028,Florentino Ameghino,900000041,Establecimiento ficticio 04-1,Localización simulada,SEC,Secundario,15_17,15_17,30,20,10,26,-66.37159,-44.19639,2024
+DEMO-4-1-18_SEC-1,26028,Florentino Ameghino,900000041,Establecimiento ficticio 04-1,Localización simulada,SEC,Secundario,18,18_SEC,29,18,11,26,-66.37159,-44.19639,2024
+DEMO-4-1-18_SEC-2,26028,Florentino Ameghino,900000041,Establecimiento ficticio 04-1,Localización simulada,SEC,Secundario,18,18_SEC,27,16,11,26,-66.37159,-44.19639,2024
+DEMO-4-1-18_SEC-3,26028,Florentino Ameghino,900000041,Establecimiento ficticio 04-1,Localización simulada,SEC,Secundario,18,18_SEC,26,15,11,26,-66.37159,-44.19639,2024
+DEMO-4-2-0_3-1,26028,Florentino Ameghino,900000042,Establecimiento ficticio 04-2,Localización simulada,INI,Inicial,0_3,0_3,21,13,8,18,-66.34251,-44.06989,2024
+DEMO-4-2-0_3-2,26028,Florentino Ameghino,900000042,Establecimiento ficticio 04-2,Localización simulada,INI,Inicial,0_3,0_3,5,1,4,18,-66.34251,-44.06989,2024
+DEMO-4-2-0_3-3,26028,Florentino Ameghino,900000042,Establecimiento ficticio 04-2,Localización simulada,INI,Inicial,0_3,0_3,18,11,7,18,-66.34251,-44.06989,2024
+DEMO-4-2-4_5-1,26028,Florentino Ameghino,900000042,Establecimiento ficticio 04-2,Localización simulada,INI,Inicial,4_5,4_5,10,4,6,18,-66.34251,-44.06989,2024
+DEMO-4-2-4_5-2,26028,Florentino Ameghino,900000042,Establecimiento ficticio 04-2,Localización simulada,INI,Inicial,4_5,4_5,5,2,3,18,-66.34251,-44.06989,2024
+DEMO-4-2-4_5-3,26028,Florentino Ameghino,900000042,Establecimiento ficticio 04-2,Localización simulada,INI,Inicial,4_5,4_5,15,6,9,18,-66.34251,-44.06989,2024
+DEMO-4-2-6_11-1,26028,Florentino Ameghino,900000042,Establecimiento ficticio 04-2,Localización simulada,PRI,Primario,6_11,6_11,10,5,5,22,-66.34251,-44.06989,2024
+DEMO-4-2-6_11-2,26028,Florentino Ameghino,900000042,Establecimiento ficticio 04-2,Localización simulada,PRI,Primario,6_11,6_11,22,12,10,22,-66.34251,-44.06989,2024
+DEMO-4-2-6_11-3,26028,Florentino Ameghino,900000042,Establecimiento ficticio 04-2,Localización simulada,PRI,Primario,6_11,6_11,18,12,6,22,-66.34251,-44.06989,2024
+DEMO-4-2-12_14-1,26028,Florentino Ameghino,900000042,Establecimiento ficticio 04-2,Localización simulada,SEC,Secundario,12_14,12_14,13,4,9,26,-66.34251,-44.06989,2024
+DEMO-4-2-12_14-2,26028,Florentino Ameghino,900000042,Establecimiento ficticio 04-2,Localización simulada,SEC,Secundario,12_14,12_14,7,4,3,26,-66.34251,-44.06989,2024
+DEMO-4-2-12_14-3,26028,Florentino Ameghino,900000042,Establecimiento ficticio 04-2,Localización simulada,SEC,Secundario,12_14,12_14,22,10,12,26,-66.34251,-44.06989,2024
+DEMO-4-2-15_17-1,26028,Florentino Ameghino,900000042,Establecimiento ficticio 04-2,Localización simulada,SEC,Secundario,15_17,15_17,22,8,14,26,-66.34251,-44.06989,2024
+DEMO-4-2-15_17-2,26028,Florentino Ameghino,900000042,Establecimiento ficticio 04-2,Localización simulada,SEC,Secundario,15_17,15_17,15,10,5,26,-66.34251,-44.06989,2024
+DEMO-4-2-15_17-3,26028,Florentino Ameghino,900000042,Establecimiento ficticio 04-2,Localización simulada,SEC,Secundario,15_17,15_17,7,2,5,26,-66.34251,-44.06989,2024
+DEMO-4-2-18_SEC-1,26028,Florentino Ameghino,900000042,Establecimiento ficticio 04-2,Localización simulada,SEC,Secundario,18,18_SEC,13,7,6,26,-66.34251,-44.06989,2024
+DEMO-4-2-18_SEC-2,26028,Florentino Ameghino,900000042,Establecimiento ficticio 04-2,Localización simulada,SEC,Secundario,18,18_SEC,25,13,12,26,-66.34251,-44.06989,2024
+DEMO-4-2-18_SEC-3,26028,Florentino Ameghino,900000042,Establecimiento ficticio 04-2,Localización simulada,SEC,Secundario,18,18_SEC,22,10,12,26,-66.34251,-44.06989,2024
+DEMO-4-3-0_3-1,26028,Florentino Ameghino,900000043,Establecimiento ficticio 04-3,Localización simulada,INI,Inicial,0_3,0_3,14,7,7,18,-66.81944,-44.44578,2024
+DEMO-4-3-0_3-2,26028,Florentino Ameghino,900000043,Establecimiento ficticio 04-3,Localización simulada,INI,Inicial,0_3,0_3,14,4,10,18,-66.81944,-44.44578,2024
+DEMO-4-3-0_3-3,26028,Florentino Ameghino,900000043,Establecimiento ficticio 04-3,Localización simulada,INI,Inicial,0_3,0_3,20,7,13,18,-66.81944,-44.44578,2024
+DEMO-4-3-4_5-1,26028,Florentino Ameghino,900000043,Establecimiento ficticio 04-3,Localización simulada,INI,Inicial,4_5,4_5,15,5,10,18,-66.81944,-44.44578,2024
+DEMO-4-3-4_5-2,26028,Florentino Ameghino,900000043,Establecimiento ficticio 04-3,Localización simulada,INI,Inicial,4_5,4_5,7,3,4,18,-66.81944,-44.44578,2024
+DEMO-4-3-4_5-3,26028,Florentino Ameghino,900000043,Establecimiento ficticio 04-3,Localización simulada,INI,Inicial,4_5,4_5,6,3,3,18,-66.81944,-44.44578,2024
+DEMO-4-3-6_11-1,26028,Florentino Ameghino,900000043,Establecimiento ficticio 04-3,Localización simulada,PRI,Primario,6_11,6_11,16,7,9,22,-66.81944,-44.44578,2024
+DEMO-4-3-6_11-2,26028,Florentino Ameghino,900000043,Establecimiento ficticio 04-3,Localización simulada,PRI,Primario,6_11,6_11,15,10,5,22,-66.81944,-44.44578,2024
+DEMO-4-3-6_11-3,26028,Florentino Ameghino,900000043,Establecimiento ficticio 04-3,Localización simulada,PRI,Primario,6_11,6_11,18,9,9,22,-66.81944,-44.44578,2024
+DEMO-4-3-12_14-1,26028,Florentino Ameghino,900000043,Establecimiento ficticio 04-3,Localización simulada,SEC,Secundario,12_14,12_14,7,2,5,26,-66.81944,-44.44578,2024
+DEMO-4-3-12_14-2,26028,Florentino Ameghino,900000043,Establecimiento ficticio 04-3,Localización simulada,SEC,Secundario,12_14,12_14,16,7,9,26,-66.81944,-44.44578,2024
+DEMO-4-3-12_14-3,26028,Florentino Ameghino,900000043,Establecimiento ficticio 04-3,Localización simulada,SEC,Secundario,12_14,12_14,20,12,8,26,-66.81944,-44.44578,2024
+DEMO-4-3-15_17-1,26028,Florentino Ameghino,900000043,Establecimiento ficticio 04-3,Localización simulada,SEC,Secundario,15_17,15_17,9,5,4,26,-66.81944,-44.44578,2024
+DEMO-4-3-15_17-2,26028,Florentino Ameghino,900000043,Establecimiento ficticio 04-3,Localización simulada,SEC,Secundario,15_17,15_17,11,3,8,26,-66.81944,-44.44578,2024
+DEMO-4-3-15_17-3,26028,Florentino Ameghino,900000043,Establecimiento ficticio 04-3,Localización simulada,SEC,Secundario,15_17,15_17,18,7,11,26,-66.81944,-44.44578,2024
+DEMO-4-3-18_SEC-1,26028,Florentino Ameghino,900000043,Establecimiento ficticio 04-3,Localización simulada,SEC,Secundario,18,18_SEC,22,11,11,26,-66.81944,-44.44578,2024
+DEMO-4-3-18_SEC-2,26028,Florentino Ameghino,900000043,Establecimiento ficticio 04-3,Localización simulada,SEC,Secundario,18,18_SEC,14,4,10,26,-66.81944,-44.44578,2024
+DEMO-4-3-18_SEC-3,26028,Florentino Ameghino,900000043,Establecimiento ficticio 04-3,Localización simulada,SEC,Secundario,18,18_SEC,7,2,5,26,-66.81944,-44.44578,2024
+DEMO-5-1-0_3-1,26035,Futaleufú,900000051,Establecimiento ficticio 05-1,Localización simulada,INI,Inicial,0_3,0_3,14,5,9,18,-71.53586,-42.74742,2024
+DEMO-5-1-0_3-2,26035,Futaleufú,900000051,Establecimiento ficticio 05-1,Localización simulada,INI,Inicial,0_3,0_3,10,4,6,18,-71.53586,-42.74742,2024
+DEMO-5-1-0_3-3,26035,Futaleufú,900000051,Establecimiento ficticio 05-1,Localización simulada,INI,Inicial,0_3,0_3,13,6,7,18,-71.53586,-42.74742,2024
+DEMO-5-1-4_5-1,26035,Futaleufú,900000051,Establecimiento ficticio 05-1,Localización simulada,INI,Inicial,4_5,4_5,16,6,10,18,-71.53586,-42.74742,2024
+DEMO-5-1-4_5-2,26035,Futaleufú,900000051,Establecimiento ficticio 05-1,Localización simulada,INI,Inicial,4_5,4_5,12,6,6,18,-71.53586,-42.74742,2024
+DEMO-5-1-4_5-3,26035,Futaleufú,900000051,Establecimiento ficticio 05-1,Localización simulada,INI,Inicial,4_5,4_5,15,6,9,18,-71.53586,-42.74742,2024
+DEMO-5-1-6_11-1,26035,Futaleufú,900000051,Establecimiento ficticio 05-1,Localización simulada,PRI,Primario,6_11,6_11,22,7,15,22,-71.53586,-42.74742,2024
+DEMO-5-1-6_11-2,26035,Futaleufú,900000051,Establecimiento ficticio 05-1,Localización simulada,PRI,Primario,6_11,6_11,24,10,14,22,-71.53586,-42.74742,2024
+DEMO-5-1-6_11-3,26035,Futaleufú,900000051,Establecimiento ficticio 05-1,Localización simulada,PRI,Primario,6_11,6_11,8,5,3,22,-71.53586,-42.74742,2024
+DEMO-5-1-12_14-1,26035,Futaleufú,900000051,Establecimiento ficticio 05-1,Localización simulada,SEC,Secundario,12_14,12_14,5,2,3,26,-71.53586,-42.74742,2024
+DEMO-5-1-12_14-2,26035,Futaleufú,900000051,Establecimiento ficticio 05-1,Localización simulada,SEC,Secundario,12_14,12_14,22,10,12,26,-71.53586,-42.74742,2024
+DEMO-5-1-12_14-3,26035,Futaleufú,900000051,Establecimiento ficticio 05-1,Localización simulada,SEC,Secundario,12_14,12_14,16,7,9,26,-71.53586,-42.74742,2024
+DEMO-5-1-15_17-1,26035,Futaleufú,900000051,Establecimiento ficticio 05-1,Localización simulada,SEC,Secundario,15_17,15_17,25,8,17,26,-71.53586,-42.74742,2024
+DEMO-5-1-15_17-2,26035,Futaleufú,900000051,Establecimiento ficticio 05-1,Localización simulada,SEC,Secundario,15_17,15_17,5,3,2,26,-71.53586,-42.74742,2024
+DEMO-5-1-15_17-3,26035,Futaleufú,900000051,Establecimiento ficticio 05-1,Localización simulada,SEC,Secundario,15_17,15_17,15,6,9,26,-71.53586,-42.74742,2024
+DEMO-5-1-18_SEC-1,26035,Futaleufú,900000051,Establecimiento ficticio 05-1,Localización simulada,SEC,Secundario,18,18_SEC,15,5,10,26,-71.53586,-42.74742,2024
+DEMO-5-1-18_SEC-2,26035,Futaleufú,900000051,Establecimiento ficticio 05-1,Localización simulada,SEC,Secundario,18,18_SEC,28,10,18,26,-71.53586,-42.74742,2024
+DEMO-5-1-18_SEC-3,26035,Futaleufú,900000051,Establecimiento ficticio 05-1,Localización simulada,SEC,Secundario,18,18_SEC,7,3,4,26,-71.53586,-42.74742,2024
+DEMO-5-2-0_3-1,26035,Futaleufú,900000052,Establecimiento ficticio 05-2,Localización simulada,INI,Inicial,0_3,0_3,7,2,5,18,-72.09497,-42.69498,2024
+DEMO-5-2-0_3-2,26035,Futaleufú,900000052,Establecimiento ficticio 05-2,Localización simulada,INI,Inicial,0_3,0_3,6,3,3,18,-72.09497,-42.69498,2024
+DEMO-5-2-0_3-3,26035,Futaleufú,900000052,Establecimiento ficticio 05-2,Localización simulada,INI,Inicial,0_3,0_3,19,12,7,18,-72.09497,-42.69498,2024
+DEMO-5-2-4_5-1,26035,Futaleufú,900000052,Establecimiento ficticio 05-2,Localización simulada,INI,Inicial,4_5,4_5,6,2,4,18,-72.09497,-42.69498,2024
+DEMO-5-2-4_5-2,26035,Futaleufú,900000052,Establecimiento ficticio 05-2,Localización simulada,INI,Inicial,4_5,4_5,14,4,10,18,-72.09497,-42.69498,2024
+DEMO-5-2-4_5-3,26035,Futaleufú,900000052,Establecimiento ficticio 05-2,Localización simulada,INI,Inicial,4_5,4_5,18,12,6,18,-72.09497,-42.69498,2024
+DEMO-5-2-6_11-1,26035,Futaleufú,900000052,Establecimiento ficticio 05-2,Localización simulada,PRI,Primario,6_11,6_11,16,7,9,22,-72.09497,-42.69498,2024
+DEMO-5-2-6_11-2,26035,Futaleufú,900000052,Establecimiento ficticio 05-2,Localización simulada,PRI,Primario,6_11,6_11,24,8,16,22,-72.09497,-42.69498,2024
+DEMO-5-2-6_11-3,26035,Futaleufú,900000052,Establecimiento ficticio 05-2,Localización simulada,PRI,Primario,6_11,6_11,6,2,4,22,-72.09497,-42.69498,2024
+DEMO-5-2-12_14-1,26035,Futaleufú,900000052,Establecimiento ficticio 05-2,Localización simulada,SEC,Secundario,12_14,12_14,24,16,8,26,-72.09497,-42.69498,2024
+DEMO-5-2-12_14-2,26035,Futaleufú,900000052,Establecimiento ficticio 05-2,Localización simulada,SEC,Secundario,12_14,12_14,16,10,6,26,-72.09497,-42.69498,2024
+DEMO-5-2-12_14-3,26035,Futaleufú,900000052,Establecimiento ficticio 05-2,Localización simulada,SEC,Secundario,12_14,12_14,25,8,17,26,-72.09497,-42.69498,2024
+DEMO-5-2-15_17-1,26035,Futaleufú,900000052,Establecimiento ficticio 05-2,Localización simulada,SEC,Secundario,15_17,15_17,14,4,10,26,-72.09497,-42.69498,2024
+DEMO-5-2-15_17-2,26035,Futaleufú,900000052,Establecimiento ficticio 05-2,Localización simulada,SEC,Secundario,15_17,15_17,7,4,3,26,-72.09497,-42.69498,2024
+DEMO-5-2-15_17-3,26035,Futaleufú,900000052,Establecimiento ficticio 05-2,Localización simulada,SEC,Secundario,15_17,15_17,22,7,15,26,-72.09497,-42.69498,2024
+DEMO-5-2-18_SEC-1,26035,Futaleufú,900000052,Establecimiento ficticio 05-2,Localización simulada,SEC,Secundario,18,18_SEC,13,4,9,26,-72.09497,-42.69498,2024
+DEMO-5-2-18_SEC-2,26035,Futaleufú,900000052,Establecimiento ficticio 05-2,Localización simulada,SEC,Secundario,18,18_SEC,7,4,3,26,-72.09497,-42.69498,2024
+DEMO-5-2-18_SEC-3,26035,Futaleufú,900000052,Establecimiento ficticio 05-2,Localización simulada,SEC,Secundario,18,18_SEC,11,6,5,26,-72.09497,-42.69498,2024
+DEMO-5-3-0_3-1,26035,Futaleufú,900000053,Establecimiento ficticio 05-3,Localización simulada,INI,Inicial,0_3,0_3,6,3,3,18,-72.02241,-42.78038,2024
+DEMO-5-3-0_3-2,26035,Futaleufú,900000053,Establecimiento ficticio 05-3,Localización simulada,INI,Inicial,0_3,0_3,18,12,6,18,-72.02241,-42.78038,2024
+DEMO-5-3-0_3-3,26035,Futaleufú,900000053,Establecimiento ficticio 05-3,Localización simulada,INI,Inicial,0_3,0_3,22,14,8,18,-72.02241,-42.78038,2024
+DEMO-5-3-4_5-1,26035,Futaleufú,900000053,Establecimiento ficticio 05-3,Localización simulada,INI,Inicial,4_5,4_5,17,10,7,18,-72.02241,-42.78038,2024
+DEMO-5-3-4_5-2,26035,Futaleufú,900000053,Establecimiento ficticio 05-3,Localización simulada,INI,Inicial,4_5,4_5,16,6,10,18,-72.02241,-42.78038,2024
+DEMO-5-3-4_5-3,26035,Futaleufú,900000053,Establecimiento ficticio 05-3,Localización simulada,INI,Inicial,4_5,4_5,6,3,3,18,-72.02241,-42.78038,2024
+DEMO-5-3-6_11-1,26035,Futaleufú,900000053,Establecimiento ficticio 05-3,Localización simulada,PRI,Primario,6_11,6_11,6,3,3,22,-72.02241,-42.78038,2024
+DEMO-5-3-6_11-2,26035,Futaleufú,900000053,Establecimiento ficticio 05-3,Localización simulada,PRI,Primario,6_11,6_11,26,10,16,22,-72.02241,-42.78038,2024
+DEMO-5-3-6_11-3,26035,Futaleufú,900000053,Establecimiento ficticio 05-3,Localización simulada,PRI,Primario,6_11,6_11,22,11,11,22,-72.02241,-42.78038,2024
+DEMO-5-3-12_14-1,26035,Futaleufú,900000053,Establecimiento ficticio 05-3,Localización simulada,SEC,Secundario,12_14,12_14,13,4,9,26,-72.02241,-42.78038,2024
+DEMO-5-3-12_14-2,26035,Futaleufú,900000053,Establecimiento ficticio 05-3,Localización simulada,SEC,Secundario,12_14,12_14,28,9,19,26,-72.02241,-42.78038,2024
+DEMO-5-3-12_14-3,26035,Futaleufú,900000053,Establecimiento ficticio 05-3,Localización simulada,SEC,Secundario,12_14,12_14,9,6,3,26,-72.02241,-42.78038,2024
+DEMO-5-3-15_17-1,26035,Futaleufú,900000053,Establecimiento ficticio 05-3,Localización simulada,SEC,Secundario,15_17,15_17,24,12,12,26,-72.02241,-42.78038,2024
+DEMO-5-3-15_17-2,26035,Futaleufú,900000053,Establecimiento ficticio 05-3,Localización simulada,SEC,Secundario,15_17,15_17,12,4,8,26,-72.02241,-42.78038,2024
+DEMO-5-3-15_17-3,26035,Futaleufú,900000053,Establecimiento ficticio 05-3,Localización simulada,SEC,Secundario,15_17,15_17,29,10,19,26,-72.02241,-42.78038,2024
+DEMO-5-3-18_SEC-1,26035,Futaleufú,900000053,Establecimiento ficticio 05-3,Localización simulada,SEC,Secundario,18,18_SEC,19,7,12,26,-72.02241,-42.78038,2024
+DEMO-5-3-18_SEC-2,26035,Futaleufú,900000053,Establecimiento ficticio 05-3,Localización simulada,SEC,Secundario,18,18_SEC,6,4,2,26,-72.02241,-42.78038,2024
+DEMO-5-3-18_SEC-3,26035,Futaleufú,900000053,Establecimiento ficticio 05-3,Localización simulada,SEC,Secundario,18,18_SEC,20,11,9,26,-72.02241,-42.78038,2024
+DEMO-6-1-0_3-1,26042,Gaiman,900000061,Establecimiento ficticio 06-1,Localización simulada,INI,Inicial,0_3,0_3,10,6,4,18,-65.92193,-43.35252,2024
+DEMO-6-1-0_3-2,26042,Gaiman,900000061,Establecimiento ficticio 06-1,Localización simulada,INI,Inicial,0_3,0_3,12,8,4,18,-65.92193,-43.35252,2024
+DEMO-6-1-0_3-3,26042,Gaiman,900000061,Establecimiento ficticio 06-1,Localización simulada,INI,Inicial,0_3,0_3,15,5,10,18,-65.92193,-43.35252,2024
+DEMO-6-1-4_5-1,26042,Gaiman,900000061,Establecimiento ficticio 06-1,Localización simulada,INI,Inicial,4_5,4_5,11,4,7,18,-65.92193,-43.35252,2024
+DEMO-6-1-4_5-2,26042,Gaiman,900000061,Establecimiento ficticio 06-1,Localización simulada,INI,Inicial,4_5,4_5,9,6,3,18,-65.92193,-43.35252,2024
+DEMO-6-1-4_5-3,26042,Gaiman,900000061,Establecimiento ficticio 06-1,Localización simulada,INI,Inicial,4_5,4_5,20,11,9,18,-65.92193,-43.35252,2024
+DEMO-6-1-6_11-1,26042,Gaiman,900000061,Establecimiento ficticio 06-1,Localización simulada,PRI,Primario,6_11,6_11,25,11,14,22,-65.92193,-43.35252,2024
+DEMO-6-1-6_11-2,26042,Gaiman,900000061,Establecimiento ficticio 06-1,Localización simulada,PRI,Primario,6_11,6_11,10,5,5,22,-65.92193,-43.35252,2024
+DEMO-6-1-6_11-3,26042,Gaiman,900000061,Establecimiento ficticio 06-1,Localización simulada,PRI,Primario,6_11,6_11,25,8,17,22,-65.92193,-43.35252,2024
+DEMO-6-1-12_14-1,26042,Gaiman,900000061,Establecimiento ficticio 06-1,Localización simulada,SEC,Secundario,12_14,12_14,29,17,12,26,-65.92193,-43.35252,2024
+DEMO-6-1-12_14-2,26042,Gaiman,900000061,Establecimiento ficticio 06-1,Localización simulada,SEC,Secundario,12_14,12_14,10,3,7,26,-65.92193,-43.35252,2024
+DEMO-6-1-12_14-3,26042,Gaiman,900000061,Establecimiento ficticio 06-1,Localización simulada,SEC,Secundario,12_14,12_14,8,4,4,26,-65.92193,-43.35252,2024
+DEMO-6-1-15_17-1,26042,Gaiman,900000061,Establecimiento ficticio 06-1,Localización simulada,SEC,Secundario,15_17,15_17,17,11,6,26,-65.92193,-43.35252,2024
+DEMO-6-1-15_17-2,26042,Gaiman,900000061,Establecimiento ficticio 06-1,Localización simulada,SEC,Secundario,15_17,15_17,6,4,2,26,-65.92193,-43.35252,2024
+DEMO-6-1-15_17-3,26042,Gaiman,900000061,Establecimiento ficticio 06-1,Localización simulada,SEC,Secundario,15_17,15_17,23,9,14,26,-65.92193,-43.35252,2024
+DEMO-6-1-18_SEC-1,26042,Gaiman,900000061,Establecimiento ficticio 06-1,Localización simulada,SEC,Secundario,18,18_SEC,18,8,10,26,-65.92193,-43.35252,2024
+DEMO-6-1-18_SEC-2,26042,Gaiman,900000061,Establecimiento ficticio 06-1,Localización simulada,SEC,Secundario,18,18_SEC,26,10,16,26,-65.92193,-43.35252,2024
+DEMO-6-1-18_SEC-3,26042,Gaiman,900000061,Establecimiento ficticio 06-1,Localización simulada,SEC,Secundario,18,18_SEC,30,15,15,26,-65.92193,-43.35252,2024
+DEMO-6-2-0_3-1,26042,Gaiman,900000062,Establecimiento ficticio 06-2,Localización simulada,INI,Inicial,0_3,0_3,14,5,9,18,-65.73485,-43.61733,2024
+DEMO-6-2-0_3-2,26042,Gaiman,900000062,Establecimiento ficticio 06-2,Localización simulada,INI,Inicial,0_3,0_3,15,5,10,18,-65.73485,-43.61733,2024
+DEMO-6-2-0_3-3,26042,Gaiman,900000062,Establecimiento ficticio 06-2,Localización simulada,INI,Inicial,0_3,0_3,12,6,6,18,-65.73485,-43.61733,2024
+DEMO-6-2-4_5-1,26042,Gaiman,900000062,Establecimiento ficticio 06-2,Localización simulada,INI,Inicial,4_5,4_5,20,13,7,18,-65.73485,-43.61733,2024
+DEMO-6-2-4_5-2,26042,Gaiman,900000062,Establecimiento ficticio 06-2,Localización simulada,INI,Inicial,4_5,4_5,21,11,10,18,-65.73485,-43.61733,2024
+DEMO-6-2-4_5-3,26042,Gaiman,900000062,Establecimiento ficticio 06-2,Localización simulada,INI,Inicial,4_5,4_5,21,14,7,18,-65.73485,-43.61733,2024
+DEMO-6-2-6_11-1,26042,Gaiman,900000062,Establecimiento ficticio 06-2,Localización simulada,PRI,Primario,6_11,6_11,23,15,8,22,-65.73485,-43.61733,2024
+DEMO-6-2-6_11-2,26042,Gaiman,900000062,Establecimiento ficticio 06-2,Localización simulada,PRI,Primario,6_11,6_11,25,15,10,22,-65.73485,-43.61733,2024
+DEMO-6-2-6_11-3,26042,Gaiman,900000062,Establecimiento ficticio 06-2,Localización simulada,PRI,Primario,6_11,6_11,16,8,8,22,-65.73485,-43.61733,2024
+DEMO-6-2-12_14-1,26042,Gaiman,900000062,Establecimiento ficticio 06-2,Localización simulada,SEC,Secundario,12_14,12_14,6,4,2,26,-65.73485,-43.61733,2024
+DEMO-6-2-12_14-2,26042,Gaiman,900000062,Establecimiento ficticio 06-2,Localización simulada,SEC,Secundario,12_14,12_14,22,11,11,26,-65.73485,-43.61733,2024
+DEMO-6-2-12_14-3,26042,Gaiman,900000062,Establecimiento ficticio 06-2,Localización simulada,SEC,Secundario,12_14,12_14,23,7,16,26,-65.73485,-43.61733,2024
+DEMO-6-2-15_17-1,26042,Gaiman,900000062,Establecimiento ficticio 06-2,Localización simulada,SEC,Secundario,15_17,15_17,5,3,2,26,-65.73485,-43.61733,2024
+DEMO-6-2-15_17-2,26042,Gaiman,900000062,Establecimiento ficticio 06-2,Localización simulada,SEC,Secundario,15_17,15_17,13,8,5,26,-65.73485,-43.61733,2024
+DEMO-6-2-15_17-3,26042,Gaiman,900000062,Establecimiento ficticio 06-2,Localización simulada,SEC,Secundario,15_17,15_17,23,10,13,26,-65.73485,-43.61733,2024
+DEMO-6-2-18_SEC-1,26042,Gaiman,900000062,Establecimiento ficticio 06-2,Localización simulada,SEC,Secundario,18,18_SEC,14,8,6,26,-65.73485,-43.61733,2024
+DEMO-6-2-18_SEC-2,26042,Gaiman,900000062,Establecimiento ficticio 06-2,Localización simulada,SEC,Secundario,18,18_SEC,30,10,20,26,-65.73485,-43.61733,2024
+DEMO-6-2-18_SEC-3,26042,Gaiman,900000062,Establecimiento ficticio 06-2,Localización simulada,SEC,Secundario,18,18_SEC,18,9,9,26,-65.73485,-43.61733,2024
+DEMO-6-3-0_3-1,26042,Gaiman,900000063,Establecimiento ficticio 06-3,Localización simulada,INI,Inicial,0_3,0_3,17,5,12,18,-67.10767,-42.93213,2024
+DEMO-6-3-0_3-2,26042,Gaiman,900000063,Establecimiento ficticio 06-3,Localización simulada,INI,Inicial,0_3,0_3,10,5,5,18,-67.10767,-42.93213,2024
+DEMO-6-3-0_3-3,26042,Gaiman,900000063,Establecimiento ficticio 06-3,Localización simulada,INI,Inicial,0_3,0_3,18,9,9,18,-67.10767,-42.93213,2024
+DEMO-6-3-4_5-1,26042,Gaiman,900000063,Establecimiento ficticio 06-3,Localización simulada,INI,Inicial,4_5,4_5,11,3,8,18,-67.10767,-42.93213,2024
+DEMO-6-3-4_5-2,26042,Gaiman,900000063,Establecimiento ficticio 06-3,Localización simulada,INI,Inicial,4_5,4_5,11,4,7,18,-67.10767,-42.93213,2024
+DEMO-6-3-4_5-3,26042,Gaiman,900000063,Establecimiento ficticio 06-3,Localización simulada,INI,Inicial,4_5,4_5,16,9,7,18,-67.10767,-42.93213,2024
+DEMO-6-3-6_11-1,26042,Gaiman,900000063,Establecimiento ficticio 06-3,Localización simulada,PRI,Primario,6_11,6_11,8,4,4,22,-67.10767,-42.93213,2024
+DEMO-6-3-6_11-2,26042,Gaiman,900000063,Establecimiento ficticio 06-3,Localización simulada,PRI,Primario,6_11,6_11,22,9,13,22,-67.10767,-42.93213,2024
+DEMO-6-3-6_11-3,26042,Gaiman,900000063,Establecimiento ficticio 06-3,Localización simulada,PRI,Primario,6_11,6_11,19,9,10,22,-67.10767,-42.93213,2024
+DEMO-6-3-12_14-1,26042,Gaiman,900000063,Establecimiento ficticio 06-3,Localización simulada,SEC,Secundario,12_14,12_14,27,10,17,26,-67.10767,-42.93213,2024
+DEMO-6-3-12_14-2,26042,Gaiman,900000063,Establecimiento ficticio 06-3,Localización simulada,SEC,Secundario,12_14,12_14,19,12,7,26,-67.10767,-42.93213,2024
+DEMO-6-3-12_14-3,26042,Gaiman,900000063,Establecimiento ficticio 06-3,Localización simulada,SEC,Secundario,12_14,12_14,10,4,6,26,-67.10767,-42.93213,2024
+DEMO-6-3-15_17-1,26042,Gaiman,900000063,Establecimiento ficticio 06-3,Localización simulada,SEC,Secundario,15_17,15_17,21,14,7,26,-67.10767,-42.93213,2024
+DEMO-6-3-15_17-2,26042,Gaiman,900000063,Establecimiento ficticio 06-3,Localización simulada,SEC,Secundario,15_17,15_17,20,6,14,26,-67.10767,-42.93213,2024
+DEMO-6-3-15_17-3,26042,Gaiman,900000063,Establecimiento ficticio 06-3,Localización simulada,SEC,Secundario,15_17,15_17,23,14,9,26,-67.10767,-42.93213,2024
+DEMO-6-3-18_SEC-1,26042,Gaiman,900000063,Establecimiento ficticio 06-3,Localización simulada,SEC,Secundario,18,18_SEC,19,9,10,26,-67.10767,-42.93213,2024
+DEMO-6-3-18_SEC-2,26042,Gaiman,900000063,Establecimiento ficticio 06-3,Localización simulada,SEC,Secundario,18,18_SEC,29,18,11,26,-67.10767,-42.93213,2024
+DEMO-6-3-18_SEC-3,26042,Gaiman,900000063,Establecimiento ficticio 06-3,Localización simulada,SEC,Secundario,18,18_SEC,10,4,6,26,-67.10767,-42.93213,2024
+DEMO-7-1-0_3-1,26049,Gastre,900000071,Establecimiento ficticio 07-1,Localización simulada,INI,Inicial,0_3,0_3,19,11,8,18,-69.06037,-42.17491,2024
+DEMO-7-1-0_3-2,26049,Gastre,900000071,Establecimiento ficticio 07-1,Localización simulada,INI,Inicial,0_3,0_3,15,10,5,18,-69.06037,-42.17491,2024
+DEMO-7-1-0_3-3,26049,Gastre,900000071,Establecimiento ficticio 07-1,Localización simulada,INI,Inicial,0_3,0_3,7,3,4,18,-69.06037,-42.17491,2024
+DEMO-7-1-4_5-1,26049,Gastre,900000071,Establecimiento ficticio 07-1,Localización simulada,INI,Inicial,4_5,4_5,8,4,4,18,-69.06037,-42.17491,2024
+DEMO-7-1-4_5-2,26049,Gastre,900000071,Establecimiento ficticio 07-1,Localización simulada,INI,Inicial,4_5,4_5,8,3,5,18,-69.06037,-42.17491,2024
+DEMO-7-1-4_5-3,26049,Gastre,900000071,Establecimiento ficticio 07-1,Localización simulada,INI,Inicial,4_5,4_5,10,3,7,18,-69.06037,-42.17491,2024
+DEMO-7-1-6_11-1,26049,Gastre,900000071,Establecimiento ficticio 07-1,Localización simulada,PRI,Primario,6_11,6_11,13,6,7,22,-69.06037,-42.17491,2024
+DEMO-7-1-6_11-2,26049,Gastre,900000071,Establecimiento ficticio 07-1,Localización simulada,PRI,Primario,6_11,6_11,14,5,9,22,-69.06037,-42.17491,2024
+DEMO-7-1-6_11-3,26049,Gastre,900000071,Establecimiento ficticio 07-1,Localización simulada,PRI,Primario,6_11,6_11,13,6,7,22,-69.06037,-42.17491,2024
+DEMO-7-1-12_14-1,26049,Gastre,900000071,Establecimiento ficticio 07-1,Localización simulada,SEC,Secundario,12_14,12_14,10,3,7,26,-69.06037,-42.17491,2024
+DEMO-7-1-12_14-2,26049,Gastre,900000071,Establecimiento ficticio 07-1,Localización simulada,SEC,Secundario,12_14,12_14,22,13,9,26,-69.06037,-42.17491,2024
+DEMO-7-1-12_14-3,26049,Gastre,900000071,Establecimiento ficticio 07-1,Localización simulada,SEC,Secundario,12_14,12_14,15,8,7,26,-69.06037,-42.17491,2024
+DEMO-7-1-15_17-1,26049,Gastre,900000071,Establecimiento ficticio 07-1,Localización simulada,SEC,Secundario,15_17,15_17,24,12,12,26,-69.06037,-42.17491,2024
+DEMO-7-1-15_17-2,26049,Gastre,900000071,Establecimiento ficticio 07-1,Localización simulada,SEC,Secundario,15_17,15_17,12,4,8,26,-69.06037,-42.17491,2024
+DEMO-7-1-15_17-3,26049,Gastre,900000071,Establecimiento ficticio 07-1,Localización simulada,SEC,Secundario,15_17,15_17,24,10,14,26,-69.06037,-42.17491,2024
+DEMO-7-1-18_SEC-1,26049,Gastre,900000071,Establecimiento ficticio 07-1,Localización simulada,SEC,Secundario,18,18_SEC,20,10,10,26,-69.06037,-42.17491,2024
+DEMO-7-1-18_SEC-2,26049,Gastre,900000071,Establecimiento ficticio 07-1,Localización simulada,SEC,Secundario,18,18_SEC,23,13,10,26,-69.06037,-42.17491,2024
+DEMO-7-1-18_SEC-3,26049,Gastre,900000071,Establecimiento ficticio 07-1,Localización simulada,SEC,Secundario,18,18_SEC,5,2,3,26,-69.06037,-42.17491,2024
+DEMO-7-2-0_3-1,26049,Gastre,900000072,Establecimiento ficticio 07-2,Localización simulada,INI,Inicial,0_3,0_3,14,8,6,18,-69.19074,-42.20556,2024
+DEMO-7-2-0_3-2,26049,Gastre,900000072,Establecimiento ficticio 07-2,Localización simulada,INI,Inicial,0_3,0_3,10,3,7,18,-69.19074,-42.20556,2024
+DEMO-7-2-0_3-3,26049,Gastre,900000072,Establecimiento ficticio 07-2,Localización simulada,INI,Inicial,0_3,0_3,5,2,3,18,-69.19074,-42.20556,2024
+DEMO-7-2-4_5-1,26049,Gastre,900000072,Establecimiento ficticio 07-2,Localización simulada,INI,Inicial,4_5,4_5,17,11,6,18,-69.19074,-42.20556,2024
+DEMO-7-2-4_5-2,26049,Gastre,900000072,Establecimiento ficticio 07-2,Localización simulada,INI,Inicial,4_5,4_5,16,8,8,18,-69.19074,-42.20556,2024
+DEMO-7-2-4_5-3,26049,Gastre,900000072,Establecimiento ficticio 07-2,Localización simulada,INI,Inicial,4_5,4_5,18,8,10,18,-69.19074,-42.20556,2024
+DEMO-7-2-6_11-1,26049,Gastre,900000072,Establecimiento ficticio 07-2,Localización simulada,PRI,Primario,6_11,6_11,21,8,13,22,-69.19074,-42.20556,2024
+DEMO-7-2-6_11-2,26049,Gastre,900000072,Establecimiento ficticio 07-2,Localización simulada,PRI,Primario,6_11,6_11,17,11,6,22,-69.19074,-42.20556,2024
+DEMO-7-2-6_11-3,26049,Gastre,900000072,Establecimiento ficticio 07-2,Localización simulada,PRI,Primario,6_11,6_11,17,8,9,22,-69.19074,-42.20556,2024
+DEMO-7-2-12_14-1,26049,Gastre,900000072,Establecimiento ficticio 07-2,Localización simulada,SEC,Secundario,12_14,12_14,30,12,18,26,-69.19074,-42.20556,2024
+DEMO-7-2-12_14-2,26049,Gastre,900000072,Establecimiento ficticio 07-2,Localización simulada,SEC,Secundario,12_14,12_14,16,8,8,26,-69.19074,-42.20556,2024
+DEMO-7-2-12_14-3,26049,Gastre,900000072,Establecimiento ficticio 07-2,Localización simulada,SEC,Secundario,12_14,12_14,7,3,4,26,-69.19074,-42.20556,2024
+DEMO-7-2-15_17-1,26049,Gastre,900000072,Establecimiento ficticio 07-2,Localización simulada,SEC,Secundario,15_17,15_17,16,8,8,26,-69.19074,-42.20556,2024
+DEMO-7-2-15_17-2,26049,Gastre,900000072,Establecimiento ficticio 07-2,Localización simulada,SEC,Secundario,15_17,15_17,30,10,20,26,-69.19074,-42.20556,2024
+DEMO-7-2-15_17-3,26049,Gastre,900000072,Establecimiento ficticio 07-2,Localización simulada,SEC,Secundario,15_17,15_17,5,1,4,26,-69.19074,-42.20556,2024
+DEMO-7-2-18_SEC-1,26049,Gastre,900000072,Establecimiento ficticio 07-2,Localización simulada,SEC,Secundario,18,18_SEC,27,11,16,26,-69.19074,-42.20556,2024
+DEMO-7-2-18_SEC-2,26049,Gastre,900000072,Establecimiento ficticio 07-2,Localización simulada,SEC,Secundario,18,18_SEC,10,6,4,26,-69.19074,-42.20556,2024
+DEMO-7-2-18_SEC-3,26049,Gastre,900000072,Establecimiento ficticio 07-2,Localización simulada,SEC,Secundario,18,18_SEC,8,4,4,26,-69.19074,-42.20556,2024
+DEMO-7-3-0_3-1,26049,Gastre,900000073,Establecimiento ficticio 07-3,Localización simulada,INI,Inicial,0_3,0_3,18,11,7,18,-68.43352,-42.66898,2024
+DEMO-7-3-0_3-2,26049,Gastre,900000073,Establecimiento ficticio 07-3,Localización simulada,INI,Inicial,0_3,0_3,22,10,12,18,-68.43352,-42.66898,2024
+DEMO-7-3-0_3-3,26049,Gastre,900000073,Establecimiento ficticio 07-3,Localización simulada,INI,Inicial,0_3,0_3,20,8,12,18,-68.43352,-42.66898,2024
+DEMO-7-3-4_5-1,26049,Gastre,900000073,Establecimiento ficticio 07-3,Localización simulada,INI,Inicial,4_5,4_5,10,3,7,18,-68.43352,-42.66898,2024
+DEMO-7-3-4_5-2,26049,Gastre,900000073,Establecimiento ficticio 07-3,Localización simulada,INI,Inicial,4_5,4_5,12,8,4,18,-68.43352,-42.66898,2024
+DEMO-7-3-4_5-3,26049,Gastre,900000073,Establecimiento ficticio 07-3,Localización simulada,INI,Inicial,4_5,4_5,17,6,11,18,-68.43352,-42.66898,2024
+DEMO-7-3-6_11-1,26049,Gastre,900000073,Establecimiento ficticio 07-3,Localización simulada,PRI,Primario,6_11,6_11,5,2,3,22,-68.43352,-42.66898,2024
+DEMO-7-3-6_11-2,26049,Gastre,900000073,Establecimiento ficticio 07-3,Localización simulada,PRI,Primario,6_11,6_11,5,2,3,22,-68.43352,-42.66898,2024
+DEMO-7-3-6_11-3,26049,Gastre,900000073,Establecimiento ficticio 07-3,Localización simulada,PRI,Primario,6_11,6_11,10,3,7,22,-68.43352,-42.66898,2024
+DEMO-7-3-12_14-1,26049,Gastre,900000073,Establecimiento ficticio 07-3,Localización simulada,SEC,Secundario,12_14,12_14,14,9,5,26,-68.43352,-42.66898,2024
+DEMO-7-3-12_14-2,26049,Gastre,900000073,Establecimiento ficticio 07-3,Localización simulada,SEC,Secundario,12_14,12_14,11,5,6,26,-68.43352,-42.66898,2024
+DEMO-7-3-12_14-3,26049,Gastre,900000073,Establecimiento ficticio 07-3,Localización simulada,SEC,Secundario,12_14,12_14,29,15,14,26,-68.43352,-42.66898,2024
+DEMO-7-3-15_17-1,26049,Gastre,900000073,Establecimiento ficticio 07-3,Localización simulada,SEC,Secundario,15_17,15_17,12,8,4,26,-68.43352,-42.66898,2024
+DEMO-7-3-15_17-2,26049,Gastre,900000073,Establecimiento ficticio 07-3,Localización simulada,SEC,Secundario,15_17,15_17,27,11,16,26,-68.43352,-42.66898,2024
+DEMO-7-3-15_17-3,26049,Gastre,900000073,Establecimiento ficticio 07-3,Localización simulada,SEC,Secundario,15_17,15_17,8,3,5,26,-68.43352,-42.66898,2024
+DEMO-7-3-18_SEC-1,26049,Gastre,900000073,Establecimiento ficticio 07-3,Localización simulada,SEC,Secundario,18,18_SEC,16,9,7,26,-68.43352,-42.66898,2024
+DEMO-7-3-18_SEC-2,26049,Gastre,900000073,Establecimiento ficticio 07-3,Localización simulada,SEC,Secundario,18,18_SEC,22,13,9,26,-68.43352,-42.66898,2024
+DEMO-7-3-18_SEC-3,26049,Gastre,900000073,Establecimiento ficticio 07-3,Localización simulada,SEC,Secundario,18,18_SEC,19,9,10,26,-68.43352,-42.66898,2024
+DEMO-8-1-0_3-1,26056,Languiñeo,900000081,Establecimiento ficticio 08-1,Localización simulada,INI,Inicial,0_3,0_3,19,9,10,18,-70.00265,-43.49706,2024
+DEMO-8-1-0_3-2,26056,Languiñeo,900000081,Establecimiento ficticio 08-1,Localización simulada,INI,Inicial,0_3,0_3,17,10,7,18,-70.00265,-43.49706,2024
+DEMO-8-1-0_3-3,26056,Languiñeo,900000081,Establecimiento ficticio 08-1,Localización simulada,INI,Inicial,0_3,0_3,9,6,3,18,-70.00265,-43.49706,2024
+DEMO-8-1-4_5-1,26056,Languiñeo,900000081,Establecimiento ficticio 08-1,Localización simulada,INI,Inicial,4_5,4_5,19,10,9,18,-70.00265,-43.49706,2024
+DEMO-8-1-4_5-2,26056,Languiñeo,900000081,Establecimiento ficticio 08-1,Localización simulada,INI,Inicial,4_5,4_5,20,11,9,18,-70.00265,-43.49706,2024
+DEMO-8-1-4_5-3,26056,Languiñeo,900000081,Establecimiento ficticio 08-1,Localización simulada,INI,Inicial,4_5,4_5,14,4,10,18,-70.00265,-43.49706,2024
+DEMO-8-1-6_11-1,26056,Languiñeo,900000081,Establecimiento ficticio 08-1,Localización simulada,PRI,Primario,6_11,6_11,10,5,5,22,-70.00265,-43.49706,2024
+DEMO-8-1-6_11-2,26056,Languiñeo,900000081,Establecimiento ficticio 08-1,Localización simulada,PRI,Primario,6_11,6_11,26,16,10,22,-70.00265,-43.49706,2024
+DEMO-8-1-6_11-3,26056,Languiñeo,900000081,Establecimiento ficticio 08-1,Localización simulada,PRI,Primario,6_11,6_11,6,2,4,22,-70.00265,-43.49706,2024
+DEMO-8-1-12_14-1,26056,Languiñeo,900000081,Establecimiento ficticio 08-1,Localización simulada,SEC,Secundario,12_14,12_14,7,4,3,26,-70.00265,-43.49706,2024
+DEMO-8-1-12_14-2,26056,Languiñeo,900000081,Establecimiento ficticio 08-1,Localización simulada,SEC,Secundario,12_14,12_14,22,13,9,26,-70.00265,-43.49706,2024
+DEMO-8-1-12_14-3,26056,Languiñeo,900000081,Establecimiento ficticio 08-1,Localización simulada,SEC,Secundario,12_14,12_14,5,1,4,26,-70.00265,-43.49706,2024
+DEMO-8-1-15_17-1,26056,Languiñeo,900000081,Establecimiento ficticio 08-1,Localización simulada,SEC,Secundario,15_17,15_17,15,5,10,26,-70.00265,-43.49706,2024
+DEMO-8-1-15_17-2,26056,Languiñeo,900000081,Establecimiento ficticio 08-1,Localización simulada,SEC,Secundario,15_17,15_17,12,7,5,26,-70.00265,-43.49706,2024
+DEMO-8-1-15_17-3,26056,Languiñeo,900000081,Establecimiento ficticio 08-1,Localización simulada,SEC,Secundario,15_17,15_17,28,11,17,26,-70.00265,-43.49706,2024
+DEMO-8-1-18_SEC-1,26056,Languiñeo,900000081,Establecimiento ficticio 08-1,Localización simulada,SEC,Secundario,18,18_SEC,15,9,6,26,-70.00265,-43.49706,2024
+DEMO-8-1-18_SEC-2,26056,Languiñeo,900000081,Establecimiento ficticio 08-1,Localización simulada,SEC,Secundario,18,18_SEC,20,9,11,26,-70.00265,-43.49706,2024
+DEMO-8-1-18_SEC-3,26056,Languiñeo,900000081,Establecimiento ficticio 08-1,Localización simulada,SEC,Secundario,18,18_SEC,21,10,11,26,-70.00265,-43.49706,2024
+DEMO-8-2-0_3-1,26056,Languiñeo,900000082,Establecimiento ficticio 08-2,Localización simulada,INI,Inicial,0_3,0_3,15,10,5,18,-70.60996,-43.68599,2024
+DEMO-8-2-0_3-2,26056,Languiñeo,900000082,Establecimiento ficticio 08-2,Localización simulada,INI,Inicial,0_3,0_3,8,3,5,18,-70.60996,-43.68599,2024
+DEMO-8-2-0_3-3,26056,Languiñeo,900000082,Establecimiento ficticio 08-2,Localización simulada,INI,Inicial,0_3,0_3,11,6,5,18,-70.60996,-43.68599,2024
+DEMO-8-2-4_5-1,26056,Languiñeo,900000082,Establecimiento ficticio 08-2,Localización simulada,INI,Inicial,4_5,4_5,18,10,8,18,-70.60996,-43.68599,2024
+DEMO-8-2-4_5-2,26056,Languiñeo,900000082,Establecimiento ficticio 08-2,Localización simulada,INI,Inicial,4_5,4_5,22,14,8,18,-70.60996,-43.68599,2024
+DEMO-8-2-4_5-3,26056,Languiñeo,900000082,Establecimiento ficticio 08-2,Localización simulada,INI,Inicial,4_5,4_5,5,2,3,18,-70.60996,-43.68599,2024
+DEMO-8-2-6_11-1,26056,Languiñeo,900000082,Establecimiento ficticio 08-2,Localización simulada,PRI,Primario,6_11,6_11,5,3,2,22,-70.60996,-43.68599,2024
+DEMO-8-2-6_11-2,26056,Languiñeo,900000082,Establecimiento ficticio 08-2,Localización simulada,PRI,Primario,6_11,6_11,21,14,7,22,-70.60996,-43.68599,2024
+DEMO-8-2-6_11-3,26056,Languiñeo,900000082,Establecimiento ficticio 08-2,Localización simulada,PRI,Primario,6_11,6_11,17,5,12,22,-70.60996,-43.68599,2024
+DEMO-8-2-12_14-1,26056,Languiñeo,900000082,Establecimiento ficticio 08-2,Localización simulada,SEC,Secundario,12_14,12_14,28,13,15,26,-70.60996,-43.68599,2024
+DEMO-8-2-12_14-2,26056,Languiñeo,900000082,Establecimiento ficticio 08-2,Localización simulada,SEC,Secundario,12_14,12_14,25,11,14,26,-70.60996,-43.68599,2024
+DEMO-8-2-12_14-3,26056,Languiñeo,900000082,Establecimiento ficticio 08-2,Localización simulada,SEC,Secundario,12_14,12_14,8,4,4,26,-70.60996,-43.68599,2024
+DEMO-8-2-15_17-1,26056,Languiñeo,900000082,Establecimiento ficticio 08-2,Localización simulada,SEC,Secundario,15_17,15_17,12,8,4,26,-70.60996,-43.68599,2024
+DEMO-8-2-15_17-2,26056,Languiñeo,900000082,Establecimiento ficticio 08-2,Localización simulada,SEC,Secundario,15_17,15_17,22,12,10,26,-70.60996,-43.68599,2024
+DEMO-8-2-15_17-3,26056,Languiñeo,900000082,Establecimiento ficticio 08-2,Localización simulada,SEC,Secundario,15_17,15_17,24,13,11,26,-70.60996,-43.68599,2024
+DEMO-8-2-18_SEC-1,26056,Languiñeo,900000082,Establecimiento ficticio 08-2,Localización simulada,SEC,Secundario,18,18_SEC,18,7,11,26,-70.60996,-43.68599,2024
+DEMO-8-2-18_SEC-2,26056,Languiñeo,900000082,Establecimiento ficticio 08-2,Localización simulada,SEC,Secundario,18,18_SEC,16,10,6,26,-70.60996,-43.68599,2024
+DEMO-8-2-18_SEC-3,26056,Languiñeo,900000082,Establecimiento ficticio 08-2,Localización simulada,SEC,Secundario,18,18_SEC,10,4,6,26,-70.60996,-43.68599,2024
+DEMO-8-3-0_3-1,26056,Languiñeo,900000083,Establecimiento ficticio 08-3,Localización simulada,INI,Inicial,0_3,0_3,7,2,5,18,-69.59693,-43.7108,2024
+DEMO-8-3-0_3-2,26056,Languiñeo,900000083,Establecimiento ficticio 08-3,Localización simulada,INI,Inicial,0_3,0_3,17,11,6,18,-69.59693,-43.7108,2024
+DEMO-8-3-0_3-3,26056,Languiñeo,900000083,Establecimiento ficticio 08-3,Localización simulada,INI,Inicial,0_3,0_3,16,9,7,18,-69.59693,-43.7108,2024
+DEMO-8-3-4_5-1,26056,Languiñeo,900000083,Establecimiento ficticio 08-3,Localización simulada,INI,Inicial,4_5,4_5,12,6,6,18,-69.59693,-43.7108,2024
+DEMO-8-3-4_5-2,26056,Languiñeo,900000083,Establecimiento ficticio 08-3,Localización simulada,INI,Inicial,4_5,4_5,17,11,6,18,-69.59693,-43.7108,2024
+DEMO-8-3-4_5-3,26056,Languiñeo,900000083,Establecimiento ficticio 08-3,Localización simulada,INI,Inicial,4_5,4_5,11,3,8,18,-69.59693,-43.7108,2024
+DEMO-8-3-6_11-1,26056,Languiñeo,900000083,Establecimiento ficticio 08-3,Localización simulada,PRI,Primario,6_11,6_11,9,6,3,22,-69.59693,-43.7108,2024
+DEMO-8-3-6_11-2,26056,Languiñeo,900000083,Establecimiento ficticio 08-3,Localización simulada,PRI,Primario,6_11,6_11,9,4,5,22,-69.59693,-43.7108,2024
+DEMO-8-3-6_11-3,26056,Languiñeo,900000083,Establecimiento ficticio 08-3,Localización simulada,PRI,Primario,6_11,6_11,10,4,6,22,-69.59693,-43.7108,2024
+DEMO-8-3-12_14-1,26056,Languiñeo,900000083,Establecimiento ficticio 08-3,Localización simulada,SEC,Secundario,12_14,12_14,23,13,10,26,-69.59693,-43.7108,2024
+DEMO-8-3-12_14-2,26056,Languiñeo,900000083,Establecimiento ficticio 08-3,Localización simulada,SEC,Secundario,12_14,12_14,5,1,4,26,-69.59693,-43.7108,2024
+DEMO-8-3-12_14-3,26056,Languiñeo,900000083,Establecimiento ficticio 08-3,Localización simulada,SEC,Secundario,12_14,12_14,11,4,7,26,-69.59693,-43.7108,2024
+DEMO-8-3-15_17-1,26056,Languiñeo,900000083,Establecimiento ficticio 08-3,Localización simulada,SEC,Secundario,15_17,15_17,13,8,5,26,-69.59693,-43.7108,2024
+DEMO-8-3-15_17-2,26056,Languiñeo,900000083,Establecimiento ficticio 08-3,Localización simulada,SEC,Secundario,15_17,15_17,25,11,14,26,-69.59693,-43.7108,2024
+DEMO-8-3-15_17-3,26056,Languiñeo,900000083,Establecimiento ficticio 08-3,Localización simulada,SEC,Secundario,15_17,15_17,29,19,10,26,-69.59693,-43.7108,2024
+DEMO-8-3-18_SEC-1,26056,Languiñeo,900000083,Establecimiento ficticio 08-3,Localización simulada,SEC,Secundario,18,18_SEC,10,4,6,26,-69.59693,-43.7108,2024
+DEMO-8-3-18_SEC-2,26056,Languiñeo,900000083,Establecimiento ficticio 08-3,Localización simulada,SEC,Secundario,18,18_SEC,5,1,4,26,-69.59693,-43.7108,2024
+DEMO-8-3-18_SEC-3,26056,Languiñeo,900000083,Establecimiento ficticio 08-3,Localización simulada,SEC,Secundario,18,18_SEC,6,4,2,26,-69.59693,-43.7108,2024
+DEMO-9-1-0_3-1,26063,Mártires,900000091,Establecimiento ficticio 09-1,Localización simulada,INI,Inicial,0_3,0_3,14,7,7,18,-67.15964,-43.43186,2024
+DEMO-9-1-0_3-2,26063,Mártires,900000091,Establecimiento ficticio 09-1,Localización simulada,INI,Inicial,0_3,0_3,13,7,6,18,-67.15964,-43.43186,2024
+DEMO-9-1-0_3-3,26063,Mártires,900000091,Establecimiento ficticio 09-1,Localización simulada,INI,Inicial,0_3,0_3,22,12,10,18,-67.15964,-43.43186,2024
+DEMO-9-1-4_5-1,26063,Mártires,900000091,Establecimiento ficticio 09-1,Localización simulada,INI,Inicial,4_5,4_5,11,7,4,18,-67.15964,-43.43186,2024
+DEMO-9-1-4_5-2,26063,Mártires,900000091,Establecimiento ficticio 09-1,Localización simulada,INI,Inicial,4_5,4_5,6,3,3,18,-67.15964,-43.43186,2024
+DEMO-9-1-4_5-3,26063,Mártires,900000091,Establecimiento ficticio 09-1,Localización simulada,INI,Inicial,4_5,4_5,6,3,3,18,-67.15964,-43.43186,2024
+DEMO-9-1-6_11-1,26063,Mártires,900000091,Establecimiento ficticio 09-1,Localización simulada,PRI,Primario,6_11,6_11,8,2,6,22,-67.15964,-43.43186,2024
+DEMO-9-1-6_11-2,26063,Mártires,900000091,Establecimiento ficticio 09-1,Localización simulada,PRI,Primario,6_11,6_11,6,3,3,22,-67.15964,-43.43186,2024
+DEMO-9-1-6_11-3,26063,Mártires,900000091,Establecimiento ficticio 09-1,Localización simulada,PRI,Primario,6_11,6_11,19,9,10,22,-67.15964,-43.43186,2024
+DEMO-9-1-12_14-1,26063,Mártires,900000091,Establecimiento ficticio 09-1,Localización simulada,SEC,Secundario,12_14,12_14,28,17,11,26,-67.15964,-43.43186,2024
+DEMO-9-1-12_14-2,26063,Mártires,900000091,Establecimiento ficticio 09-1,Localización simulada,SEC,Secundario,12_14,12_14,15,6,9,26,-67.15964,-43.43186,2024
+DEMO-9-1-12_14-3,26063,Mártires,900000091,Establecimiento ficticio 09-1,Localización simulada,SEC,Secundario,12_14,12_14,27,14,13,26,-67.15964,-43.43186,2024
+DEMO-9-1-15_17-1,26063,Mártires,900000091,Establecimiento ficticio 09-1,Localización simulada,SEC,Secundario,15_17,15_17,6,3,3,26,-67.15964,-43.43186,2024
+DEMO-9-1-15_17-2,26063,Mártires,900000091,Establecimiento ficticio 09-1,Localización simulada,SEC,Secundario,15_17,15_17,5,1,4,26,-67.15964,-43.43186,2024
+DEMO-9-1-15_17-3,26063,Mártires,900000091,Establecimiento ficticio 09-1,Localización simulada,SEC,Secundario,15_17,15_17,20,10,10,26,-67.15964,-43.43186,2024
+DEMO-9-1-18_SEC-1,26063,Mártires,900000091,Establecimiento ficticio 09-1,Localización simulada,SEC,Secundario,18,18_SEC,9,5,4,26,-67.15964,-43.43186,2024
+DEMO-9-1-18_SEC-2,26063,Mártires,900000091,Establecimiento ficticio 09-1,Localización simulada,SEC,Secundario,18,18_SEC,12,6,6,26,-67.15964,-43.43186,2024
+DEMO-9-1-18_SEC-3,26063,Mártires,900000091,Establecimiento ficticio 09-1,Localización simulada,SEC,Secundario,18,18_SEC,13,6,7,26,-67.15964,-43.43186,2024
+DEMO-9-2-0_3-1,26063,Mártires,900000092,Establecimiento ficticio 09-2,Localización simulada,INI,Inicial,0_3,0_3,18,6,12,18,-67.37191,-44.59203,2024
+DEMO-9-2-0_3-2,26063,Mártires,900000092,Establecimiento ficticio 09-2,Localización simulada,INI,Inicial,0_3,0_3,7,3,4,18,-67.37191,-44.59203,2024
+DEMO-9-2-0_3-3,26063,Mártires,900000092,Establecimiento ficticio 09-2,Localización simulada,INI,Inicial,0_3,0_3,12,6,6,18,-67.37191,-44.59203,2024
+DEMO-9-2-4_5-1,26063,Mártires,900000092,Establecimiento ficticio 09-2,Localización simulada,INI,Inicial,4_5,4_5,9,4,5,18,-67.37191,-44.59203,2024
+DEMO-9-2-4_5-2,26063,Mártires,900000092,Establecimiento ficticio 09-2,Localización simulada,INI,Inicial,4_5,4_5,21,8,13,18,-67.37191,-44.59203,2024
+DEMO-9-2-4_5-3,26063,Mártires,900000092,Establecimiento ficticio 09-2,Localización simulada,INI,Inicial,4_5,4_5,10,4,6,18,-67.37191,-44.59203,2024
+DEMO-9-2-6_11-1,26063,Mártires,900000092,Establecimiento ficticio 09-2,Localización simulada,PRI,Primario,6_11,6_11,18,11,7,22,-67.37191,-44.59203,2024
+DEMO-9-2-6_11-2,26063,Mártires,900000092,Establecimiento ficticio 09-2,Localización simulada,PRI,Primario,6_11,6_11,13,6,7,22,-67.37191,-44.59203,2024
+DEMO-9-2-6_11-3,26063,Mártires,900000092,Establecimiento ficticio 09-2,Localización simulada,PRI,Primario,6_11,6_11,21,9,12,22,-67.37191,-44.59203,2024
+DEMO-9-2-12_14-1,26063,Mártires,900000092,Establecimiento ficticio 09-2,Localización simulada,SEC,Secundario,12_14,12_14,19,12,7,26,-67.37191,-44.59203,2024
+DEMO-9-2-12_14-2,26063,Mártires,900000092,Establecimiento ficticio 09-2,Localización simulada,SEC,Secundario,12_14,12_14,5,2,3,26,-67.37191,-44.59203,2024
+DEMO-9-2-12_14-3,26063,Mártires,900000092,Establecimiento ficticio 09-2,Localización simulada,SEC,Secundario,12_14,12_14,19,11,8,26,-67.37191,-44.59203,2024
+DEMO-9-2-15_17-1,26063,Mártires,900000092,Establecimiento ficticio 09-2,Localización simulada,SEC,Secundario,15_17,15_17,16,7,9,26,-67.37191,-44.59203,2024
+DEMO-9-2-15_17-2,26063,Mártires,900000092,Establecimiento ficticio 09-2,Localización simulada,SEC,Secundario,15_17,15_17,26,8,18,26,-67.37191,-44.59203,2024
+DEMO-9-2-15_17-3,26063,Mártires,900000092,Establecimiento ficticio 09-2,Localización simulada,SEC,Secundario,15_17,15_17,12,4,8,26,-67.37191,-44.59203,2024
+DEMO-9-2-18_SEC-1,26063,Mártires,900000092,Establecimiento ficticio 09-2,Localización simulada,SEC,Secundario,18,18_SEC,12,4,8,26,-67.37191,-44.59203,2024
+DEMO-9-2-18_SEC-2,26063,Mártires,900000092,Establecimiento ficticio 09-2,Localización simulada,SEC,Secundario,18,18_SEC,29,9,20,26,-67.37191,-44.59203,2024
+DEMO-9-2-18_SEC-3,26063,Mártires,900000092,Establecimiento ficticio 09-2,Localización simulada,SEC,Secundario,18,18_SEC,21,10,11,26,-67.37191,-44.59203,2024
+DEMO-9-3-0_3-1,26063,Mártires,900000093,Establecimiento ficticio 09-3,Localización simulada,INI,Inicial,0_3,0_3,14,7,7,18,-67.54918,-43.37742,2024
+DEMO-9-3-0_3-2,26063,Mártires,900000093,Establecimiento ficticio 09-3,Localización simulada,INI,Inicial,0_3,0_3,18,9,9,18,-67.54918,-43.37742,2024
+DEMO-9-3-0_3-3,26063,Mártires,900000093,Establecimiento ficticio 09-3,Localización simulada,INI,Inicial,0_3,0_3,14,4,10,18,-67.54918,-43.37742,2024
+DEMO-9-3-4_5-1,26063,Mártires,900000093,Establecimiento ficticio 09-3,Localización simulada,INI,Inicial,4_5,4_5,18,8,10,18,-67.54918,-43.37742,2024
+DEMO-9-3-4_5-2,26063,Mártires,900000093,Establecimiento ficticio 09-3,Localización simulada,INI,Inicial,4_5,4_5,9,3,6,18,-67.54918,-43.37742,2024
+DEMO-9-3-4_5-3,26063,Mártires,900000093,Establecimiento ficticio 09-3,Localización simulada,INI,Inicial,4_5,4_5,20,9,11,18,-67.54918,-43.37742,2024
+DEMO-9-3-6_11-1,26063,Mártires,900000093,Establecimiento ficticio 09-3,Localización simulada,PRI,Primario,6_11,6_11,13,7,6,22,-67.54918,-43.37742,2024
+DEMO-9-3-6_11-2,26063,Mártires,900000093,Establecimiento ficticio 09-3,Localización simulada,PRI,Primario,6_11,6_11,22,11,11,22,-67.54918,-43.37742,2024
+DEMO-9-3-6_11-3,26063,Mártires,900000093,Establecimiento ficticio 09-3,Localización simulada,PRI,Primario,6_11,6_11,11,4,7,22,-67.54918,-43.37742,2024
+DEMO-9-3-12_14-1,26063,Mártires,900000093,Establecimiento ficticio 09-3,Localización simulada,SEC,Secundario,12_14,12_14,14,8,6,26,-67.54918,-43.37742,2024
+DEMO-9-3-12_14-2,26063,Mártires,900000093,Establecimiento ficticio 09-3,Localización simulada,SEC,Secundario,12_14,12_14,17,7,10,26,-67.54918,-43.37742,2024
+DEMO-9-3-12_14-3,26063,Mártires,900000093,Establecimiento ficticio 09-3,Localización simulada,SEC,Secundario,12_14,12_14,23,9,14,26,-67.54918,-43.37742,2024
+DEMO-9-3-15_17-1,26063,Mártires,900000093,Establecimiento ficticio 09-3,Localización simulada,SEC,Secundario,15_17,15_17,10,3,7,26,-67.54918,-43.37742,2024
+DEMO-9-3-15_17-2,26063,Mártires,900000093,Establecimiento ficticio 09-3,Localización simulada,SEC,Secundario,15_17,15_17,15,5,10,26,-67.54918,-43.37742,2024
+DEMO-9-3-15_17-3,26063,Mártires,900000093,Establecimiento ficticio 09-3,Localización simulada,SEC,Secundario,15_17,15_17,7,4,3,26,-67.54918,-43.37742,2024
+DEMO-9-3-18_SEC-1,26063,Mártires,900000093,Establecimiento ficticio 09-3,Localización simulada,SEC,Secundario,18,18_SEC,20,10,10,26,-67.54918,-43.37742,2024
+DEMO-9-3-18_SEC-2,26063,Mártires,900000093,Establecimiento ficticio 09-3,Localización simulada,SEC,Secundario,18,18_SEC,9,5,4,26,-67.54918,-43.37742,2024
+DEMO-9-3-18_SEC-3,26063,Mártires,900000093,Establecimiento ficticio 09-3,Localización simulada,SEC,Secundario,18,18_SEC,29,16,13,26,-67.54918,-43.37742,2024
+DEMO-10-1-0_3-1,26070,Paso de Indios,900000101,Establecimiento ficticio 10-1,Localización simulada,INI,Inicial,0_3,0_3,8,3,5,18,-69.48836,-44.03933,2024
+DEMO-10-1-0_3-2,26070,Paso de Indios,900000101,Establecimiento ficticio 10-1,Localización simulada,INI,Inicial,0_3,0_3,12,7,5,18,-69.48836,-44.03933,2024
+DEMO-10-1-0_3-3,26070,Paso de Indios,900000101,Establecimiento ficticio 10-1,Localización simulada,INI,Inicial,0_3,0_3,8,3,5,18,-69.48836,-44.03933,2024
+DEMO-10-1-4_5-1,26070,Paso de Indios,900000101,Establecimiento ficticio 10-1,Localización simulada,INI,Inicial,4_5,4_5,11,7,4,18,-69.48836,-44.03933,2024
+DEMO-10-1-4_5-2,26070,Paso de Indios,900000101,Establecimiento ficticio 10-1,Localización simulada,INI,Inicial,4_5,4_5,5,2,3,18,-69.48836,-44.03933,2024
+DEMO-10-1-4_5-3,26070,Paso de Indios,900000101,Establecimiento ficticio 10-1,Localización simulada,INI,Inicial,4_5,4_5,7,2,5,18,-69.48836,-44.03933,2024
+DEMO-10-1-6_11-1,26070,Paso de Indios,900000101,Establecimiento ficticio 10-1,Localización simulada,PRI,Primario,6_11,6_11,24,9,15,22,-69.48836,-44.03933,2024
+DEMO-10-1-6_11-2,26070,Paso de Indios,900000101,Establecimiento ficticio 10-1,Localización simulada,PRI,Primario,6_11,6_11,26,11,15,22,-69.48836,-44.03933,2024
+DEMO-10-1-6_11-3,26070,Paso de Indios,900000101,Establecimiento ficticio 10-1,Localización simulada,PRI,Primario,6_11,6_11,7,2,5,22,-69.48836,-44.03933,2024
+DEMO-10-1-12_14-1,26070,Paso de Indios,900000101,Establecimiento ficticio 10-1,Localización simulada,SEC,Secundario,12_14,12_14,9,4,5,26,-69.48836,-44.03933,2024
+DEMO-10-1-12_14-2,26070,Paso de Indios,900000101,Establecimiento ficticio 10-1,Localización simulada,SEC,Secundario,12_14,12_14,24,11,13,26,-69.48836,-44.03933,2024
+DEMO-10-1-12_14-3,26070,Paso de Indios,900000101,Establecimiento ficticio 10-1,Localización simulada,SEC,Secundario,12_14,12_14,30,16,14,26,-69.48836,-44.03933,2024
+DEMO-10-1-15_17-1,26070,Paso de Indios,900000101,Establecimiento ficticio 10-1,Localización simulada,SEC,Secundario,15_17,15_17,23,11,12,26,-69.48836,-44.03933,2024
+DEMO-10-1-15_17-2,26070,Paso de Indios,900000101,Establecimiento ficticio 10-1,Localización simulada,SEC,Secundario,15_17,15_17,22,14,8,26,-69.48836,-44.03933,2024
+DEMO-10-1-15_17-3,26070,Paso de Indios,900000101,Establecimiento ficticio 10-1,Localización simulada,SEC,Secundario,15_17,15_17,11,5,6,26,-69.48836,-44.03933,2024
+DEMO-10-1-18_SEC-1,26070,Paso de Indios,900000101,Establecimiento ficticio 10-1,Localización simulada,SEC,Secundario,18,18_SEC,29,13,16,26,-69.48836,-44.03933,2024
+DEMO-10-1-18_SEC-2,26070,Paso de Indios,900000101,Establecimiento ficticio 10-1,Localización simulada,SEC,Secundario,18,18_SEC,17,7,10,26,-69.48836,-44.03933,2024
+DEMO-10-1-18_SEC-3,26070,Paso de Indios,900000101,Establecimiento ficticio 10-1,Localización simulada,SEC,Secundario,18,18_SEC,25,13,12,26,-69.48836,-44.03933,2024
+DEMO-10-2-0_3-1,26070,Paso de Indios,900000102,Establecimiento ficticio 10-2,Localización simulada,INI,Inicial,0_3,0_3,15,8,7,18,-68.37208,-43.77291,2024
+DEMO-10-2-0_3-2,26070,Paso de Indios,900000102,Establecimiento ficticio 10-2,Localización simulada,INI,Inicial,0_3,0_3,17,9,8,18,-68.37208,-43.77291,2024
+DEMO-10-2-0_3-3,26070,Paso de Indios,900000102,Establecimiento ficticio 10-2,Localización simulada,INI,Inicial,0_3,0_3,21,10,11,18,-68.37208,-43.77291,2024
+DEMO-10-2-4_5-1,26070,Paso de Indios,900000102,Establecimiento ficticio 10-2,Localización simulada,INI,Inicial,4_5,4_5,6,3,3,18,-68.37208,-43.77291,2024
+DEMO-10-2-4_5-2,26070,Paso de Indios,900000102,Establecimiento ficticio 10-2,Localización simulada,INI,Inicial,4_5,4_5,6,4,2,18,-68.37208,-43.77291,2024
+DEMO-10-2-4_5-3,26070,Paso de Indios,900000102,Establecimiento ficticio 10-2,Localización simulada,INI,Inicial,4_5,4_5,20,9,11,18,-68.37208,-43.77291,2024
+DEMO-10-2-6_11-1,26070,Paso de Indios,900000102,Establecimiento ficticio 10-2,Localización simulada,PRI,Primario,6_11,6_11,7,4,3,22,-68.37208,-43.77291,2024
+DEMO-10-2-6_11-2,26070,Paso de Indios,900000102,Establecimiento ficticio 10-2,Localización simulada,PRI,Primario,6_11,6_11,17,5,12,22,-68.37208,-43.77291,2024
+DEMO-10-2-6_11-3,26070,Paso de Indios,900000102,Establecimiento ficticio 10-2,Localización simulada,PRI,Primario,6_11,6_11,24,14,10,22,-68.37208,-43.77291,2024
+DEMO-10-2-12_14-1,26070,Paso de Indios,900000102,Establecimiento ficticio 10-2,Localización simulada,SEC,Secundario,12_14,12_14,29,10,19,26,-68.37208,-43.77291,2024
+DEMO-10-2-12_14-2,26070,Paso de Indios,900000102,Establecimiento ficticio 10-2,Localización simulada,SEC,Secundario,12_14,12_14,16,6,10,26,-68.37208,-43.77291,2024
+DEMO-10-2-12_14-3,26070,Paso de Indios,900000102,Establecimiento ficticio 10-2,Localización simulada,SEC,Secundario,12_14,12_14,6,2,4,26,-68.37208,-43.77291,2024
+DEMO-10-2-15_17-1,26070,Paso de Indios,900000102,Establecimiento ficticio 10-2,Localización simulada,SEC,Secundario,15_17,15_17,21,9,12,26,-68.37208,-43.77291,2024
+DEMO-10-2-15_17-2,26070,Paso de Indios,900000102,Establecimiento ficticio 10-2,Localización simulada,SEC,Secundario,15_17,15_17,19,12,7,26,-68.37208,-43.77291,2024
+DEMO-10-2-15_17-3,26070,Paso de Indios,900000102,Establecimiento ficticio 10-2,Localización simulada,SEC,Secundario,15_17,15_17,6,2,4,26,-68.37208,-43.77291,2024
+DEMO-10-2-18_SEC-1,26070,Paso de Indios,900000102,Establecimiento ficticio 10-2,Localización simulada,SEC,Secundario,18,18_SEC,5,3,2,26,-68.37208,-43.77291,2024
+DEMO-10-2-18_SEC-2,26070,Paso de Indios,900000102,Establecimiento ficticio 10-2,Localización simulada,SEC,Secundario,18,18_SEC,24,12,12,26,-68.37208,-43.77291,2024
+DEMO-10-2-18_SEC-3,26070,Paso de Indios,900000102,Establecimiento ficticio 10-2,Localización simulada,SEC,Secundario,18,18_SEC,23,14,9,26,-68.37208,-43.77291,2024
+DEMO-10-3-0_3-1,26070,Paso de Indios,900000103,Establecimiento ficticio 10-3,Localización simulada,INI,Inicial,0_3,0_3,7,3,4,18,-67.77428,-44.05553,2024
+DEMO-10-3-0_3-2,26070,Paso de Indios,900000103,Establecimiento ficticio 10-3,Localización simulada,INI,Inicial,0_3,0_3,19,6,13,18,-67.77428,-44.05553,2024
+DEMO-10-3-0_3-3,26070,Paso de Indios,900000103,Establecimiento ficticio 10-3,Localización simulada,INI,Inicial,0_3,0_3,14,9,5,18,-67.77428,-44.05553,2024
+DEMO-10-3-4_5-1,26070,Paso de Indios,900000103,Establecimiento ficticio 10-3,Localización simulada,INI,Inicial,4_5,4_5,10,6,4,18,-67.77428,-44.05553,2024
+DEMO-10-3-4_5-2,26070,Paso de Indios,900000103,Establecimiento ficticio 10-3,Localización simulada,INI,Inicial,4_5,4_5,18,11,7,18,-67.77428,-44.05553,2024
+DEMO-10-3-4_5-3,26070,Paso de Indios,900000103,Establecimiento ficticio 10-3,Localización simulada,INI,Inicial,4_5,4_5,15,6,9,18,-67.77428,-44.05553,2024
+DEMO-10-3-6_11-1,26070,Paso de Indios,900000103,Establecimiento ficticio 10-3,Localización simulada,PRI,Primario,6_11,6_11,5,2,3,22,-67.77428,-44.05553,2024
+DEMO-10-3-6_11-2,26070,Paso de Indios,900000103,Establecimiento ficticio 10-3,Localización simulada,PRI,Primario,6_11,6_11,10,6,4,22,-67.77428,-44.05553,2024
+DEMO-10-3-6_11-3,26070,Paso de Indios,900000103,Establecimiento ficticio 10-3,Localización simulada,PRI,Primario,6_11,6_11,20,8,12,22,-67.77428,-44.05553,2024
+DEMO-10-3-12_14-1,26070,Paso de Indios,900000103,Establecimiento ficticio 10-3,Localización simulada,SEC,Secundario,12_14,12_14,15,5,10,26,-67.77428,-44.05553,2024
+DEMO-10-3-12_14-2,26070,Paso de Indios,900000103,Establecimiento ficticio 10-3,Localización simulada,SEC,Secundario,12_14,12_14,5,1,4,26,-67.77428,-44.05553,2024
+DEMO-10-3-12_14-3,26070,Paso de Indios,900000103,Establecimiento ficticio 10-3,Localización simulada,SEC,Secundario,12_14,12_14,19,6,13,26,-67.77428,-44.05553,2024
+DEMO-10-3-15_17-1,26070,Paso de Indios,900000103,Establecimiento ficticio 10-3,Localización simulada,SEC,Secundario,15_17,15_17,17,7,10,26,-67.77428,-44.05553,2024
+DEMO-10-3-15_17-2,26070,Paso de Indios,900000103,Establecimiento ficticio 10-3,Localización simulada,SEC,Secundario,15_17,15_17,20,11,9,26,-67.77428,-44.05553,2024
+DEMO-10-3-15_17-3,26070,Paso de Indios,900000103,Establecimiento ficticio 10-3,Localización simulada,SEC,Secundario,15_17,15_17,16,10,6,26,-67.77428,-44.05553,2024
+DEMO-10-3-18_SEC-1,26070,Paso de Indios,900000103,Establecimiento ficticio 10-3,Localización simulada,SEC,Secundario,18,18_SEC,11,3,8,26,-67.77428,-44.05553,2024
+DEMO-10-3-18_SEC-2,26070,Paso de Indios,900000103,Establecimiento ficticio 10-3,Localización simulada,SEC,Secundario,18,18_SEC,8,2,6,26,-67.77428,-44.05553,2024
+DEMO-10-3-18_SEC-3,26070,Paso de Indios,900000103,Establecimiento ficticio 10-3,Localización simulada,SEC,Secundario,18,18_SEC,25,10,15,26,-67.77428,-44.05553,2024
+DEMO-11-1-0_3-1,26077,Rawson,900000111,Establecimiento ficticio 11-1,Localización simulada,INI,Inicial,0_3,0_3,6,4,2,18,-65.21189,-43.10457,2024
+DEMO-11-1-0_3-2,26077,Rawson,900000111,Establecimiento ficticio 11-1,Localización simulada,INI,Inicial,0_3,0_3,11,4,7,18,-65.21189,-43.10457,2024
+DEMO-11-1-0_3-3,26077,Rawson,900000111,Establecimiento ficticio 11-1,Localización simulada,INI,Inicial,0_3,0_3,19,8,11,18,-65.21189,-43.10457,2024
+DEMO-11-1-4_5-1,26077,Rawson,900000111,Establecimiento ficticio 11-1,Localización simulada,INI,Inicial,4_5,4_5,6,4,2,18,-65.21189,-43.10457,2024
+DEMO-11-1-4_5-2,26077,Rawson,900000111,Establecimiento ficticio 11-1,Localización simulada,INI,Inicial,4_5,4_5,12,4,8,18,-65.21189,-43.10457,2024
+DEMO-11-1-4_5-3,26077,Rawson,900000111,Establecimiento ficticio 11-1,Localización simulada,INI,Inicial,4_5,4_5,13,8,5,18,-65.21189,-43.10457,2024
+DEMO-11-1-6_11-1,26077,Rawson,900000111,Establecimiento ficticio 11-1,Localización simulada,PRI,Primario,6_11,6_11,24,10,14,22,-65.21189,-43.10457,2024
+DEMO-11-1-6_11-2,26077,Rawson,900000111,Establecimiento ficticio 11-1,Localización simulada,PRI,Primario,6_11,6_11,16,5,11,22,-65.21189,-43.10457,2024
+DEMO-11-1-6_11-3,26077,Rawson,900000111,Establecimiento ficticio 11-1,Localización simulada,PRI,Primario,6_11,6_11,5,3,2,22,-65.21189,-43.10457,2024
+DEMO-11-1-12_14-1,26077,Rawson,900000111,Establecimiento ficticio 11-1,Localización simulada,SEC,Secundario,12_14,12_14,17,7,10,26,-65.21189,-43.10457,2024
+DEMO-11-1-12_14-2,26077,Rawson,900000111,Establecimiento ficticio 11-1,Localización simulada,SEC,Secundario,12_14,12_14,10,3,7,26,-65.21189,-43.10457,2024
+DEMO-11-1-12_14-3,26077,Rawson,900000111,Establecimiento ficticio 11-1,Localización simulada,SEC,Secundario,12_14,12_14,29,9,20,26,-65.21189,-43.10457,2024
+DEMO-11-1-15_17-1,26077,Rawson,900000111,Establecimiento ficticio 11-1,Localización simulada,SEC,Secundario,15_17,15_17,13,5,8,26,-65.21189,-43.10457,2024
+DEMO-11-1-15_17-2,26077,Rawson,900000111,Establecimiento ficticio 11-1,Localización simulada,SEC,Secundario,15_17,15_17,22,7,15,26,-65.21189,-43.10457,2024
+DEMO-11-1-15_17-3,26077,Rawson,900000111,Establecimiento ficticio 11-1,Localización simulada,SEC,Secundario,15_17,15_17,30,12,18,26,-65.21189,-43.10457,2024
+DEMO-11-1-18_SEC-1,26077,Rawson,900000111,Establecimiento ficticio 11-1,Localización simulada,SEC,Secundario,18,18_SEC,19,7,12,26,-65.21189,-43.10457,2024
+DEMO-11-1-18_SEC-2,26077,Rawson,900000111,Establecimiento ficticio 11-1,Localización simulada,SEC,Secundario,18,18_SEC,23,15,8,26,-65.21189,-43.10457,2024
+DEMO-11-1-18_SEC-3,26077,Rawson,900000111,Establecimiento ficticio 11-1,Localización simulada,SEC,Secundario,18,18_SEC,28,11,17,26,-65.21189,-43.10457,2024
+DEMO-11-2-0_3-1,26077,Rawson,900000112,Establecimiento ficticio 11-2,Localización simulada,INI,Inicial,0_3,0_3,6,4,2,18,-65.10668,-43.31476,2024
+DEMO-11-2-0_3-2,26077,Rawson,900000112,Establecimiento ficticio 11-2,Localización simulada,INI,Inicial,0_3,0_3,14,8,6,18,-65.10668,-43.31476,2024
+DEMO-11-2-0_3-3,26077,Rawson,900000112,Establecimiento ficticio 11-2,Localización simulada,INI,Inicial,0_3,0_3,9,5,4,18,-65.10668,-43.31476,2024
+DEMO-11-2-4_5-1,26077,Rawson,900000112,Establecimiento ficticio 11-2,Localización simulada,INI,Inicial,4_5,4_5,7,3,4,18,-65.10668,-43.31476,2024
+DEMO-11-2-4_5-2,26077,Rawson,900000112,Establecimiento ficticio 11-2,Localización simulada,INI,Inicial,4_5,4_5,7,3,4,18,-65.10668,-43.31476,2024
+DEMO-11-2-4_5-3,26077,Rawson,900000112,Establecimiento ficticio 11-2,Localización simulada,INI,Inicial,4_5,4_5,11,5,6,18,-65.10668,-43.31476,2024
+DEMO-11-2-6_11-1,26077,Rawson,900000112,Establecimiento ficticio 11-2,Localización simulada,PRI,Primario,6_11,6_11,11,4,7,22,-65.10668,-43.31476,2024
+DEMO-11-2-6_11-2,26077,Rawson,900000112,Establecimiento ficticio 11-2,Localización simulada,PRI,Primario,6_11,6_11,15,8,7,22,-65.10668,-43.31476,2024
+DEMO-11-2-6_11-3,26077,Rawson,900000112,Establecimiento ficticio 11-2,Localización simulada,PRI,Primario,6_11,6_11,15,8,7,22,-65.10668,-43.31476,2024
+DEMO-11-2-12_14-1,26077,Rawson,900000112,Establecimiento ficticio 11-2,Localización simulada,SEC,Secundario,12_14,12_14,30,20,10,26,-65.10668,-43.31476,2024
+DEMO-11-2-12_14-2,26077,Rawson,900000112,Establecimiento ficticio 11-2,Localización simulada,SEC,Secundario,12_14,12_14,15,6,9,26,-65.10668,-43.31476,2024
+DEMO-11-2-12_14-3,26077,Rawson,900000112,Establecimiento ficticio 11-2,Localización simulada,SEC,Secundario,12_14,12_14,9,4,5,26,-65.10668,-43.31476,2024
+DEMO-11-2-15_17-1,26077,Rawson,900000112,Establecimiento ficticio 11-2,Localización simulada,SEC,Secundario,15_17,15_17,8,5,3,26,-65.10668,-43.31476,2024
+DEMO-11-2-15_17-2,26077,Rawson,900000112,Establecimiento ficticio 11-2,Localización simulada,SEC,Secundario,15_17,15_17,17,8,9,26,-65.10668,-43.31476,2024
+DEMO-11-2-15_17-3,26077,Rawson,900000112,Establecimiento ficticio 11-2,Localización simulada,SEC,Secundario,15_17,15_17,24,14,10,26,-65.10668,-43.31476,2024
+DEMO-11-2-18_SEC-1,26077,Rawson,900000112,Establecimiento ficticio 11-2,Localización simulada,SEC,Secundario,18,18_SEC,5,2,3,26,-65.10668,-43.31476,2024
+DEMO-11-2-18_SEC-2,26077,Rawson,900000112,Establecimiento ficticio 11-2,Localización simulada,SEC,Secundario,18,18_SEC,11,4,7,26,-65.10668,-43.31476,2024
+DEMO-11-2-18_SEC-3,26077,Rawson,900000112,Establecimiento ficticio 11-2,Localización simulada,SEC,Secundario,18,18_SEC,18,7,11,26,-65.10668,-43.31476,2024
+DEMO-11-3-0_3-1,26077,Rawson,900000113,Establecimiento ficticio 11-3,Localización simulada,INI,Inicial,0_3,0_3,5,2,3,18,-65.21403,-42.85086,2024
+DEMO-11-3-0_3-2,26077,Rawson,900000113,Establecimiento ficticio 11-3,Localización simulada,INI,Inicial,0_3,0_3,21,8,13,18,-65.21403,-42.85086,2024
+DEMO-11-3-0_3-3,26077,Rawson,900000113,Establecimiento ficticio 11-3,Localización simulada,INI,Inicial,0_3,0_3,16,7,9,18,-65.21403,-42.85086,2024
+DEMO-11-3-4_5-1,26077,Rawson,900000113,Establecimiento ficticio 11-3,Localización simulada,INI,Inicial,4_5,4_5,17,11,6,18,-65.21403,-42.85086,2024
+DEMO-11-3-4_5-2,26077,Rawson,900000113,Establecimiento ficticio 11-3,Localización simulada,INI,Inicial,4_5,4_5,13,5,8,18,-65.21403,-42.85086,2024
+DEMO-11-3-4_5-3,26077,Rawson,900000113,Establecimiento ficticio 11-3,Localización simulada,INI,Inicial,4_5,4_5,10,6,4,18,-65.21403,-42.85086,2024
+DEMO-11-3-6_11-1,26077,Rawson,900000113,Establecimiento ficticio 11-3,Localización simulada,PRI,Primario,6_11,6_11,6,3,3,22,-65.21403,-42.85086,2024
+DEMO-11-3-6_11-2,26077,Rawson,900000113,Establecimiento ficticio 11-3,Localización simulada,PRI,Primario,6_11,6_11,11,7,4,22,-65.21403,-42.85086,2024
+DEMO-11-3-6_11-3,26077,Rawson,900000113,Establecimiento ficticio 11-3,Localización simulada,PRI,Primario,6_11,6_11,7,4,3,22,-65.21403,-42.85086,2024
+DEMO-11-3-12_14-1,26077,Rawson,900000113,Establecimiento ficticio 11-3,Localización simulada,SEC,Secundario,12_14,12_14,7,2,5,26,-65.21403,-42.85086,2024
+DEMO-11-3-12_14-2,26077,Rawson,900000113,Establecimiento ficticio 11-3,Localización simulada,SEC,Secundario,12_14,12_14,13,5,8,26,-65.21403,-42.85086,2024
+DEMO-11-3-12_14-3,26077,Rawson,900000113,Establecimiento ficticio 11-3,Localización simulada,SEC,Secundario,12_14,12_14,6,3,3,26,-65.21403,-42.85086,2024
+DEMO-11-3-15_17-1,26077,Rawson,900000113,Establecimiento ficticio 11-3,Localización simulada,SEC,Secundario,15_17,15_17,24,14,10,26,-65.21403,-42.85086,2024
+DEMO-11-3-15_17-2,26077,Rawson,900000113,Establecimiento ficticio 11-3,Localización simulada,SEC,Secundario,15_17,15_17,10,3,7,26,-65.21403,-42.85086,2024
+DEMO-11-3-15_17-3,26077,Rawson,900000113,Establecimiento ficticio 11-3,Localización simulada,SEC,Secundario,15_17,15_17,22,12,10,26,-65.21403,-42.85086,2024
+DEMO-11-3-18_SEC-1,26077,Rawson,900000113,Establecimiento ficticio 11-3,Localización simulada,SEC,Secundario,18,18_SEC,24,12,12,26,-65.21403,-42.85086,2024
+DEMO-11-3-18_SEC-2,26077,Rawson,900000113,Establecimiento ficticio 11-3,Localización simulada,SEC,Secundario,18,18_SEC,8,2,6,26,-65.21403,-42.85086,2024
+DEMO-11-3-18_SEC-3,26077,Rawson,900000113,Establecimiento ficticio 11-3,Localización simulada,SEC,Secundario,18,18_SEC,10,4,6,26,-65.21403,-42.85086,2024
+DEMO-12-1-0_3-1,26084,Río Senguer,900000121,Establecimiento ficticio 12-1,Localización simulada,INI,Inicial,0_3,0_3,5,3,2,18,-70.00845,-45.86618,2024
+DEMO-12-1-0_3-2,26084,Río Senguer,900000121,Establecimiento ficticio 12-1,Localización simulada,INI,Inicial,0_3,0_3,15,9,6,18,-70.00845,-45.86618,2024
+DEMO-12-1-0_3-3,26084,Río Senguer,900000121,Establecimiento ficticio 12-1,Localización simulada,INI,Inicial,0_3,0_3,12,6,6,18,-70.00845,-45.86618,2024
+DEMO-12-1-4_5-1,26084,Río Senguer,900000121,Establecimiento ficticio 12-1,Localización simulada,INI,Inicial,4_5,4_5,13,5,8,18,-70.00845,-45.86618,2024
+DEMO-12-1-4_5-2,26084,Río Senguer,900000121,Establecimiento ficticio 12-1,Localización simulada,INI,Inicial,4_5,4_5,16,7,9,18,-70.00845,-45.86618,2024
+DEMO-12-1-4_5-3,26084,Río Senguer,900000121,Establecimiento ficticio 12-1,Localización simulada,INI,Inicial,4_5,4_5,18,6,12,18,-70.00845,-45.86618,2024
+DEMO-12-1-6_11-1,26084,Río Senguer,900000121,Establecimiento ficticio 12-1,Localización simulada,PRI,Primario,6_11,6_11,19,9,10,22,-70.00845,-45.86618,2024
+DEMO-12-1-6_11-2,26084,Río Senguer,900000121,Establecimiento ficticio 12-1,Localización simulada,PRI,Primario,6_11,6_11,13,8,5,22,-70.00845,-45.86618,2024
+DEMO-12-1-6_11-3,26084,Río Senguer,900000121,Establecimiento ficticio 12-1,Localización simulada,PRI,Primario,6_11,6_11,19,9,10,22,-70.00845,-45.86618,2024
+DEMO-12-1-12_14-1,26084,Río Senguer,900000121,Establecimiento ficticio 12-1,Localización simulada,SEC,Secundario,12_14,12_14,26,14,12,26,-70.00845,-45.86618,2024
+DEMO-12-1-12_14-2,26084,Río Senguer,900000121,Establecimiento ficticio 12-1,Localización simulada,SEC,Secundario,12_14,12_14,27,9,18,26,-70.00845,-45.86618,2024
+DEMO-12-1-12_14-3,26084,Río Senguer,900000121,Establecimiento ficticio 12-1,Localización simulada,SEC,Secundario,12_14,12_14,17,11,6,26,-70.00845,-45.86618,2024
+DEMO-12-1-15_17-1,26084,Río Senguer,900000121,Establecimiento ficticio 12-1,Localización simulada,SEC,Secundario,15_17,15_17,7,4,3,26,-70.00845,-45.86618,2024
+DEMO-12-1-15_17-2,26084,Río Senguer,900000121,Establecimiento ficticio 12-1,Localización simulada,SEC,Secundario,15_17,15_17,22,7,15,26,-70.00845,-45.86618,2024
+DEMO-12-1-15_17-3,26084,Río Senguer,900000121,Establecimiento ficticio 12-1,Localización simulada,SEC,Secundario,15_17,15_17,16,5,11,26,-70.00845,-45.86618,2024
+DEMO-12-1-18_SEC-1,26084,Río Senguer,900000121,Establecimiento ficticio 12-1,Localización simulada,SEC,Secundario,18,18_SEC,23,13,10,26,-70.00845,-45.86618,2024
+DEMO-12-1-18_SEC-2,26084,Río Senguer,900000121,Establecimiento ficticio 12-1,Localización simulada,SEC,Secundario,18,18_SEC,9,3,6,26,-70.00845,-45.86618,2024
+DEMO-12-1-18_SEC-3,26084,Río Senguer,900000121,Establecimiento ficticio 12-1,Localización simulada,SEC,Secundario,18,18_SEC,14,9,5,26,-70.00845,-45.86618,2024
+DEMO-12-2-0_3-1,26084,Río Senguer,900000122,Establecimiento ficticio 12-2,Localización simulada,INI,Inicial,0_3,0_3,11,7,4,18,-69.84966,-45.15901,2024
+DEMO-12-2-0_3-2,26084,Río Senguer,900000122,Establecimiento ficticio 12-2,Localización simulada,INI,Inicial,0_3,0_3,12,6,6,18,-69.84966,-45.15901,2024
+DEMO-12-2-0_3-3,26084,Río Senguer,900000122,Establecimiento ficticio 12-2,Localización simulada,INI,Inicial,0_3,0_3,22,9,13,18,-69.84966,-45.15901,2024
+DEMO-12-2-4_5-1,26084,Río Senguer,900000122,Establecimiento ficticio 12-2,Localización simulada,INI,Inicial,4_5,4_5,6,4,2,18,-69.84966,-45.15901,2024
+DEMO-12-2-4_5-2,26084,Río Senguer,900000122,Establecimiento ficticio 12-2,Localización simulada,INI,Inicial,4_5,4_5,12,4,8,18,-69.84966,-45.15901,2024
+DEMO-12-2-4_5-3,26084,Río Senguer,900000122,Establecimiento ficticio 12-2,Localización simulada,INI,Inicial,4_5,4_5,20,11,9,18,-69.84966,-45.15901,2024
+DEMO-12-2-6_11-1,26084,Río Senguer,900000122,Establecimiento ficticio 12-2,Localización simulada,PRI,Primario,6_11,6_11,12,4,8,22,-69.84966,-45.15901,2024
+DEMO-12-2-6_11-2,26084,Río Senguer,900000122,Establecimiento ficticio 12-2,Localización simulada,PRI,Primario,6_11,6_11,7,3,4,22,-69.84966,-45.15901,2024
+DEMO-12-2-6_11-3,26084,Río Senguer,900000122,Establecimiento ficticio 12-2,Localización simulada,PRI,Primario,6_11,6_11,11,3,8,22,-69.84966,-45.15901,2024
+DEMO-12-2-12_14-1,26084,Río Senguer,900000122,Establecimiento ficticio 12-2,Localización simulada,SEC,Secundario,12_14,12_14,5,1,4,26,-69.84966,-45.15901,2024
+DEMO-12-2-12_14-2,26084,Río Senguer,900000122,Establecimiento ficticio 12-2,Localización simulada,SEC,Secundario,12_14,12_14,12,6,6,26,-69.84966,-45.15901,2024
+DEMO-12-2-12_14-3,26084,Río Senguer,900000122,Establecimiento ficticio 12-2,Localización simulada,SEC,Secundario,12_14,12_14,5,3,2,26,-69.84966,-45.15901,2024
+DEMO-12-2-15_17-1,26084,Río Senguer,900000122,Establecimiento ficticio 12-2,Localización simulada,SEC,Secundario,15_17,15_17,19,11,8,26,-69.84966,-45.15901,2024
+DEMO-12-2-15_17-2,26084,Río Senguer,900000122,Establecimiento ficticio 12-2,Localización simulada,SEC,Secundario,15_17,15_17,5,2,3,26,-69.84966,-45.15901,2024
+DEMO-12-2-15_17-3,26084,Río Senguer,900000122,Establecimiento ficticio 12-2,Localización simulada,SEC,Secundario,15_17,15_17,20,10,10,26,-69.84966,-45.15901,2024
+DEMO-12-2-18_SEC-1,26084,Río Senguer,900000122,Establecimiento ficticio 12-2,Localización simulada,SEC,Secundario,18,18_SEC,19,11,8,26,-69.84966,-45.15901,2024
+DEMO-12-2-18_SEC-2,26084,Río Senguer,900000122,Establecimiento ficticio 12-2,Localización simulada,SEC,Secundario,18,18_SEC,28,10,18,26,-69.84966,-45.15901,2024
+DEMO-12-2-18_SEC-3,26084,Río Senguer,900000122,Establecimiento ficticio 12-2,Localización simulada,SEC,Secundario,18,18_SEC,25,16,9,26,-69.84966,-45.15901,2024
+DEMO-12-3-0_3-1,26084,Río Senguer,900000123,Establecimiento ficticio 12-3,Localización simulada,INI,Inicial,0_3,0_3,10,6,4,18,-70.76942,-44.84313,2024
+DEMO-12-3-0_3-2,26084,Río Senguer,900000123,Establecimiento ficticio 12-3,Localización simulada,INI,Inicial,0_3,0_3,22,8,14,18,-70.76942,-44.84313,2024
+DEMO-12-3-0_3-3,26084,Río Senguer,900000123,Establecimiento ficticio 12-3,Localización simulada,INI,Inicial,0_3,0_3,16,6,10,18,-70.76942,-44.84313,2024
+DEMO-12-3-4_5-1,26084,Río Senguer,900000123,Establecimiento ficticio 12-3,Localización simulada,INI,Inicial,4_5,4_5,14,7,7,18,-70.76942,-44.84313,2024
+DEMO-12-3-4_5-2,26084,Río Senguer,900000123,Establecimiento ficticio 12-3,Localización simulada,INI,Inicial,4_5,4_5,18,6,12,18,-70.76942,-44.84313,2024
+DEMO-12-3-4_5-3,26084,Río Senguer,900000123,Establecimiento ficticio 12-3,Localización simulada,INI,Inicial,4_5,4_5,18,11,7,18,-70.76942,-44.84313,2024
+DEMO-12-3-6_11-1,26084,Río Senguer,900000123,Establecimiento ficticio 12-3,Localización simulada,PRI,Primario,6_11,6_11,17,8,9,22,-70.76942,-44.84313,2024
+DEMO-12-3-6_11-2,26084,Río Senguer,900000123,Establecimiento ficticio 12-3,Localización simulada,PRI,Primario,6_11,6_11,21,14,7,22,-70.76942,-44.84313,2024
+DEMO-12-3-6_11-3,26084,Río Senguer,900000123,Establecimiento ficticio 12-3,Localización simulada,PRI,Primario,6_11,6_11,20,11,9,22,-70.76942,-44.84313,2024
+DEMO-12-3-12_14-1,26084,Río Senguer,900000123,Establecimiento ficticio 12-3,Localización simulada,SEC,Secundario,12_14,12_14,8,5,3,26,-70.76942,-44.84313,2024
+DEMO-12-3-12_14-2,26084,Río Senguer,900000123,Establecimiento ficticio 12-3,Localización simulada,SEC,Secundario,12_14,12_14,11,7,4,26,-70.76942,-44.84313,2024
+DEMO-12-3-12_14-3,26084,Río Senguer,900000123,Establecimiento ficticio 12-3,Localización simulada,SEC,Secundario,12_14,12_14,30,13,17,26,-70.76942,-44.84313,2024
+DEMO-12-3-15_17-1,26084,Río Senguer,900000123,Establecimiento ficticio 12-3,Localización simulada,SEC,Secundario,15_17,15_17,14,7,7,26,-70.76942,-44.84313,2024
+DEMO-12-3-15_17-2,26084,Río Senguer,900000123,Establecimiento ficticio 12-3,Localización simulada,SEC,Secundario,15_17,15_17,6,4,2,26,-70.76942,-44.84313,2024
+DEMO-12-3-15_17-3,26084,Río Senguer,900000123,Establecimiento ficticio 12-3,Localización simulada,SEC,Secundario,15_17,15_17,30,18,12,26,-70.76942,-44.84313,2024
+DEMO-12-3-18_SEC-1,26084,Río Senguer,900000123,Establecimiento ficticio 12-3,Localización simulada,SEC,Secundario,18,18_SEC,21,11,10,26,-70.76942,-44.84313,2024
+DEMO-12-3-18_SEC-2,26084,Río Senguer,900000123,Establecimiento ficticio 12-3,Localización simulada,SEC,Secundario,18,18_SEC,12,6,6,26,-70.76942,-44.84313,2024
+DEMO-12-3-18_SEC-3,26084,Río Senguer,900000123,Establecimiento ficticio 12-3,Localización simulada,SEC,Secundario,18,18_SEC,30,19,11,26,-70.76942,-44.84313,2024
+DEMO-13-1-0_3-1,26091,Sarmiento,900000131,Establecimiento ficticio 13-1,Localización simulada,INI,Inicial,0_3,0_3,5,1,4,18,-68.5798,-45.8752,2024
+DEMO-13-1-0_3-2,26091,Sarmiento,900000131,Establecimiento ficticio 13-1,Localización simulada,INI,Inicial,0_3,0_3,15,7,8,18,-68.5798,-45.8752,2024
+DEMO-13-1-0_3-3,26091,Sarmiento,900000131,Establecimiento ficticio 13-1,Localización simulada,INI,Inicial,0_3,0_3,7,3,4,18,-68.5798,-45.8752,2024
+DEMO-13-1-4_5-1,26091,Sarmiento,900000131,Establecimiento ficticio 13-1,Localización simulada,INI,Inicial,4_5,4_5,6,4,2,18,-68.5798,-45.8752,2024
+DEMO-13-1-4_5-2,26091,Sarmiento,900000131,Establecimiento ficticio 13-1,Localización simulada,INI,Inicial,4_5,4_5,9,4,5,18,-68.5798,-45.8752,2024
+DEMO-13-1-4_5-3,26091,Sarmiento,900000131,Establecimiento ficticio 13-1,Localización simulada,INI,Inicial,4_5,4_5,21,7,14,18,-68.5798,-45.8752,2024
+DEMO-13-1-6_11-1,26091,Sarmiento,900000131,Establecimiento ficticio 13-1,Localización simulada,PRI,Primario,6_11,6_11,9,4,5,22,-68.5798,-45.8752,2024
+DEMO-13-1-6_11-2,26091,Sarmiento,900000131,Establecimiento ficticio 13-1,Localización simulada,PRI,Primario,6_11,6_11,24,16,8,22,-68.5798,-45.8752,2024
+DEMO-13-1-6_11-3,26091,Sarmiento,900000131,Establecimiento ficticio 13-1,Localización simulada,PRI,Primario,6_11,6_11,18,10,8,22,-68.5798,-45.8752,2024
+DEMO-13-1-12_14-1,26091,Sarmiento,900000131,Establecimiento ficticio 13-1,Localización simulada,SEC,Secundario,12_14,12_14,30,20,10,26,-68.5798,-45.8752,2024
+DEMO-13-1-12_14-2,26091,Sarmiento,900000131,Establecimiento ficticio 13-1,Localización simulada,SEC,Secundario,12_14,12_14,8,5,3,26,-68.5798,-45.8752,2024
+DEMO-13-1-12_14-3,26091,Sarmiento,900000131,Establecimiento ficticio 13-1,Localización simulada,SEC,Secundario,12_14,12_14,23,15,8,26,-68.5798,-45.8752,2024
+DEMO-13-1-15_17-1,26091,Sarmiento,900000131,Establecimiento ficticio 13-1,Localización simulada,SEC,Secundario,15_17,15_17,19,7,12,26,-68.5798,-45.8752,2024
+DEMO-13-1-15_17-2,26091,Sarmiento,900000131,Establecimiento ficticio 13-1,Localización simulada,SEC,Secundario,15_17,15_17,18,12,6,26,-68.5798,-45.8752,2024
+DEMO-13-1-15_17-3,26091,Sarmiento,900000131,Establecimiento ficticio 13-1,Localización simulada,SEC,Secundario,15_17,15_17,17,7,10,26,-68.5798,-45.8752,2024
+DEMO-13-1-18_SEC-1,26091,Sarmiento,900000131,Establecimiento ficticio 13-1,Localización simulada,SEC,Secundario,18,18_SEC,11,4,7,26,-68.5798,-45.8752,2024
+DEMO-13-1-18_SEC-2,26091,Sarmiento,900000131,Establecimiento ficticio 13-1,Localización simulada,SEC,Secundario,18,18_SEC,22,11,11,26,-68.5798,-45.8752,2024
+DEMO-13-1-18_SEC-3,26091,Sarmiento,900000131,Establecimiento ficticio 13-1,Localización simulada,SEC,Secundario,18,18_SEC,14,4,10,26,-68.5798,-45.8752,2024
+DEMO-13-2-0_3-1,26091,Sarmiento,900000132,Establecimiento ficticio 13-2,Localización simulada,INI,Inicial,0_3,0_3,16,9,7,18,-68.76269,-44.92442,2024
+DEMO-13-2-0_3-2,26091,Sarmiento,900000132,Establecimiento ficticio 13-2,Localización simulada,INI,Inicial,0_3,0_3,6,4,2,18,-68.76269,-44.92442,2024
+DEMO-13-2-0_3-3,26091,Sarmiento,900000132,Establecimiento ficticio 13-2,Localización simulada,INI,Inicial,0_3,0_3,20,7,13,18,-68.76269,-44.92442,2024
+DEMO-13-2-4_5-1,26091,Sarmiento,900000132,Establecimiento ficticio 13-2,Localización simulada,INI,Inicial,4_5,4_5,10,5,5,18,-68.76269,-44.92442,2024
+DEMO-13-2-4_5-2,26091,Sarmiento,900000132,Establecimiento ficticio 13-2,Localización simulada,INI,Inicial,4_5,4_5,10,5,5,18,-68.76269,-44.92442,2024
+DEMO-13-2-4_5-3,26091,Sarmiento,900000132,Establecimiento ficticio 13-2,Localización simulada,INI,Inicial,4_5,4_5,16,10,6,18,-68.76269,-44.92442,2024
+DEMO-13-2-6_11-1,26091,Sarmiento,900000132,Establecimiento ficticio 13-2,Localización simulada,PRI,Primario,6_11,6_11,16,8,8,22,-68.76269,-44.92442,2024
+DEMO-13-2-6_11-2,26091,Sarmiento,900000132,Establecimiento ficticio 13-2,Localización simulada,PRI,Primario,6_11,6_11,14,4,10,22,-68.76269,-44.92442,2024
+DEMO-13-2-6_11-3,26091,Sarmiento,900000132,Establecimiento ficticio 13-2,Localización simulada,PRI,Primario,6_11,6_11,21,7,14,22,-68.76269,-44.92442,2024
+DEMO-13-2-12_14-1,26091,Sarmiento,900000132,Establecimiento ficticio 13-2,Localización simulada,SEC,Secundario,12_14,12_14,18,10,8,26,-68.76269,-44.92442,2024
+DEMO-13-2-12_14-2,26091,Sarmiento,900000132,Establecimiento ficticio 13-2,Localización simulada,SEC,Secundario,12_14,12_14,30,14,16,26,-68.76269,-44.92442,2024
+DEMO-13-2-12_14-3,26091,Sarmiento,900000132,Establecimiento ficticio 13-2,Localización simulada,SEC,Secundario,12_14,12_14,8,2,6,26,-68.76269,-44.92442,2024
+DEMO-13-2-15_17-1,26091,Sarmiento,900000132,Establecimiento ficticio 13-2,Localización simulada,SEC,Secundario,15_17,15_17,30,14,16,26,-68.76269,-44.92442,2024
+DEMO-13-2-15_17-2,26091,Sarmiento,900000132,Establecimiento ficticio 13-2,Localización simulada,SEC,Secundario,15_17,15_17,5,1,4,26,-68.76269,-44.92442,2024
+DEMO-13-2-15_17-3,26091,Sarmiento,900000132,Establecimiento ficticio 13-2,Localización simulada,SEC,Secundario,15_17,15_17,17,7,10,26,-68.76269,-44.92442,2024
+DEMO-13-2-18_SEC-1,26091,Sarmiento,900000132,Establecimiento ficticio 13-2,Localización simulada,SEC,Secundario,18,18_SEC,20,11,9,26,-68.76269,-44.92442,2024
+DEMO-13-2-18_SEC-2,26091,Sarmiento,900000132,Establecimiento ficticio 13-2,Localización simulada,SEC,Secundario,18,18_SEC,15,10,5,26,-68.76269,-44.92442,2024
+DEMO-13-2-18_SEC-3,26091,Sarmiento,900000132,Establecimiento ficticio 13-2,Localización simulada,SEC,Secundario,18,18_SEC,26,9,17,26,-68.76269,-44.92442,2024
+DEMO-13-3-0_3-1,26091,Sarmiento,900000133,Establecimiento ficticio 13-3,Localización simulada,INI,Inicial,0_3,0_3,21,12,9,18,-69.23157,-45.34613,2024
+DEMO-13-3-0_3-2,26091,Sarmiento,900000133,Establecimiento ficticio 13-3,Localización simulada,INI,Inicial,0_3,0_3,11,3,8,18,-69.23157,-45.34613,2024
+DEMO-13-3-0_3-3,26091,Sarmiento,900000133,Establecimiento ficticio 13-3,Localización simulada,INI,Inicial,0_3,0_3,20,9,11,18,-69.23157,-45.34613,2024
+DEMO-13-3-4_5-1,26091,Sarmiento,900000133,Establecimiento ficticio 13-3,Localización simulada,INI,Inicial,4_5,4_5,22,7,15,18,-69.23157,-45.34613,2024
+DEMO-13-3-4_5-2,26091,Sarmiento,900000133,Establecimiento ficticio 13-3,Localización simulada,INI,Inicial,4_5,4_5,9,4,5,18,-69.23157,-45.34613,2024
+DEMO-13-3-4_5-3,26091,Sarmiento,900000133,Establecimiento ficticio 13-3,Localización simulada,INI,Inicial,4_5,4_5,12,7,5,18,-69.23157,-45.34613,2024
+DEMO-13-3-6_11-1,26091,Sarmiento,900000133,Establecimiento ficticio 13-3,Localización simulada,PRI,Primario,6_11,6_11,9,5,4,22,-69.23157,-45.34613,2024
+DEMO-13-3-6_11-2,26091,Sarmiento,900000133,Establecimiento ficticio 13-3,Localización simulada,PRI,Primario,6_11,6_11,10,4,6,22,-69.23157,-45.34613,2024
+DEMO-13-3-6_11-3,26091,Sarmiento,900000133,Establecimiento ficticio 13-3,Localización simulada,PRI,Primario,6_11,6_11,8,2,6,22,-69.23157,-45.34613,2024
+DEMO-13-3-12_14-1,26091,Sarmiento,900000133,Establecimiento ficticio 13-3,Localización simulada,SEC,Secundario,12_14,12_14,8,4,4,26,-69.23157,-45.34613,2024
+DEMO-13-3-12_14-2,26091,Sarmiento,900000133,Establecimiento ficticio 13-3,Localización simulada,SEC,Secundario,12_14,12_14,12,7,5,26,-69.23157,-45.34613,2024
+DEMO-13-3-12_14-3,26091,Sarmiento,900000133,Establecimiento ficticio 13-3,Localización simulada,SEC,Secundario,12_14,12_14,26,13,13,26,-69.23157,-45.34613,2024
+DEMO-13-3-15_17-1,26091,Sarmiento,900000133,Establecimiento ficticio 13-3,Localización simulada,SEC,Secundario,15_17,15_17,29,18,11,26,-69.23157,-45.34613,2024
+DEMO-13-3-15_17-2,26091,Sarmiento,900000133,Establecimiento ficticio 13-3,Localización simulada,SEC,Secundario,15_17,15_17,29,19,10,26,-69.23157,-45.34613,2024
+DEMO-13-3-15_17-3,26091,Sarmiento,900000133,Establecimiento ficticio 13-3,Localización simulada,SEC,Secundario,15_17,15_17,8,4,4,26,-69.23157,-45.34613,2024
+DEMO-13-3-18_SEC-1,26091,Sarmiento,900000133,Establecimiento ficticio 13-3,Localización simulada,SEC,Secundario,18,18_SEC,25,14,11,26,-69.23157,-45.34613,2024
+DEMO-13-3-18_SEC-2,26091,Sarmiento,900000133,Establecimiento ficticio 13-3,Localización simulada,SEC,Secundario,18,18_SEC,24,9,15,26,-69.23157,-45.34613,2024
+DEMO-13-3-18_SEC-3,26091,Sarmiento,900000133,Establecimiento ficticio 13-3,Localización simulada,SEC,Secundario,18,18_SEC,21,7,14,26,-69.23157,-45.34613,2024
+DEMO-14-1-0_3-1,26098,Tehuelches,900000141,Establecimiento ficticio 14-1,Localización simulada,INI,Inicial,0_3,0_3,17,7,10,18,-71.20276,-44.23306,2024
+DEMO-14-1-0_3-2,26098,Tehuelches,900000141,Establecimiento ficticio 14-1,Localización simulada,INI,Inicial,0_3,0_3,5,1,4,18,-71.20276,-44.23306,2024
+DEMO-14-1-0_3-3,26098,Tehuelches,900000141,Establecimiento ficticio 14-1,Localización simulada,INI,Inicial,0_3,0_3,10,5,5,18,-71.20276,-44.23306,2024
+DEMO-14-1-4_5-1,26098,Tehuelches,900000141,Establecimiento ficticio 14-1,Localización simulada,INI,Inicial,4_5,4_5,8,4,4,18,-71.20276,-44.23306,2024
+DEMO-14-1-4_5-2,26098,Tehuelches,900000141,Establecimiento ficticio 14-1,Localización simulada,INI,Inicial,4_5,4_5,11,7,4,18,-71.20276,-44.23306,2024
+DEMO-14-1-4_5-3,26098,Tehuelches,900000141,Establecimiento ficticio 14-1,Localización simulada,INI,Inicial,4_5,4_5,11,6,5,18,-71.20276,-44.23306,2024
+DEMO-14-1-6_11-1,26098,Tehuelches,900000141,Establecimiento ficticio 14-1,Localización simulada,PRI,Primario,6_11,6_11,10,4,6,22,-71.20276,-44.23306,2024
+DEMO-14-1-6_11-2,26098,Tehuelches,900000141,Establecimiento ficticio 14-1,Localización simulada,PRI,Primario,6_11,6_11,11,4,7,22,-71.20276,-44.23306,2024
+DEMO-14-1-6_11-3,26098,Tehuelches,900000141,Establecimiento ficticio 14-1,Localización simulada,PRI,Primario,6_11,6_11,13,4,9,22,-71.20276,-44.23306,2024
+DEMO-14-1-12_14-1,26098,Tehuelches,900000141,Establecimiento ficticio 14-1,Localización simulada,SEC,Secundario,12_14,12_14,16,5,11,26,-71.20276,-44.23306,2024
+DEMO-14-1-12_14-2,26098,Tehuelches,900000141,Establecimiento ficticio 14-1,Localización simulada,SEC,Secundario,12_14,12_14,24,8,16,26,-71.20276,-44.23306,2024
+DEMO-14-1-12_14-3,26098,Tehuelches,900000141,Establecimiento ficticio 14-1,Localización simulada,SEC,Secundario,12_14,12_14,12,7,5,26,-71.20276,-44.23306,2024
+DEMO-14-1-15_17-1,26098,Tehuelches,900000141,Establecimiento ficticio 14-1,Localización simulada,SEC,Secundario,15_17,15_17,11,6,5,26,-71.20276,-44.23306,2024
+DEMO-14-1-15_17-2,26098,Tehuelches,900000141,Establecimiento ficticio 14-1,Localización simulada,SEC,Secundario,15_17,15_17,20,6,14,26,-71.20276,-44.23306,2024
+DEMO-14-1-15_17-3,26098,Tehuelches,900000141,Establecimiento ficticio 14-1,Localización simulada,SEC,Secundario,15_17,15_17,12,4,8,26,-71.20276,-44.23306,2024
+DEMO-14-1-18_SEC-1,26098,Tehuelches,900000141,Establecimiento ficticio 14-1,Localización simulada,SEC,Secundario,18,18_SEC,13,7,6,26,-71.20276,-44.23306,2024
+DEMO-14-1-18_SEC-2,26098,Tehuelches,900000141,Establecimiento ficticio 14-1,Localización simulada,SEC,Secundario,18,18_SEC,29,9,20,26,-71.20276,-44.23306,2024
+DEMO-14-1-18_SEC-3,26098,Tehuelches,900000141,Establecimiento ficticio 14-1,Localización simulada,SEC,Secundario,18,18_SEC,8,3,5,26,-71.20276,-44.23306,2024
+DEMO-14-2-0_3-1,26098,Tehuelches,900000142,Establecimiento ficticio 14-2,Localización simulada,INI,Inicial,0_3,0_3,11,4,7,18,-70.12549,-44.36705,2024
+DEMO-14-2-0_3-2,26098,Tehuelches,900000142,Establecimiento ficticio 14-2,Localización simulada,INI,Inicial,0_3,0_3,22,10,12,18,-70.12549,-44.36705,2024
+DEMO-14-2-0_3-3,26098,Tehuelches,900000142,Establecimiento ficticio 14-2,Localización simulada,INI,Inicial,0_3,0_3,6,4,2,18,-70.12549,-44.36705,2024
+DEMO-14-2-4_5-1,26098,Tehuelches,900000142,Establecimiento ficticio 14-2,Localización simulada,INI,Inicial,4_5,4_5,16,9,7,18,-70.12549,-44.36705,2024
+DEMO-14-2-4_5-2,26098,Tehuelches,900000142,Establecimiento ficticio 14-2,Localización simulada,INI,Inicial,4_5,4_5,7,2,5,18,-70.12549,-44.36705,2024
+DEMO-14-2-4_5-3,26098,Tehuelches,900000142,Establecimiento ficticio 14-2,Localización simulada,INI,Inicial,4_5,4_5,9,6,3,18,-70.12549,-44.36705,2024
+DEMO-14-2-6_11-1,26098,Tehuelches,900000142,Establecimiento ficticio 14-2,Localización simulada,PRI,Primario,6_11,6_11,11,4,7,22,-70.12549,-44.36705,2024
+DEMO-14-2-6_11-2,26098,Tehuelches,900000142,Establecimiento ficticio 14-2,Localización simulada,PRI,Primario,6_11,6_11,18,8,10,22,-70.12549,-44.36705,2024
+DEMO-14-2-6_11-3,26098,Tehuelches,900000142,Establecimiento ficticio 14-2,Localización simulada,PRI,Primario,6_11,6_11,26,10,16,22,-70.12549,-44.36705,2024
+DEMO-14-2-12_14-1,26098,Tehuelches,900000142,Establecimiento ficticio 14-2,Localización simulada,SEC,Secundario,12_14,12_14,23,8,15,26,-70.12549,-44.36705,2024
+DEMO-14-2-12_14-2,26098,Tehuelches,900000142,Establecimiento ficticio 14-2,Localización simulada,SEC,Secundario,12_14,12_14,29,11,18,26,-70.12549,-44.36705,2024
+DEMO-14-2-12_14-3,26098,Tehuelches,900000142,Establecimiento ficticio 14-2,Localización simulada,SEC,Secundario,12_14,12_14,21,13,8,26,-70.12549,-44.36705,2024
+DEMO-14-2-15_17-1,26098,Tehuelches,900000142,Establecimiento ficticio 14-2,Localización simulada,SEC,Secundario,15_17,15_17,19,11,8,26,-70.12549,-44.36705,2024
+DEMO-14-2-15_17-2,26098,Tehuelches,900000142,Establecimiento ficticio 14-2,Localización simulada,SEC,Secundario,15_17,15_17,25,13,12,26,-70.12549,-44.36705,2024
+DEMO-14-2-15_17-3,26098,Tehuelches,900000142,Establecimiento ficticio 14-2,Localización simulada,SEC,Secundario,15_17,15_17,30,14,16,26,-70.12549,-44.36705,2024
+DEMO-14-2-18_SEC-1,26098,Tehuelches,900000142,Establecimiento ficticio 14-2,Localización simulada,SEC,Secundario,18,18_SEC,12,8,4,26,-70.12549,-44.36705,2024
+DEMO-14-2-18_SEC-2,26098,Tehuelches,900000142,Establecimiento ficticio 14-2,Localización simulada,SEC,Secundario,18,18_SEC,16,7,9,26,-70.12549,-44.36705,2024
+DEMO-14-2-18_SEC-3,26098,Tehuelches,900000142,Establecimiento ficticio 14-2,Localización simulada,SEC,Secundario,18,18_SEC,7,2,5,26,-70.12549,-44.36705,2024
+DEMO-14-3-0_3-1,26098,Tehuelches,900000143,Establecimiento ficticio 14-3,Localización simulada,INI,Inicial,0_3,0_3,8,2,6,18,-70.93934,-44.63627,2024
+DEMO-14-3-0_3-2,26098,Tehuelches,900000143,Establecimiento ficticio 14-3,Localización simulada,INI,Inicial,0_3,0_3,5,1,4,18,-70.93934,-44.63627,2024
+DEMO-14-3-0_3-3,26098,Tehuelches,900000143,Establecimiento ficticio 14-3,Localización simulada,INI,Inicial,0_3,0_3,12,6,6,18,-70.93934,-44.63627,2024
+DEMO-14-3-4_5-1,26098,Tehuelches,900000143,Establecimiento ficticio 14-3,Localización simulada,INI,Inicial,4_5,4_5,11,5,6,18,-70.93934,-44.63627,2024
+DEMO-14-3-4_5-2,26098,Tehuelches,900000143,Establecimiento ficticio 14-3,Localización simulada,INI,Inicial,4_5,4_5,7,3,4,18,-70.93934,-44.63627,2024
+DEMO-14-3-4_5-3,26098,Tehuelches,900000143,Establecimiento ficticio 14-3,Localización simulada,INI,Inicial,4_5,4_5,20,6,14,18,-70.93934,-44.63627,2024
+DEMO-14-3-6_11-1,26098,Tehuelches,900000143,Establecimiento ficticio 14-3,Localización simulada,PRI,Primario,6_11,6_11,21,7,14,22,-70.93934,-44.63627,2024
+DEMO-14-3-6_11-2,26098,Tehuelches,900000143,Establecimiento ficticio 14-3,Localización simulada,PRI,Primario,6_11,6_11,24,9,15,22,-70.93934,-44.63627,2024
+DEMO-14-3-6_11-3,26098,Tehuelches,900000143,Establecimiento ficticio 14-3,Localización simulada,PRI,Primario,6_11,6_11,12,8,4,22,-70.93934,-44.63627,2024
+DEMO-14-3-12_14-1,26098,Tehuelches,900000143,Establecimiento ficticio 14-3,Localización simulada,SEC,Secundario,12_14,12_14,11,4,7,26,-70.93934,-44.63627,2024
+DEMO-14-3-12_14-2,26098,Tehuelches,900000143,Establecimiento ficticio 14-3,Localización simulada,SEC,Secundario,12_14,12_14,27,17,10,26,-70.93934,-44.63627,2024
+DEMO-14-3-12_14-3,26098,Tehuelches,900000143,Establecimiento ficticio 14-3,Localización simulada,SEC,Secundario,12_14,12_14,9,4,5,26,-70.93934,-44.63627,2024
+DEMO-14-3-15_17-1,26098,Tehuelches,900000143,Establecimiento ficticio 14-3,Localización simulada,SEC,Secundario,15_17,15_17,25,15,10,26,-70.93934,-44.63627,2024
+DEMO-14-3-15_17-2,26098,Tehuelches,900000143,Establecimiento ficticio 14-3,Localización simulada,SEC,Secundario,15_17,15_17,6,4,2,26,-70.93934,-44.63627,2024
+DEMO-14-3-15_17-3,26098,Tehuelches,900000143,Establecimiento ficticio 14-3,Localización simulada,SEC,Secundario,15_17,15_17,6,4,2,26,-70.93934,-44.63627,2024
+DEMO-14-3-18_SEC-1,26098,Tehuelches,900000143,Establecimiento ficticio 14-3,Localización simulada,SEC,Secundario,18,18_SEC,9,4,5,26,-70.93934,-44.63627,2024
+DEMO-14-3-18_SEC-2,26098,Tehuelches,900000143,Establecimiento ficticio 14-3,Localización simulada,SEC,Secundario,18,18_SEC,15,6,9,26,-70.93934,-44.63627,2024
+DEMO-14-3-18_SEC-3,26098,Tehuelches,900000143,Establecimiento ficticio 14-3,Localización simulada,SEC,Secundario,18,18_SEC,25,13,12,26,-70.93934,-44.63627,2024
+DEMO-15-1-0_3-1,26105,Telsen,900000151,Establecimiento ficticio 15-1,Localización simulada,INI,Inicial,0_3,0_3,15,10,5,18,-68.11142,-42.45662,2024
+DEMO-15-1-0_3-2,26105,Telsen,900000151,Establecimiento ficticio 15-1,Localización simulada,INI,Inicial,0_3,0_3,18,6,12,18,-68.11142,-42.45662,2024
+DEMO-15-1-0_3-3,26105,Telsen,900000151,Establecimiento ficticio 15-1,Localización simulada,INI,Inicial,0_3,0_3,14,6,8,18,-68.11142,-42.45662,2024
+DEMO-15-1-4_5-1,26105,Telsen,900000151,Establecimiento ficticio 15-1,Localización simulada,INI,Inicial,4_5,4_5,16,7,9,18,-68.11142,-42.45662,2024
+DEMO-15-1-4_5-2,26105,Telsen,900000151,Establecimiento ficticio 15-1,Localización simulada,INI,Inicial,4_5,4_5,8,5,3,18,-68.11142,-42.45662,2024
+DEMO-15-1-4_5-3,26105,Telsen,900000151,Establecimiento ficticio 15-1,Localización simulada,INI,Inicial,4_5,4_5,14,6,8,18,-68.11142,-42.45662,2024
+DEMO-15-1-6_11-1,26105,Telsen,900000151,Establecimiento ficticio 15-1,Localización simulada,PRI,Primario,6_11,6_11,10,3,7,22,-68.11142,-42.45662,2024
+DEMO-15-1-6_11-2,26105,Telsen,900000151,Establecimiento ficticio 15-1,Localización simulada,PRI,Primario,6_11,6_11,23,7,16,22,-68.11142,-42.45662,2024
+DEMO-15-1-6_11-3,26105,Telsen,900000151,Establecimiento ficticio 15-1,Localización simulada,PRI,Primario,6_11,6_11,23,8,15,22,-68.11142,-42.45662,2024
+DEMO-15-1-12_14-1,26105,Telsen,900000151,Establecimiento ficticio 15-1,Localización simulada,SEC,Secundario,12_14,12_14,9,3,6,26,-68.11142,-42.45662,2024
+DEMO-15-1-12_14-2,26105,Telsen,900000151,Establecimiento ficticio 15-1,Localización simulada,SEC,Secundario,12_14,12_14,11,4,7,26,-68.11142,-42.45662,2024
+DEMO-15-1-12_14-3,26105,Telsen,900000151,Establecimiento ficticio 15-1,Localización simulada,SEC,Secundario,12_14,12_14,8,2,6,26,-68.11142,-42.45662,2024
+DEMO-15-1-15_17-1,26105,Telsen,900000151,Establecimiento ficticio 15-1,Localización simulada,SEC,Secundario,15_17,15_17,17,7,10,26,-68.11142,-42.45662,2024
+DEMO-15-1-15_17-2,26105,Telsen,900000151,Establecimiento ficticio 15-1,Localización simulada,SEC,Secundario,15_17,15_17,17,8,9,26,-68.11142,-42.45662,2024
+DEMO-15-1-15_17-3,26105,Telsen,900000151,Establecimiento ficticio 15-1,Localización simulada,SEC,Secundario,15_17,15_17,28,12,16,26,-68.11142,-42.45662,2024
+DEMO-15-1-18_SEC-1,26105,Telsen,900000151,Establecimiento ficticio 15-1,Localización simulada,SEC,Secundario,18,18_SEC,27,17,10,26,-68.11142,-42.45662,2024
+DEMO-15-1-18_SEC-2,26105,Telsen,900000151,Establecimiento ficticio 15-1,Localización simulada,SEC,Secundario,18,18_SEC,17,6,11,26,-68.11142,-42.45662,2024
+DEMO-15-1-18_SEC-3,26105,Telsen,900000151,Establecimiento ficticio 15-1,Localización simulada,SEC,Secundario,18,18_SEC,17,9,8,26,-68.11142,-42.45662,2024
+DEMO-15-2-0_3-1,26105,Telsen,900000152,Establecimiento ficticio 15-2,Localización simulada,INI,Inicial,0_3,0_3,20,6,14,18,-66.12918,-42.16165,2024
+DEMO-15-2-0_3-2,26105,Telsen,900000152,Establecimiento ficticio 15-2,Localización simulada,INI,Inicial,0_3,0_3,5,1,4,18,-66.12918,-42.16165,2024
+DEMO-15-2-0_3-3,26105,Telsen,900000152,Establecimiento ficticio 15-2,Localización simulada,INI,Inicial,0_3,0_3,17,9,8,18,-66.12918,-42.16165,2024
+DEMO-15-2-4_5-1,26105,Telsen,900000152,Establecimiento ficticio 15-2,Localización simulada,INI,Inicial,4_5,4_5,17,6,11,18,-66.12918,-42.16165,2024
+DEMO-15-2-4_5-2,26105,Telsen,900000152,Establecimiento ficticio 15-2,Localización simulada,INI,Inicial,4_5,4_5,10,5,5,18,-66.12918,-42.16165,2024
+DEMO-15-2-4_5-3,26105,Telsen,900000152,Establecimiento ficticio 15-2,Localización simulada,INI,Inicial,4_5,4_5,15,7,8,18,-66.12918,-42.16165,2024
+DEMO-15-2-6_11-1,26105,Telsen,900000152,Establecimiento ficticio 15-2,Localización simulada,PRI,Primario,6_11,6_11,23,9,14,22,-66.12918,-42.16165,2024
+DEMO-15-2-6_11-2,26105,Telsen,900000152,Establecimiento ficticio 15-2,Localización simulada,PRI,Primario,6_11,6_11,5,3,2,22,-66.12918,-42.16165,2024
+DEMO-15-2-6_11-3,26105,Telsen,900000152,Establecimiento ficticio 15-2,Localización simulada,PRI,Primario,6_11,6_11,5,3,2,22,-66.12918,-42.16165,2024
+DEMO-15-2-12_14-1,26105,Telsen,900000152,Establecimiento ficticio 15-2,Localización simulada,SEC,Secundario,12_14,12_14,14,6,8,26,-66.12918,-42.16165,2024
+DEMO-15-2-12_14-2,26105,Telsen,900000152,Establecimiento ficticio 15-2,Localización simulada,SEC,Secundario,12_14,12_14,14,4,10,26,-66.12918,-42.16165,2024
+DEMO-15-2-12_14-3,26105,Telsen,900000152,Establecimiento ficticio 15-2,Localización simulada,SEC,Secundario,12_14,12_14,7,4,3,26,-66.12918,-42.16165,2024
+DEMO-15-2-15_17-1,26105,Telsen,900000152,Establecimiento ficticio 15-2,Localización simulada,SEC,Secundario,15_17,15_17,29,11,18,26,-66.12918,-42.16165,2024
+DEMO-15-2-15_17-2,26105,Telsen,900000152,Establecimiento ficticio 15-2,Localización simulada,SEC,Secundario,15_17,15_17,20,13,7,26,-66.12918,-42.16165,2024
+DEMO-15-2-15_17-3,26105,Telsen,900000152,Establecimiento ficticio 15-2,Localización simulada,SEC,Secundario,15_17,15_17,28,17,11,26,-66.12918,-42.16165,2024
+DEMO-15-2-18_SEC-1,26105,Telsen,900000152,Establecimiento ficticio 15-2,Localización simulada,SEC,Secundario,18,18_SEC,24,12,12,26,-66.12918,-42.16165,2024
+DEMO-15-2-18_SEC-2,26105,Telsen,900000152,Establecimiento ficticio 15-2,Localización simulada,SEC,Secundario,18,18_SEC,12,5,7,26,-66.12918,-42.16165,2024
+DEMO-15-2-18_SEC-3,26105,Telsen,900000152,Establecimiento ficticio 15-2,Localización simulada,SEC,Secundario,18,18_SEC,8,4,4,26,-66.12918,-42.16165,2024
+DEMO-15-3-0_3-1,26105,Telsen,900000153,Establecimiento ficticio 15-3,Localización simulada,INI,Inicial,0_3,0_3,18,7,11,18,-66.47611,-42.2905,2024
+DEMO-15-3-0_3-2,26105,Telsen,900000153,Establecimiento ficticio 15-3,Localización simulada,INI,Inicial,0_3,0_3,8,2,6,18,-66.47611,-42.2905,2024
+DEMO-15-3-0_3-3,26105,Telsen,900000153,Establecimiento ficticio 15-3,Localización simulada,INI,Inicial,0_3,0_3,16,10,6,18,-66.47611,-42.2905,2024
+DEMO-15-3-4_5-1,26105,Telsen,900000153,Establecimiento ficticio 15-3,Localización simulada,INI,Inicial,4_5,4_5,11,7,4,18,-66.47611,-42.2905,2024
+DEMO-15-3-4_5-2,26105,Telsen,900000153,Establecimiento ficticio 15-3,Localización simulada,INI,Inicial,4_5,4_5,12,5,7,18,-66.47611,-42.2905,2024
+DEMO-15-3-4_5-3,26105,Telsen,900000153,Establecimiento ficticio 15-3,Localización simulada,INI,Inicial,4_5,4_5,14,8,6,18,-66.47611,-42.2905,2024
+DEMO-15-3-6_11-1,26105,Telsen,900000153,Establecimiento ficticio 15-3,Localización simulada,PRI,Primario,6_11,6_11,19,7,12,22,-66.47611,-42.2905,2024
+DEMO-15-3-6_11-2,26105,Telsen,900000153,Establecimiento ficticio 15-3,Localización simulada,PRI,Primario,6_11,6_11,25,9,16,22,-66.47611,-42.2905,2024
+DEMO-15-3-6_11-3,26105,Telsen,900000153,Establecimiento ficticio 15-3,Localización simulada,PRI,Primario,6_11,6_11,14,9,5,22,-66.47611,-42.2905,2024
+DEMO-15-3-12_14-1,26105,Telsen,900000153,Establecimiento ficticio 15-3,Localización simulada,SEC,Secundario,12_14,12_14,19,8,11,26,-66.47611,-42.2905,2024
+DEMO-15-3-12_14-2,26105,Telsen,900000153,Establecimiento ficticio 15-3,Localización simulada,SEC,Secundario,12_14,12_14,6,4,2,26,-66.47611,-42.2905,2024
+DEMO-15-3-12_14-3,26105,Telsen,900000153,Establecimiento ficticio 15-3,Localización simulada,SEC,Secundario,12_14,12_14,5,1,4,26,-66.47611,-42.2905,2024
+DEMO-15-3-15_17-1,26105,Telsen,900000153,Establecimiento ficticio 15-3,Localización simulada,SEC,Secundario,15_17,15_17,5,2,3,26,-66.47611,-42.2905,2024
+DEMO-15-3-15_17-2,26105,Telsen,900000153,Establecimiento ficticio 15-3,Localización simulada,SEC,Secundario,15_17,15_17,5,1,4,26,-66.47611,-42.2905,2024
+DEMO-15-3-15_17-3,26105,Telsen,900000153,Establecimiento ficticio 15-3,Localización simulada,SEC,Secundario,15_17,15_17,28,12,16,26,-66.47611,-42.2905,2024
+DEMO-15-3-18_SEC-1,26105,Telsen,900000153,Establecimiento ficticio 15-3,Localización simulada,SEC,Secundario,18,18_SEC,15,6,9,26,-66.47611,-42.2905,2024
+DEMO-15-3-18_SEC-2,26105,Telsen,900000153,Establecimiento ficticio 15-3,Localización simulada,SEC,Secundario,18,18_SEC,25,13,12,26,-66.47611,-42.2905,2024
+DEMO-15-3-18_SEC-3,26105,Telsen,900000153,Establecimiento ficticio 15-3,Localización simulada,SEC,Secundario,18,18_SEC,10,3,7,26,-66.47611,-42.2905,2024

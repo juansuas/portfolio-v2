@@ -1,0 +1,15 @@
+{
+  "nombre_app": "Chubut 2050 V2",
+  "version": "2.13.0",
+  "fecha_actualizacion": "2026-11-09",
+  "modulos_disponibles": [
+    "demografia",
+    "oferta",
+    "productivos"
+  ],
+  "modulos_pendientes": [
+    "resumen",
+    "comparador"
+  ],
+  "advertencia_datos": "Demografía y producción del proyecto original. Asistencia, matrícula, capacidad y establecimientos de la capa educativa son ficticios."
+}
