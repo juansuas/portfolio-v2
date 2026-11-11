@@ -2,7 +2,6 @@
   const canvas = document.querySelector('canvas');
   const ctx = canvas.getContext('2d');
   if (!ctx) return;
-  const chapters = [...document.querySelectorAll('[data-scene]')];
   const preference = matchMedia('(prefers-reduced-motion: reduce)');
   const compact = matchMedia('(max-width: 780px), (max-height: 520px)');
   const tau = Math.PI * 2;
@@ -10,7 +9,7 @@
     const value = Math.sin(seed * 78.233) * 43758.5453;
     return value - Math.floor(value);
   };
-  const opening = ['bars','digits','trend','conversation','network','scatter','python'];
+  const opening = ['field','grid','python','trend','bars'];
   const sceneDuration = 3400;
   function trace({i,jitter},count,segments) {
     const [a,b] = segments[i % segments.length];
@@ -20,35 +19,20 @@
   function outline(points) {
     return points.slice(1).map((point,i)=>[points[i],point]);
   }
-  const conversation = [
-    ...outline([[-.38,-.34],[.15,-.34],[.20,-.29],[.20,-.09],[.15,-.04],[-.24,-.04],[-.37,.05],[-.35,-.04],[-.39,-.04],[-.43,-.08],[-.43,-.29],[-.38,-.34]]),
-    ...outline([[-.16,.06],[.38,.06],[.43,.11],[.43,.28],[.39,.33],[.36,.33],[.38,.42],[.24,.33],[-.16,.33],[-.21,.28],[-.21,.11],[-.16,.06]]),
-    [[-.33,-.23],[.07,-.23]],[[-.33,-.15],[-.04,-.15]],[[-.08,.16],[.33,.16]],[[-.08,.24],[.22,.24]]
-  ];
-  const nodes = [[-.37,-.23],[-.25,.25],[0,-.04],[.05,-.34],[.29,.28],[.39,-.17]];
-  const edges = [[0,2],[0,3],[1,2],[1,4],[2,3],[2,4],[2,5],[3,5],[4,5]].map(([a,b])=>[nodes[a],nodes[b]]);
   const terminal = [
     ...outline([[-.48,-.29],[.48,-.29],[.48,.29],[-.48,.29],[-.48,-.29]]),
     [[-.48,-.16],[.48,-.16]]
   ];
-  const pythonLines = ['Python', '>>> print(f"{25}%")', '25%'];
+  const pythonLines = ['Python', '>>> df.groupby(k).mean()', '0.42  0.58  0.76'];
   const geometries = {
     python: (p,count) => trace(p,count,terminal),
-    conversation: (p,count) => trace(p,count,conversation),
-    network: (p,count) => {
-      if (p.i%2===0) return trace(p,count,edges);
-      const [x,y] = nodes[Math.floor(p.i/2)%nodes.length];
-      return [x+Math.cos(p.angle)*p.radius*.048,y+Math.sin(p.angle)*p.radius*.048];
-    },
-    scatter: ({i,angle,radius}) => {
-      const x = (random(i+407)-.5)*.83;
-      return [x,-x*.55+Math.sin(angle)*radius*.22];
-    },
     field: ({angle,radius}) => [Math.cos(angle)*radius*.49,Math.sin(angle)*radius*.43],
     grid: ({i,jitter},count) => {
-      const columns = Math.ceil(Math.sqrt(count*1.33));
-      const rows = Math.ceil(count/columns);
-      return [(i%columns/(columns-1)-.5)*.85+jitter,(Math.floor(i/columns)/(rows-1)-.5)*.61+jitter];
+      const cell = i%48;
+      const column = cell%8;
+      const row = Math.floor(cell/8);
+      const t = Math.floor(i/48)/Math.ceil(count/48);
+      return [-.42+column*.12+t*.068, -.27+row*.105+jitter*.32];
     },
     bars: (p,count) => {
       const heights = [.18,.30,.24,.42,.36,.49,.44,.56];
@@ -65,55 +49,27 @@
       const t = Math.floor(i/3)/Math.ceil(count/3);
       return [(t-.5)*.9,.32-t*.60+Math.sin(t*16)*.09-(i%3)*.065+jitter];
     },
-    digits: ({i,jitter},count) => {
-      const strokes = [
-        [[0,0],[1,0]],[[1,0],[1,1]],[[1,1],[1,2]],[[0,2],[1,2]],[[0,1],[0,2]],[[0,0],[0,1]],[[0,1],[1,1]]
-      ];
-      const glyphs = [
-        [0,1,6,4,3].map(index => strokes[index]),
-        [0,5,6,2,3].map(index => strokes[index]),
-        [[[0,2],[1,0]], ...outline([[0,0],[.29,0],[.29,.49],[0,.49],[0,0]]),
-          ...outline([[.71,1.51],[1,1.51],[1,2],[.71,2],[.71,1.51]])]
-      ];
-      const digit = i%glyphs.length;
-      const [x,y] = trace({i:Math.floor(i/glyphs.length),jitter},Math.ceil(count/glyphs.length),glyphs[digit]);
-      return [(digit-1)*.28+(x-.5)*.17,(y-1)*.19];
-    },
-    clusters: ({i,angle,radius}) => [
-      (i%2 ? .23 : -.24)+Math.cos(angle)*radius*.18,
-      (i%4 < 2 ? -.17 : .19)+Math.sin(angle)*radius*.14
-    ],
-    convergence: ({i,jitter},count) => {
-      const t = i/count;
-      const angle = i%4*tau/4 + Math.PI/4 + (1-t)*.95;
-      const distance = .04+t*.46;
-      return [Math.cos(angle)*distance+jitter,Math.sin(angle)*distance+jitter];
-    }
+
   };
   let particles = [], scene, width, height, frame = 0, last = 0;
-  let visible = false, introStart, wakeTimer;
+  let visible = false, elapsed = 0;
+  const duration = opening.length*sceneDuration;
   function schedule() {
     if (visible && !document.hidden && !frame) frame = requestAnimationFrame(draw);
   }
   function stop() {
     cancelAnimationFrame(frame);
-    clearTimeout(wakeTimer);
-    introStart = undefined;
     frame = last = 0;
   }
-  function updateScene(time) {
-    const line = innerHeight * (compact.matches ? .55 : .51);
-    const chapter = chapters.reduce((active, chapter) => chapter.getBoundingClientRect().top <= line ? chapter : active, chapters[0]).dataset.scene;
-    const looping = chapter === 'field' && !preference.matches;
-    if (looping) introStart ??= time;
-    else introStart = undefined;
-    const elapsed = time-(introStart ?? time);
-    const current = looping ? opening[Math.floor(elapsed/sceneDuration)%opening.length] : chapter;
+  function updateScene(delta) {
+    if (!preference.matches) elapsed = (elapsed+delta)%duration;
+    const step = Math.min(opening.length-1,Math.floor(elapsed/sceneDuration));
+    const current = preference.matches ? 'bars' : opening[step];
     if (current !== scene) {
       scene = current;
       particles.forEach(p => { p.target = geometries[scene](p,particles.length); });
     }
-    return looping ? sceneDuration-elapsed%sceneDuration : 0;
+    return elapsed-step*sceneDuration;
   }
   function resize() {
     width = canvas.clientWidth;
@@ -154,7 +110,7 @@
     return points;
   }
   function drawPython(scale, elapsed, accent, glint) {
-    const unit = Math.min(scale*.0035,Math.max(.53,scale*.00275));
+    const unit = Math.min(scale*.0029,Math.max(.53,scale*.00275));
     const x = width/2-scale*.42;
     const y = height/2;
     const typed = Math.max(0,Math.floor((elapsed-420)/62));
@@ -178,26 +134,23 @@
       ctx.fillStyle = accent;
       ctx.fillRect(x+typed*12*unit,y-scale*.015,6*unit,unit);
     }
-    return typed < pythonLines[1].length;
   }
   function draw(time) {
     const palette = getComputedStyle(document.documentElement);
     const accent = palette.getPropertyValue('--accent').trim();
     const glint = palette.getPropertyValue('--particle-glint').trim();
     frame = 0;
-    clearTimeout(wakeTimer);
-    const nextSceneIn = updateScene(time);
-    const dt = Math.min(time-(last || time-16),50);
+    const delta = last ? time-last : 0;
+    const dt = Math.min(delta || 16,50);
+    const sceneElapsed = updateScene(delta);
     last = time;
     const easing = preference.matches ? 1 : 1-Math.exp(-dt/420);
     const scale = Math.min(width,height);
-    let moving = false;
     ctx.clearRect(0,0,width,height);
     for (const p of particles) {
       const [x,y] = p.target;
       p.x += (x-p.x)*easing;
       p.y += (y-p.y)*easing;
-      moving ||= Math.abs(x-p.x)+Math.abs(y-p.y)>.0006;
       ctx.fillStyle = p.glow ? glint : accent;
       ctx.globalAlpha = p.glow ? .92 : .34+p.size*.27;
       ctx.beginPath();
@@ -205,14 +158,14 @@
       ctx.fill();
     }
     ctx.globalAlpha = 1;
-    const typing = scene === 'python' && drawPython(scale,sceneDuration-nextSceneIn,accent,glint);
-    if (moving || typing) schedule();
-    else {
-      last = 0;
-      if (nextSceneIn) wakeTimer = setTimeout(schedule,nextSceneIn);
-    }
+    if (scene === 'python') drawPython(scale,sceneElapsed,accent,glint);
+    if (!preference.matches) schedule();
+    else last = 0;
   }
-  preference.addEventListener('change',schedule);
+  preference.addEventListener('change',() => {
+    stop();
+    schedule();
+  });
   compact.addEventListener('change',resize);
   addEventListener('scroll',schedule,{passive:true});
   addEventListener('hashchange',schedule);
