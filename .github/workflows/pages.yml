@@ -25,7 +25,7 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir _site
-          git archive HEAD .nojekyll index.html assets catalogo demos docencia en investigacion proyectos trayectoria | tar -x -C _site
+          git archive HEAD .nojekyll index.html assets catalogo demos en investigacion proyectos trayectoria | tar -x -C _site
           test ! -e _site/demos/santi
       - uses: actions/upload-pages-artifact@v3
         with:
