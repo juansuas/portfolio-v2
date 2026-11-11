@@ -135,3 +135,5 @@ select{font:inherit;color:var(--ink);background:var(--panel);border:1px solid #5
 .ongoing-work ul{list-style:none;padding:0;margin:0}
 .ongoing-work li{display:flex;flex-wrap:wrap;gap:.35rem 1.25rem;align-items:baseline}
 .ongoing-work li span{color:var(--muted);font-size:.9rem}
+
+.featured-entry{font-weight:650;text-decoration-thickness:2px}
